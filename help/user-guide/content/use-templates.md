@@ -2,21 +2,47 @@
 title: Utilisation des modèles
 description: Découvrez comment utiliser des modèles pour créer des expériences attrayantes dans GenStudio.
 feature: Templates, Content
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 3%
 
 ---
 
 
 # Utilisation des modèles
 
-Les modèles sont utilisés pour générer du contenu cohérent pour les emails et les publicités sur les médias sociaux. Elles réduisent considérablement le temps et les efforts nécessaires à la génération d’un nouveau contenu en fournissant un point de départ qui inclut des mises en page et des éléments de conception préconfigurés.
+Les modèles GenStudio sont essentiels pour permettre aux créateurs de contenu de produire rapidement du contenu marketing sur marque cohérent. L’utilisation de modèles réduit considérablement le temps et les efforts nécessaires à la génération d’un nouveau contenu en fournissant un point de départ qui inclut des mises en page et des éléments de conception préconfigurés.
+
+Ce guide fournit des informations détaillées sur la façon de :
+
+* Préparer un [modèle d’email](email-template.md) ou un modèle de méta-publicité
+* [Personnaliser les modèles](customize-template.md) pour GenStudio
+* [ Télécharger des modèles](#upload-a-template) dans GenStudio
+* [Utilisation de modèles pour créer des expériences](#use-a-template)
+
+## Anatomie d&#39;un modèle
+
+La conception de modèle de base comprend les éléments suivants :
+
+| Élément | Fonction | Modèle de canal |
+| ------------ | ---------------------- | -------------------- |
+| Preheader | Entre 40 et 50 caractères <br>Agit comme objet secondaire améliorant l’objet principal <br>Visible dans la boîte de réception avec l’objet avant l’ouverture de l’email | email |
+| En-tête | La section supérieure du destinataire de l&#39;email apparaît lors de l&#39;ouverture de l&#39;email <br>Définit le ton et fournit le contexte du contenu inclus | email |
+| Titre | Le premier destinataire du contenu voit <br>Doit être convaincant pour capter l&#39;intérêt | Métadonnées |
+| Corps | Zone de contenu principale où le message principal est transmis <br>Peut inclure du texte, des images et d’autres médias | email<br>Métadonnées |
+| CTA | Appel à l’action encourageant le destinataire à prendre des mesures spécifiques, comme cliquer sur un lien ou effectuer un achat | email<br>Métadonnées |
+| Images | Améliore l&#39;attrait visuel <br>Rompt le texte <br>Prend en charge le message <br>Doit être de haute qualité et attrayant pour les yeux | email<br>Métadonnées |
+| Pied de page | Contient des informations supplémentaires telles que les coordonnées, les liens vers les médias sociaux, les clauses de non-responsabilité et les options de désabonnement. | email |
+| Superposition de texte | Texte sur une image <br> Doit prendre en charge et améliorer le titre et le corps | Métadonnées |
+
+>[!NOTE]
+> 
+>Il est recommandé d’inclure des champs spécifiques dans le contenu de chaque canal afin de vous assurer que GenStudio peut générer du texte pour les espaces réservés de contenu. Voir [Noms de champ reconnus](customize-template.md#recognized-field-names) pour voir les champs recommandés pour inclusion.
 
 ## Chargement d’un modèle
 
-GenStudio accepte les modèles au format HTML. Découvrez comment [créer des modèles personnalisés](customize-template.md) pour GenStudio.
+GenStudio accepte les modèles au format HTML.
 
 **Pour ajouter un modèle** :
 
@@ -32,7 +58,7 @@ GenStudio accepte les modèles au format HTML. Découvrez comment [créer des mo
 
    Le nom du modèle et le type de canal sont requis.
 
-   - **Meta** : nécessite des proportions
+   * **Meta** : nécessite des proportions
    <!-- **Display ads**: requires Dimensions -->
 
 1. Ajoutez autant de détails que possible pour améliorer l’identification du modèle dans les recherches et le filtrage.
@@ -53,7 +79,7 @@ Recherchez et utilisez un modèle existant pour créer des expériences.
 
 >[!TIP]
 >
->Voir [[!DNL Create] une expérience de courrier électronique](/help/tutorials/create-email-experience.md) pour obtenir un tutoriel complet à l’aide d’un modèle de courrier électronique.
+>Voir [[!DNL Create] une expérience par e-mail](/help/tutorials/create-email-experience.md) ou [[!DNL Create] une expérience par e-mail ](/help/tutorials/create-meta-ad.md) pour accéder à des tutoriels complets à l’aide de modèles.
 
 <!--  The create button in Content Template view does not work yet.
 1. Click **[!UICONTROL Create Experience]** (paintbrush) from the upper right corner to use the template.
