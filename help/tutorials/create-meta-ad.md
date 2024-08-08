@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,34 @@ Pour commencer à générer une nouvelle expérience de métadonnées publicitai
 
 ## Ajouter des paramètres
 
-L’ajout de paramètres d’instructions améliore le processus de génération de contenu et constitue une étape essentielle de la préparation à la génération d’une méta-annonce.
+L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans la zone d’invite améliore le processus de génération de contenu et est une étape essentielle dans la préparation de la génération d’une méta-publicité.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer les options de paramètres et ajouter des paramètres et des ressources de référence.
+1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
    Si aucune marque, aucun personnage ou aucun produit n’est disponible dans ces menus, [ajoutez des instructions à votre GenStudio](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Dans la section _Contenu_ , ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu. Il existe trois façons d’ajouter des ressources :
-   * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images ou vidéos) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
+   * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
-   * Faites glisser des fichiers image dans la section _Contenu_ .
+   * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
 
-   Lorsque vous sélectionnez des ressources à partir du contenu GenStudio, vous choisissez parmi des ressources déjà enregistrées dans [[!DNL Content]](/help/user-guide/content/overview.md). Vous pouvez filtrer par canal, produit, langue, etc. afin de trouver rapidement les ressources nécessaires.
+Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
-Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire les sections *Parameters* et *Content* en cliquant de nouveau sur l’icône _Parameters_ .
-
-## Utiliser une invite
+## Saisissez une invite
 
 Une fois les instructions sélectionnées, créez une invite à l’aide du langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience de métadonnées publicitaires.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
 
-**Pour utiliser une invite** :
+**Pour saisir une invite** :
 
 1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
-   <!-- If the prompt box is not visible, click **[!UICONTROL Open to prompt]** to expand it. -->
-
-<!-- 1. Optionally, click one of the prompt suggestions visible just above the prompt text box. Clicking a suggestion auto-fills the suggested prompt in the prompt box. -->
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, s’affichent dans la zone de travail.
+Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
 ## Choisir le canal Métadonnées
 
@@ -92,15 +87,13 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 Pour optimiser les publicités générées et garantir une stricte conformité avec l’identité de la marque, tirez parti de la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), qui fournit un résumé de l’alignement de la marque pour une variante, et du [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel), qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.
 
-Vous pouvez modifier manuellement des fragments de publicité individuels ou [générer des variantes affinées](/help/user-guide/create/generate-variants.md) du résultat initial pour atteindre l’alignement avec votre marque.
-
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
 1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
-1. [ Révisez manuellement les emails ](#revise-generated-emails) ou [générez des variantes](/help/user-guide/create/generate-variants.md) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.
+1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.
 
 Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).
 

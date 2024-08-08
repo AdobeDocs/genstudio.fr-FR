@@ -3,9 +3,9 @@ title: Personnalisation des modèles
 description: Découvrez comment créer un modèle personnalisé pour GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 1b5b12615c52823aa2f1c10ad704e3fc0dabb1e9
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ GenStudio renseigne automatiquement certains champs dans les modèles. Il n’es
 >[!WARNING]
 >
 >Pour les annonces Instagram, le titre généré n’apparaît pas dans l’expérience finale.
+
+#### Nom du champ du logo de la marque
+
+Pour ajouter un logo de marque dans votre modèle, utilisez le code suivant pour effectuer le rendu du logo par défaut :
+
+```{{#if brand_logo}}{{brand_logo}}{{else}} encoded inline logo {{/if}}```
 
 #### Noms de champ manuels
 

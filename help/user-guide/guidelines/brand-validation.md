@@ -2,9 +2,9 @@
 title: Validation de marque dans GenStudio
 description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio.
 feature: Brands Service, Guidelines
-source-git-commit: d7de679ce310dcdcec4a1b5ea814b2ca8b1fc413
+source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Le _panneau de validation de marque_ affiche des informations sur :
 
 Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 
-### Filtrer
+### Filtre
 
 Dans le _panneau Validation de marque_, vous pouvez filtrer les directives affichées. Cliquez sur l’icône de filtre en haut du panneau pour afficher :
 
@@ -66,7 +66,7 @@ Dans le _panneau Validation de marque_, vous pouvez filtrer les directives affic
 
 ## Améliorer l&#39;alignement des marques
 
-Pour optimiser l’efficacité du contenu généré et maintenir une identité de marque cohérente, utilisez la _vérification des directives de marque_ et le _panneau Validation de marque_. Vous pouvez modifier manuellement des fragments spécifiques ou [générer des variantes affinées](/help/user-guide/create/generate-variants.md) pour vous aligner sur vos [directives sur la marque](brands.md).
+Pour optimiser l’efficacité du contenu généré et maintenir une identité de marque cohérente, utilisez la _vérification des directives de marque_ et le _panneau Validation de marque_. Vous pouvez modifier manuellement des fragments spécifiques pour vous aligner sur les [directives de marque](brands.md).
 
 **Pour améliorer l’alignement de la marque pour les variantes de contenu générées** :
 

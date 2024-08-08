@@ -4,7 +4,7 @@ description: Découvrez comment ajouter des instructions—[!DNL Brands], [!DNL 
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: 121a567a6a45f6d17caa621e323cdc3a4aa3dcb4
+source-git-commit: 3693d7dc3b9ee5c4b6c22bdc373f3c78bded4bef
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -22,7 +22,7 @@ L’ajout de directives à GenStudio est une étape importante du processus de c
 
 ## Ajouter [!DNL Brands]
 
-Pour ajouter une marque à GenStudio, vous pouvez [charger un guide de marque](#upload-brand-guidelines) ou [créer manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publish une marque](#publish-brand) vers [!DNL Content] pour la rendre disponible pour la génération de variantes.
+Pour ajouter une marque à GenStudio, vous pouvez [charger un guide de marque](#upload-brand-guidelines) ou [créer manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publish une marque](#publish-brand) vers [!DNL Content] pour la rendre disponible pour une utilisation dans une génération future de contenu.
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]**. Dans le panneau _[!DNL Brands]_, sélectionnez **Ajouter une marque**.
 
@@ -82,7 +82,7 @@ Avant de publier votre marque, cliquez sur les sections _Consignes sur la marque
 
 Une fois la marque publiée, une bannière s’affiche pour confirmer que votre marque est prête à l’emploi : &quot;*Marque publiée et disponible pour l’utilisation*&quot;.
 
-La marque publiée peut désormais être utilisée pour générer des variantes dans _[!DNL Create]_ou_[!DNL Content]_.
+La marque publiée peut désormais être utilisée dans _[!DNL Create]_ou_[!DNL Content]_.
 
 ### Gérer [!DNL Brands]
 

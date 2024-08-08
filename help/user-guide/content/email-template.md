@@ -3,9 +3,9 @@ title: Préparation d’un modèle de courrier électronique pour GenStudio
 description: Découvrez comment créer un modèle de courrier électronique personnalisé pour GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Voir [Anatomie d’un modèle](/help/user-guide/content/use-templates.md#anatomy
 
 Avant de préparer un modèle de métadonnées publicitaires, assurez-vous d’avoir ajouté [des instructions](/help/user-guide/guidelines/overview.md) à votre GenStudio et de leur avoir fourni des informations complètes sur les marques pertinentes. Les [directives de marque](/help/user-guide/guidelines/brands.md) influent directement sur le contenu généré.
 
-> **Exemple** : si vous souhaitez que le corps d’un modèle de courrier électronique ne dépasse pas 500 caractères, ajoutez cette exigence au [guide du canal](/help/user-guide/guidelines/brands.md#channel-guidelines) pour le champ &quot;body&quot;.
+**Exemple** : si vous souhaitez que le corps d’un modèle de courrier électronique ne dépasse pas 500 caractères, ajoutez cette exigence au [guide du canal](/help/user-guide/guidelines/brands.md#channel-guidelines) pour le champ &quot;body&quot;.
+
+Si des instructions ne sont pas ajoutées à GenStudio, les valeurs par défaut sont utilisées.
 
 ## Code un modèle de courrier électronique
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -29,45 +29,40 @@ Pour commencer à créer une expérience de courrier électronique, utilisez un 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Email]**dans le_&quot;Que souhaitez-vous créer aujourd&#39;hui ?&quot;section _.
 1. Dans la vue _Select template_, faites basculer le filtre _Channels_ (Canaux) sur **[!UICONTROL Email]**.
 1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle de courrier électronique spécifique.
-1. Cliquez pour sélectionner un modèle de courrier électronique ou activez la sélection de plusieurs modèles de courrier électronique, puis cliquez sur **[!UICONTROL Utiliser]**. Si vous sélectionnez plusieurs modèles, lorsque les variantes sont générées, tous les modèles sélectionnés sont utilisés pour vous proposer des options.
+1. Cliquez pour sélectionner un modèle d&#39;email et cliquez sur **[!UICONTROL Utiliser]**.
 
    La zone de travail, épicentre de la création de contenu, s’affiche.
 
 ## Ajouter des paramètres
 
-L’ajout de paramètres de ligne directrice surcharge le processus de génération de contenu et constitue une étape préparatoire à part entière pour générer une expérience email.
+L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ressources dans _Paramètres_ dans la zone d’invite surcharge le processus de génération de contenu et est une étape préparatoire intégrale pour générer une expérience de courrier électronique.
 
 **Pour ajouter des paramètres et des ressources** :
 
-1. Cliquez sur l’icône _Paramètres_ pour développer les options de paramètres et ajouter des paramètres et des ressources de référence.
-1. Dans la section _Paramètres_, sélectionnez des directives (marque, personnage et produit) pour informer la création de contenu.
+1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
+1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
    Si aucune marque, aucun personnage ou aucun produit n’est disponible dans ces menus, [ajoutez des instructions à votre GenStudio](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Dans la section _Contenu_ , ajoutez du contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu. Il existe trois façons d’ajouter des ressources :
-   * Cliquez sur **[!UICONTROL Sélectionner dans le contenu]** pour sélectionner des ressources (images ou vidéos) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
+   * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
 
-   Lorsque vous sélectionnez des ressources à partir du contenu GenStudio, vous choisissez parmi des ressources déjà enregistrées dans [[!DNL Content]](/help/user-guide/content/overview.md). Vous pouvez filtrer par canal, produit, langue, etc. afin de trouver rapidement les ressources nécessaires.
+Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
-Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire les sections *Parameters* et *Content* en cliquant de nouveau sur l’icône _Parameters_ .
-
-## Utiliser une invite
+## Saisissez une invite
 
 Une fois les instructions sélectionnées, concevez une invite en utilisant un langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience par e-mail.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
 
-**Pour utiliser une invite** :
+**Pour saisir une invite** :
 
 1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
-   <!-- If the prompt box is not visible, click **[!UICONTROL Open to prompt]** to expand it. -->
-
-<!-- 1. Optionally, click one of the prompt suggestions visible just above the prompt text box. Clicking a suggestion auto-fills the suggested prompt in the prompt box. -->
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, s’affichent dans la zone de travail.
+Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
 
 ## Modification des emails générés
 
@@ -85,15 +80,13 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 Pour optimiser les e-mails générés et garantir une stricte conformité avec l’identité de la marque, utilisez la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), qui fournit un résumé de l’alignement de la marque pour une variante, et le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel), qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.
 
-Vous pouvez éditer manuellement des fragments d&#39;email individuels ou [générer des variantes affinées](/help/user-guide/create/generate-variants.md) du résultat initial afin d&#39;atteindre l&#39;alignement avec votre marque.
-
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
 1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’un courrier électronique à l’autre pour voir comment améliorer le contenu généré pour qu’il soit davantage aligné sur la marque.
-1. [ Révisez manuellement les emails ](#revise-generated-emails) ou [générez des variantes](/help/user-guide/create/generate-variants.md) pour vous assurer que vos emails sont étroitement alignés sur votre marque.
+1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos emails sont étroitement alignés sur votre marque.
 
 Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).
 
