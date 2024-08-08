@@ -2,9 +2,9 @@
 title: GenStudio [!DNL Brands]
 description: GenStudio [!DNL Brands] est une collection complète de ressources de marque (copie marketing, imagerie, expériences, etc.) permettant d’informer la création de contenu aligné sur la marque dans GenStudio.
 feature: Brands Service, Guidelines
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: c90cec72bd4cad505b7374e0ae81bafc383102e9
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 1%
 Une marque distingue une organisation, un produit, un service ou un concept des autres. Certains aspects d&#39;une marque sont objectifs, comme un logo, tandis que d&#39;autres sont subjectifs, comme le ton.
 
 GenStudio utilise la richesse des informations sur la marque de votre marque, l’associe aux informations [!DNL Product] et [!DNL Persona] et crée une identité de marque complète. Cette identité de marque est utilisée pour informer la création de contenu sur marque à l’aide de la technologie d’IA générative de l’Adobe.
-
-![[!DNL Brands] - Aperçu dans GenStudio](/help/assets/brand-overview-home.png){width="650" zoomable="yes"}
 
 **Pour afficher ou modifier une marque** :
 
@@ -36,16 +34,12 @@ Les sections suivantes décrivent chaque catégorie de lignes guides, les exempl
 
 Le tableau suivant présente chaque catégorie d’exemples de directives et de directives vocales de marque.
 
-| Catégorie de lignes guides | Exemples de lignes guides |
-| ------------------| :---------- |
-| Ton de la voix | `Speak like a human, Avoid jargon, Speak with confidence` |
-| Valeurs de marque | `Be the leader, Show authenticity` |
-| Attribut unique | `Driven by empathy for others, Celebrate diverse ideas, Be a cheerleader for change` |
-| Mots-clés fréquents | `impact, progressive, inclusive, motivation, perseverance` |
-| Instructions relatives à la messagerie | `Use inclusive terms, Avoid using the word "utilize", Incorporate simple phrasing, Make CTAs clear and concise` |
-| Restrictions de la messagerie | `Avoid repeating adjectives or adverbs, Avoid colloquialisms` |
-
-![Directives de marque et de voix dans GenStudio](/help/assets/brand-voice-guidelines.png){width="650" zoomable="yes"}
+| Catégorie de lignes guides | Description | Bonnes pratiques |
+| ------------------| :---------- | :---------- |
+| Ton de la voix | La personnalité de la marque telle qu&#39;elle s&#39;exprime par une communication écrite | Utilisez des mots descriptifs pour exprimer clairement l’émotion et le ton de la marque. <br>_Exemples_ : &quot;authentique&quot;, &quot;joueur&quot;<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les attributs vocaux clés de la marque.<br><br>Sélectionnez des mots/expressions cohérents sur tous les canaux de communication pour créer une identité de marque cohérente. |
+| Valeurs de marque | Principes qui déterminent la culture de marque, l’expérience client et les stratégies commerciales | Utilisez des mots descriptifs pour décrire la mission, la vision et les besoins de l’audience de la marque. <br>_Exemples_ : &quot;authenticité&quot;, &quot;inspirant&quot;, &quot;progressiste&quot;<br><br>Soyez concis (3 à 6 directives) et concentrez-vous sur les valeurs/thèmes principaux de la marque. |
+| Directives éditoriales | Directives de communication définissant les bonnes pratiques pour la création de messages de marque | Utilisez des expressions positives (5 à 10 consignes) pour établir une base solide.<br>_Exemples_ : &quot;Utilisez un langage simple et accessible&quot; au lieu de &quot;Éviter d’utiliser du jargon&quot;<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemples_ : &quot;Conserver les phrases de moins de 20 mots&quot; au lieu de &quot;Soyez concis&quot;<br><br>Reflétez le style de votre marque, par exemple en utilisant des préférences de syntaxe spécifiques. <br>_Exemples_ : &quot;Utilisez un tiret cadratin au lieu d’un deux-points&quot;, &quot;Cas pratique de phrase&quot;<br><br>Concevez des directives précises qui maintiennent la cohérence entre les sorties. |
+| Restrictions éditoriales | Instructions de communication définissant les éléments à éviter dans les messages de marque | Utilisez le phrasé négatif direct (5 à 10 consignes) pour spécifier ce qui doit être évité. <br>_Exemple_ : &quot;Évitez d’utiliser...&quot;<br><br>Fournissez des conseils clairs et pratiques. <br>_Exemple_ : &quot;Éviter les questions rhétoriques&quot; |
 
 ### Directives relatives aux canaux
 
@@ -53,16 +47,14 @@ Chaque canal comporte certaines directives inhérentes qui influent sur la compo
 
 Le tableau suivant présente chaque fragment de canal, les canaux pour lesquels il est disponible, la description du fragment, des exemples de lignes guides et des exemples de résultats.
 
-| Fragments | Canaux | Description | Exemples de lignes guides | Exemples de résultats |
-| ------------------| --------- | --------- | -------- | :---------- |
-| Général | email | Une deuxième ligne d’objet ou un texte d’aperçu d’email | `Engage quickly, Friendly but serious tone` | — |
-| Objet | email | Titre fascinant et intéressant pour résumer le contenu d’un email | `Between 20 and 40 characters, using short punchy phrasing` | &quot;Soyez l&#39;inspiration dont vous avez besoin. Enseigner à un adolescent.&quot; |
-| En-tête pre | email | Une deuxième ligne d’objet ou un texte d’aperçu d’email | `Between 45 and 70 characters, communicating value add detail` | &quot;Votre monde s&#39;ouvrira quand vous choisirez de conseiller la jeunesse locale.&quot; |
-| Titre | e-mail, publicités sociales, publicités display | Un titre ou une expression pour attirer l’attention du lecteur | `Mimic the vibe of the subject, Continue the story` | &quot;Prenez un adolescent sous votre aile, et regardez-le voler !&quot; |
-| Corps | e-mail, publicités sociales, publicités display | Contenu marketing qui comprend des messages, des liens et des images | `Limit to 2 to 4 sentences, Mix sentence length and phrasing to keep attention, Avoid slang, Maintain smart and respectful tone` | &quot;Guider un adolescent à travers les hauts et les bas de la vie les change... et vous. Passez un peu de temps à aider votre communauté et regardez votre jardin de quartier pousser.&quot; |
-| CTA | e-mail, publicités sociales, publicités display | (Appel à l&#39;action) Instruction donnée au lecteur qui inspire une réponse. Généralement un ou deux mots, tels que `Get started` | `Use 1-3 words, Use clear verbiage` | &quot;Mentor aujourd&#39;hui&quot; |
-
-![Directives de canaux dans GenStudio](/help/assets/channel-guidelines.png){width="650" zoomable="yes"}
+| Fragments | Canaux | Description | Bonnes pratiques |
+| ------------------| --------- | --------- | -------- |
+| Général | e-mail, publicités sociales | Une deuxième ligne d’objet ou un texte d’aperçu d’email | Définissez une tonalité/émotion globale cohérente dans l’ensemble de l’email (2 à 5 lignes directrices).<br>_Exemples_ : &quot;Conserver un ton convivial et accessible&quot;, &quot;Éviter une langue trop formelle&quot;<br><br> |
+| Objet | email | Titre fascinant et intéressant pour résumer le contenu d’un email | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour un résultat de meilleure qualité.<br>_Exemple_ : &quot;Aligner l&#39;objet avec le corps de l&#39;email&quot; |
+| Preheader | email | Une deuxième ligne d’objet ou un texte d’aperçu d’email | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez des en-têtes précédemment réussis dans la section _Exemples_ pour une meilleure qualité de sortie.<br>_Exemple_ : &quot;Limite à 60-80 caractères&quot; |
+| Titre | e-mail, publicités sociales, publicités display | Un titre ou une expression pour attirer l’attention du lecteur | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez des titres précédemment réussis dans la section _Exemples_ pour un résultat de meilleure qualité.<br>_Exemples_ : &quot;Utilisez des instructions pointues pour attirer l’attention&quot; |
+| Corps | e-mail, publicités sociales, publicités display | Contenu marketing qui comprend des messages, des liens et des images | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : &quot;Limite à 80-100 caractères&quot;, &quot;Éviter les acronymes excessifs&quot; |
+| CTA | e-mail, publicités sociales, publicités display | (Appel à l&#39;action) Instruction donnée au lecteur qui inspire une réponse. Généralement un ou deux mots, tels que `Get started` | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur idéale, etc. Ajoutez une copie précédemment réussie à la section _Exemples_ pour une sortie de meilleure qualité.<br>_Exemples_ : &quot;N’utilisez pas de ponctuation de fin&quot; |
 
 <!-- Not in M2.1 // ### Image guidelines
 
@@ -80,13 +72,13 @@ You can create your own categories, like Photos, Product, or Illustration imager
 | Color and tone | Specify color or color theme, palette, color interpretation and accessibility | `Use bright and bold color palette, Ensure high contrast` |
 | Lighting   | Describe how highlights and shadows affect different objects| `Use natural light, Avoid using shadows` |
 
-![Image guidelines in GenStudio](/help/assets/image-guidelines.png){width="650" zoomable="yes"} -->
+![Image guidelines in GenStudio](/help/assets/image-guidelines.png){width="650" zoomable="yes"} 
 
 ### Logos
 
-Ajoutez des logos à votre marque dans l&#39;onglet **[!UICONTROL Logos]** .
+Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
-![Directives de logo dans GenStudio](/help/assets/logos.png){width="650" zoomable="yes"}
+![Logo guidelines in GenStudio](/help/assets/logos.png){width="650" zoomable="yes"} -->
 
 ## Validation de marque
 

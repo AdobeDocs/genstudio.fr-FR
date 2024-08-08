@@ -2,9 +2,9 @@
 title: GenStudio [!DNL Products]
 description: GenStudio [!DNL Products] intègre tous les aspects de votre produit (images, descriptions et propositions de valeur) afin de créer un contenu pertinent qui mette en évidence les points forts du produit et maintient la cohérence de la messagerie du produit.
 feature: Products Service, Guidelines
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 21d0c7c6aab6f4d81fc4376251e85eb2d4be3f25
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Ces instructions détaillent chaque catégorie de consignes et les exemples conn
 
 Le tableau suivant présente chaque catégorie de directives [!DNL Products] et les exemples associés.
 
-| Catégorie de lignes guides | Exemples de lignes guides |
-| ------------------| :---------- |
-| Description | `Brand Uno's Empower Outreach is a product/service that enables under-supported youth to apply for, obtain transportation for, and retain employment in "transport-desert" inner-city areas of McBellville.` |
-| Proposition de valeur | `Comprehensive and knowledgeable assistance to support youth in surmounting obstacles to securing long term employment.` |
+| Catégorie de lignes guides | Description | Bonnes pratiques |
+| ------------------| ----------------| :---------- |
+| Nom du produit | Fait référence aux services, solutions ou biens corporels qu’une entreprise offre aux clients. | Assurez-vous que le nom du produit est clair et permet à l’utilisateur de comprendre facilement les offres de produits <br><br>_Exemples_ : &quot;Photoshop&quot; (société SaaS)<br>&quot;Principal of Business Administration&quot; (établissement scolaire)<br>&quot;Plan de gestion de la richesse&quot; (société financière)<br>&quot;Home Essentials Decor&quot; (vente au détail) |
+| Description | Bref résumé clair présentant le produit et son objectif | Utilisez un langage concis pour décrire clairement le produit (1 à 2 phrases), fournissant ainsi un contexte clair pour les utilisateurs potentiels. N’incluez pas d’informations ou de spécifications détaillées sur les fonctionnalités.<br><br>_Exemple_ : &quot;Le produit XYZ est un outil de gestion de projet polyvalent basé sur le cloud conçu pour aider les équipes à organiser les tâches, suivre la progression et collaborer de manière transparente. Idéal pour les petites et grandes entreprises, XYZ offre une interface simple et conviviale pour la gestion des projets du début à la fin.&quot; |
+| Proposition de valeur | Résumé clair (moins de 10 phrases) expliquant comment le produit résout un problème, offre des avantages spécifiques et offre une valeur | Définissez clairement les avantages et les avantages de la différenciation des produits par rapport aux concurrents dans une langue attrayante.<br><br> Fournissez des propositions de valeur au format liste avec la prop de valeur la plus importante au début de la liste.<br><br>_Exemples_ : &quot;Propositions de valeurs pour XYZ :<br><li>Centralise les tâches de gestion de projet sur une plateforme intuitive, éliminant ainsi la nécessité de plusieurs outils.</li><li>Améliore la productivité de l’équipe jusqu’à 30 %.</li><li>S’intègre en toute transparence à vos outils favoris, assurant ainsi un flux de travail fluide.</li><li>Fournit des mises à jour en temps réel et des fonctionnalités de collaboration, ce qui permet aux équipes de rester alignées&quot;</li> |
+| Informations supplémentaires | Capturer des informations essentielles pour la génération de contenu personnalisé | Fournissez des détails supplémentaires (1 à 3 phrases) essentiels à la personnalisation du contenu et assurez-vous que les informations contribuent directement à l’efficacité du contenu.<br><br>Concentrez-vous sur la clarté et la concision. |

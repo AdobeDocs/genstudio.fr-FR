@@ -4,9 +4,9 @@ description: Découvrez comment ajouter des instructions—[!DNL Brands], [!DNL 
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 121a567a6a45f6d17caa621e323cdc3a4aa3dcb4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,6 @@ Vous pouvez ajouter manuellement des détails de marque, au lieu de charger des 
 
    Si vous le souhaitez, cliquez sur **[!UICONTROL Ajouter une catégorie]** pour ajouter une catégorie de directives personnalisée, telle que Photos ou Illustrations.
 
-1. Ajoutez des logos dans la section _Logos_ .
 1. Cliquez dans le titre _Nouvelle marque_ et saisissez un nom de marque descriptif.
 
 Pour afficher le [!DNL Brands] que vous avez créé, cliquez sur la flèche vers l’arrière située en haut du panneau _Marque_ pour revenir à la page d’accueil _[!DNL Brands]_.
@@ -105,6 +104,7 @@ Consultez [[!DNL Products]](products.md).
 1. Cliquez sur **[!UICONTROL Untitled]** et saisissez un nom pour [!DNL Product].
 1. Cliquez dans _Description_ et saisissez une description de cet [!DNL Product].
 1. Cliquez sur _Proposition de valeur_ et saisissez des détails sur la valeur du produit.
+1. Cliquez sur _Détails supplémentaires_ et saisissez les détails essentiels à la génération de contenu personnalisé.
 1. Pour modifier la miniature, passez la souris sur la miniature de l’image et, dans le menu Actions de miniature, sélectionnez **[!UICONTROL Modifier la miniature]**.
    1. Téléchargez une nouvelle image ou supprimez l’image téléchargée existante dans l’onglet _Télécharger_.
    1. Sélectionnez une image dans la galerie dans l’onglet _Galerie_ .
@@ -131,6 +131,7 @@ Consultez [[!DNL Personas]](personas.md).
 1. Cliquez sur **[!UICONTROL Untitled]** et saisissez un nom pour [!DNL Persona].
 1. Cliquez dans _Description_ et saisissez une description de cet [!DNL Persona].
 1. Cliquez sur _Préférences de messagerie_ et saisissez les détails de la messagerie pour [!DNL Persona].
+1. Cliquez sur _Détails supplémentaires_ et saisissez les détails essentiels à la génération de contenu personnalisé.
 1. Pour modifier la miniature, passez la souris sur la miniature de l’image et, dans le menu _Actions de miniature_, sélectionnez **[!UICONTROL Modifier la miniature]**.
    1. Téléchargez une nouvelle image ou supprimez l’image téléchargée existante dans l’onglet _Télécharger_.
    1. Sélectionnez une image dans la galerie dans l’onglet _Galerie_ .
