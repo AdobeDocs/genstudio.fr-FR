@@ -1,7 +1,7 @@
 ---
 title: Demande de révisions et d’approbations
 description: Demandez une révision.
-source-git-commit: c9bd8bf434e493696e674900f403307260a65b02
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Facultatif : ajoutez des commentaires pour guider l’approbateur vers certaines
 
 Si vous êtes le créateur de contenu, votre brouillon de zone de travail affiche le bouton **[!UICONTROL Gérer les approbations]** . Utilisez ce bouton pour ouvrir une fenêtre contextuelle à partir de laquelle vous pouvez supprimer ou ajouter des approbateurs tout au long du processus de révision et d’approbation.
 
-Les noms des approbateurs sont répertoriés dans ce volet avec un état [!DNL Notified] une fois les demandes d’approbation lancées. Voir [Approuver le contenu](./approve-content.md) pour un aperçu des tâches d’approbation de GenStudio.
+Les noms des approbateurs sont répertoriés dans cette vue avec un état [!DNL Notified] une fois les demandes d’approbation lancées. Voir [Approuver le contenu](./approve-content.md) pour un aperçu des tâches d’approbation de GenStudio.
 
 
 

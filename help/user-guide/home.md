@@ -1,9 +1,9 @@
 ---
 title: Guide de l’utilisateur d’Adobe GenStudio
 description: Découvrez comment utiliser GenStudio et l’IA générative pour personnaliser votre chaîne d’approvisionnement de contenu.
-source-git-commit: 43b059fe65a06b1cb6bba03c4e811c83af75d6f3
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 1%
 
 # Guide de l’utilisateur de GenStudio
 
-L’Adobe GenStudio, optimisé par l’IA générative, révolutionne la chaîne d’approvisionnement de contenu, ce qui vous permet de créer, de mesurer et de gérer des expériences personnalisées qui incarnent votre essence de marque.
+GenStudio est une solution de marketing complète, optimisée par la technologie d’IA générative de l’Adobe. Il permet aux marketeurs de rationaliser la chaîne d’approvisionnement du contenu, de l’idéation à la diffusion et à la mesure des performances.
 
-Grâce à GenStudio, les marketeurs et les équipes peuvent facilement générer et affiner du contenu de haute qualité conforme aux directives de la marque. GenStudio accélère le cycle de vie marketing, ce qui permet de gagner du temps et des ressources précieuses.
+Avec GenStudio, les entreprises peuvent tirer parti de l’IA générative pour accélérer la création de contenu, trouver et réutiliser facilement du contenu et générer des campagnes omnicanales réussies.
 
 ## Exploration des fonctionnalités de GenStudio
 

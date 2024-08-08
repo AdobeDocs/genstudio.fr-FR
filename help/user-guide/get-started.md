@@ -3,9 +3,9 @@ title: Prise en main de GenStudio
 description: Découvrez comment configurer votre GenStudio pour générer un nouveau contenu marketing aligné sur la marque.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 2501d1e36f76d1534a735b9147fb42f762a665e8
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1049'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ Voir [Écrire des invites efficaces](effective-prompts.md).
 
 Le tableau suivant affiche les autorisations de créateur GenStudio par défaut :
 
-| Fonctionnalité | Créer | Mettre à jour | Supprimer | Mode |
+| Fonctionnalité | Créer | Mettre à jour | Supprimer | Afficher |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | non | non | non | oui |
 | [!DNL Campaigns] | oui | oui | oui | oui |
@@ -62,7 +62,7 @@ Le tableau suivant affiche les autorisations de créateur GenStudio par défaut 
 
 Le tableau suivant affiche les autorisations de collaborateur GenStudio par défaut :
 
-| Fonctionnalité | Créer | Mettre à jour | Supprimer | Mode |
+| Fonctionnalité | Créer | Mettre à jour | Supprimer | Afficher |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | oui | oui | oui | oui |
 | [!DNL Campaigns] | oui | oui | oui | oui |
@@ -74,11 +74,11 @@ Le tableau suivant affiche les autorisations de collaborateur GenStudio par déf
 
 ### Administrateurs
 
-Les utilisateurs administrateurs créent des utilisateurs et les affectent à l’un des rôles pris en charge par GenStudio. Ils peuvent attribuer de nouvelles autorisations à des créateurs ou collaborateurs individuels, selon les besoins. Leur tâche la plus importante consiste à effectuer les tâches d’intégration initiales qui préparent votre entreprise à déployer GenStudio.
+**Les administrateurs** créent des utilisateurs et les affectent à l’un des rôles pris en charge par GenStudio. Ils peuvent attribuer de nouvelles autorisations à des créateurs ou collaborateurs individuels, selon les besoins. Leur tâche la plus importante consiste à effectuer les tâches d’intégration initiales qui préparent votre entreprise à déployer GenStudio.
 
 Le tableau suivant affiche les autorisations d’administrateur système GenStudio par défaut :
 
-| Fonctionnalité | Créer | Mettre à jour | Supprimer | Mode |
+| Fonctionnalité | Créer | Mettre à jour | Supprimer | Afficher |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | oui | oui | oui | oui |
 | [!DNL Campaigns] | oui | oui | oui | oui |
@@ -93,7 +93,7 @@ Le tableau suivant affiche les autorisations d’administrateur système GenStud
 
 Les administrateurs système préparent l’environnement GenStudio de leur entreprise pour que les créateurs et les collaborateurs puissent créer des ressources de campagne. Ces tâches préliminaires de configuration incluent :
 
-1. [Configurez les instructions](./guidelines/overview.md) pour [!DNL Brands], [!DNL Products] et [!DNL Personas]. Configuration des blocs de création clés de la mar **[Ajoutez des instructions](./guidelines/overview.md)** ([!DNL Brands], [!DNL Products] et [!DNL Personas]) à GenStudio. La configuration des éléments essentiels de l’identité de marque de votre entreprise est une condition préalable essentielle au travail des créateurs et collaborateurs de GenStudio. Vous pouvez charger des documents de directives de marque ou saisir manuellement des informations sur la marque.
+1. [Ajoutez des instructions](./guidelines/overview.md) pour [!DNL Brands], [!DNL Products] et [!DNL Personas]. La configuration des éléments essentiels de l’identité de marque de votre entreprise est une condition préalable essentielle au travail des créateurs et collaborateurs de GenStudio. Vous pouvez charger des documents de directives de marque ou saisir manuellement des informations sur la marque.
    * **Préparez vos documents directives**. Plus vos directives de marque sont descriptives et complètes, plus GenStudio est performant. Incluez de brefs exemples de fonctionnalités que vous considérez comme essentielles pour votre marque et ajoutez des descriptions de comportement que vous souhaitez exclure de la création de contenu GenStudio. GenStudio extrait les informations de ces documents téléchargés et commence à créer votre marque. Les informations telles que les directives sur la voix, le canal et l’image de la marque sont renseignées lorsque GenStudio assemble chaque consigne à partir des documents chargés.
    * **Modifiez ou remplissez les champs de directives de marque selon les besoins**. Des directives de marque complètes constituent la base de la compréhension GenStudio de la marque de votre entreprise. Une fois que GenStudio a extrait les informations dont il a besoin de vos documents d’orientation de marque, vous êtes invité à modifier manuellement ou à compléter les champs des informations extraites. Spécifiez les zones de ciblage de produit individuelles pour la création de contenu en ajoutant un [!DNL Product]. [!DNL Personas] Ces conseils aident à personnaliser la création de contenu pour les segments de clients définis.
 

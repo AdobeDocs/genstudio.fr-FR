@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Pour commencer à créer une expérience de courrier électronique, utilisez un 
 **Pour choisir un modèle d&#39;email** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Email]**dans le_&quot;Que souhaitez-vous créer aujourd&#39;hui ?&quot;section _.
-1. Dans la vue _Select template_, faites basculer le filtre _Channels_ (Canaux) sur **[!UICONTROL Email]**.
 1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle de courrier électronique spécifique.
 1. Cliquez pour sélectionner un modèle d&#39;email et cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -53,7 +52,7 @@ Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la 
 
 ## Saisissez une invite
 
-Une fois les instructions sélectionnées, concevez une invite en utilisant un langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience par e-mail.
+Une fois les instructions sélectionnées, concevez une invite en utilisant un langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience par e-mail. Les invites détaillées génèrent des résultats de qualité supérieure aux invites vagues ou indescriptives.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
 
@@ -62,7 +61,7 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
+Par défaut, quatre variantes, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
 
 ## Modification des emails générés
 
@@ -70,6 +69,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 **Pour réviser les variantes générées** :
 
+* **Pour modifier le nom du brouillon de l’email**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour modifier manuellement un email**, double-cliquez dans l’un des fragments d’email (par exemple, la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire.
 
   L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête, la copie du corps et l’appel à l’action nécessitent un double clic.

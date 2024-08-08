@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,8 @@ Pour commencer à générer une nouvelle expérience de métadonnées publicitai
 **Pour choisir un modèle de métadonnées publicitaires** :
 
 1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Métadonnées]**dans le_&quot;Que souhaitez-vous créer aujourd’hui ?&quot;section _.
-1. Dans la vue _Select template_, faites basculer le filtre _Channels_ (Canaux) sur **[!UICONTROL Meta ads]**.
 1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle de métadonnées de publicité spécifique.
-1. Cliquez pour sélectionner un modèle, ou activez la sélection de plusieurs modèles, puis cliquez sur **[!UICONTROL Utiliser]**. Si vous sélectionnez plusieurs modèles, lorsque les variantes sont générées, tous les modèles sélectionnés sont utilisés pour vous proposer des options.
+1. Cliquez pour sélectionner un modèle et cliquez sur **[!UICONTROL Utiliser]**.
 
    Cette action ouvre le canevas, qui est le centre central de la création de contenu.
 
@@ -53,7 +52,7 @@ Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la 
 
 ## Saisissez une invite
 
-Une fois les instructions sélectionnées, créez une invite à l’aide du langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience de métadonnées publicitaires.
+Une fois les instructions sélectionnées, créez une invite à l’aide du langage naturel afin de commencer à générer du contenu pour votre nouvelle expérience de métadonnées publicitaires. Les invites détaillées génèrent des résultats de qualité supérieure aux invites vagues ou indescriptives.
 
 Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour en savoir plus sur l’écriture d’invites.
 
@@ -62,7 +61,7 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 1. Saisissez une invite dans la zone d’invite _&quot;Description des expériences que vous souhaitez générer&quot;_.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-Par défaut, quatre variations générées, toutes alimentées par l’invite, les directives et le contenu que vous avez ajouté, sont générées et affichées dans la zone de travail.
+Par défaut, quatre variantes, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
 
 ## Choisir le canal Métadonnées
 
@@ -76,6 +75,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 **Pour réviser les variantes générées** :
 
+* **Pour modifier le nom de la version préliminaire des métadonnées**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour modifier manuellement une méta-publicité**, double-cliquez dans l’un des fragments de publicité (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
 
   L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête et la copie du corps nécessitent un double clic.
@@ -93,7 +93,7 @@ Pour optimiser les publicités générées et garantir une stricte conformité a
 1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
-1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.
+1. [Révision manuelle des publicités](#revise-generated-meta-ads) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.
 
 Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md).
 

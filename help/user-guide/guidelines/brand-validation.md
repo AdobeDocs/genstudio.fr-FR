@@ -2,7 +2,7 @@
 title: Validation de marque dans GenStudio
 description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio.
 feature: Brands Service, Guidelines
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Cliquez sur l’icône pour voir quelles directives sont conformes à votre marq
 
 Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 
-## Panneau Validation de marque
+## Panneau de validation des marques
 
 Le _panneau de validation de marque_ fournit des informations détaillées sur la validation de marque et éclaire les opportunités d’amélioration pour chaque fragment de variante.
 
@@ -53,13 +53,13 @@ Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 
 ### Filtre
 
-Dans le _panneau Validation de marque_, vous pouvez filtrer les directives affichées. Cliquez sur l’icône de filtre en haut du panneau pour afficher :
+Dans le _panneau de validation de marque_, vous pouvez filtrer les directives affichées. Cliquez sur l’icône de filtre en haut du panneau pour afficher :
 
 * **Failed guidelines**—_Show failed guidelines_ affiche uniquement les consignes qui n’ont pas réussi la validation de marque.
 * **Toutes les instructions**—_Afficher les instructions transmises et ayant échoué_ affiche toutes les instructions pour lesquelles les variantes sont mesurées.
 * **Directives transmises**—_Afficher les consignes transmises_ affiche uniquement les consignes ayant réussi la validation de la marque.
 
-<!-- The _Brand Validation panel_ has different areas of focus for each content channel:
+<!-- The _Brand validation panel_ has different areas of focus for each content channel:
 
 * Email - brand voice and channel compliance
 * Images - application photography restrictions and other considerations -->

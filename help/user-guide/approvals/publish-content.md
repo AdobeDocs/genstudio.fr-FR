@@ -2,7 +2,7 @@
 title: Contenu approuvé par Publish
 description: Découvrez comment publier du contenu approuvé.
 feature: Approval, Content
-source-git-commit: 6da5eb91db34e3b91430d513f3af5de1cd380222
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Vous pouvez ensuite finaliser le brouillon en l’enregistrant dans [!DNL Conten
 
 ## Après publication
 
-Tous les utilisateurs de GenStudio peuvent accéder aux ressources ou expériences approuvées dans [!DNL Content]. Le volet Détails de la ressource identifie l’historique de chargement et d’approbation de la ressource. Ces attributs identifient le contenu enregistré :
+Tous les utilisateurs de GenStudio peuvent accéder aux ressources ou expériences approuvées dans [!DNL Content]. Le panneau Détails de la ressource identifie l’historique de chargement et d’approbation de la ressource. Ces attributs identifient le contenu enregistré :
 
 * **Date de téléchargement** : identifie la date de téléchargement du contenu.
 * **Téléchargé par** : identifie le créateur de ressources GenStudio.
