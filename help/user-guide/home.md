@@ -1,13 +1,12 @@
 ---
 title: Guide de l’utilisateur d’Adobe GenStudio
 description: Découvrez comment utiliser GenStudio et l’IA générative pour personnaliser votre chaîne d’approvisionnement de contenu.
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: f5b353ac807b5676fbeda593a3827c960facda3a
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
 
 ---
-
 
 # Guide de l’utilisateur de GenStudio
 
