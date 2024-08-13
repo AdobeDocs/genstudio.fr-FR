@@ -2,9 +2,9 @@
 title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour GenStudio.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: d7de679ce310dcdcec4a1b5ea814b2ca8b1fc413
+source-git-commit: 5e17996ee3a86cf664ee468d6b9cf178c8853992
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 La communication avec l’IA générative est essentielle pour travailler efficacement dans GenStudio.
 
-GenStudio fournit une invite d’IA générative chaque fois qu’il est possible de créer ou de modifier une ressource. Les composants d’une invite efficace doivent inclure un langage descriptif, des exemples et des informations qui ne sont pas fournis par le biais de vos instructions configurées.
+GenStudio fournit une invite d’IA générative chaque fois qu’il est possible de modifier une ressource. Les composants d’une invite efficace doivent inclure un langage descriptif, des exemples et des informations qui ne sont pas fournis par le biais de vos instructions configurées.
 
-En règle générale, fournissez à GenStudio les informations sur votre marque en utilisant [des instructions](/help/user-guide/guidelines/overview.md), puis vous pouvez exploiter pleinement l’IA générative pour produire du contenu aligné sur la marque.
+En règle générale, fournissez à GenStudio des informations sur votre marque en utilisant [des instructions](/help/user-guide/guidelines/overview.md), puis vous pouvez exploiter pleinement l’IA générative pour produire des expériences de contenu alignées sur la marque.
 
 ## Langage descriptif
 
