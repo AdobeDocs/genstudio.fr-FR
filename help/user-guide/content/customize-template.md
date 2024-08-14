@@ -3,9 +3,9 @@ title: Personnalisation des modèles
 description: Découvrez comment créer un modèle personnalisé pour GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 1b5b12615c52823aa2f1c10ad704e3fc0dabb1e9
+source-git-commit: d7d11077d35a4c1924e4be456c00b1fae24e0a1b
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Tous les autres noms de champ sont traités comme des champs renseignés manuell
 
 ## Sections ou groupes
 
-_Les sections_ informent GenStudio que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
+_Les sections_ informent GenStudio que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu qui correspond aux éléments créatifs de la section .
 
 Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe.
 
