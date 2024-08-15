@@ -3,9 +3,9 @@ title: Personnalisation des modèles
 description: Découvrez comment créer un modèle personnalisé pour GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5c43cf2014c1f93bdb9988ddefb503630714e522
+source-git-commit: c9cf7da078e84cf7696f32ca2278aa71b7b1b7cc
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Personnalisation des modèles
 
-Vous pouvez adapter vos modèles d’HTML pour GenStudio en utilisant le langage de modèle _Handlebars_. La syntaxe Handlebars utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
+Adaptez vos modèles d’HTML pour GenStudio à l’aide du langage de modèle _Handlebars_. La syntaxe Handlebars utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
 
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
 -->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
