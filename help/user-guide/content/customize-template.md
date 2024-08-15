@@ -3,9 +3,9 @@ title: Personnalisation des modèles
 description: Découvrez comment créer un modèle personnalisé pour GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: d7d11077d35a4c1924e4be456c00b1fae24e0a1b
+source-git-commit: 5c43cf2014c1f93bdb9988ddefb503630714e522
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour la 
 | `cta` | Appel à l’action | email (recommandé)<br>Métadonnées |
 | `on_image_text` | Sur le texte de l’image | Métadonnées publicitaires (recommandé) |
 | `image` | Image | email (recommandé)<br>Métadonnées (recommandé) |
-| `brand_logo` | Logo de la marque sélectionnée | Métadonnées |
+| `brand_logo` | Logo de la marque sélectionnée | email<br>Métadonnées |
 
 GenStudio renseigne automatiquement certains champs dans les modèles. Il n’est donc pas nécessaire de les inclure dans vos conceptions de modèle :
 
@@ -76,15 +76,33 @@ GenStudio renseigne automatiquement certains champs dans les modèles. Il n’es
 
 #### Nom du champ du logo de la marque
 
-Pour ajouter un logo de marque dans votre modèle, utilisez le code suivant pour effectuer le rendu du logo par défaut :
+Pour ajouter un logo de marque dans votre modèle, utilisez l’une des méthodes suivantes pour effectuer le rendu du logo par défaut.
 
-```{{#if brand_logo}}{{brand_logo}}{{else}} encoded inline logo {{/if}}```
+_Exemple_ :
+
+```bash
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default image>{{/if}}" alt="WKND" style="max-width: 88px; margin: 10px auto; display: block;"> 
+```
+
+_Exemple_ :
+
+```bash
+{{#if brand_logo}}
+
+                    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+
+                {{else}}
+
+                    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+
+                {{/if}}
+```
 
 #### Noms de champ manuels
 
 Tous les autres noms de champ sont traités comme des champs renseignés manuellement. Si vous souhaitez qu’une section soit modifiable, ajoutez des crochets doubles autour de la section à modifier.
 
-> Exemple : ``{{customVariable}}`` (customVariable est la section modifiable manuellement)
+_Exemple_ : ``{{customVariable}}`` (`customVariable` est la section modifiable manuellement)
 
 ## Sections ou groupes
 
