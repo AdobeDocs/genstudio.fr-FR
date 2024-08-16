@@ -1,19 +1,19 @@
 ---
-title: Tutorials GenStudio
-description: Découvrez comment terminer un processus de bout en bout, comme la création d’une expérience par e-mail, en suivant les tutoriels GenStudio.
-source-git-commit: 43b059fe65a06b1cb6bba03c4e811c83af75d6f3
+title: Adobe GenStudio pour les Tutorials du marketing de performance
+description: Découvrez comment terminer un processus de bout en bout, comme la création d’une expérience par e-mail, en suivant les tutoriels GenStudio for Performance Marketing.
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL GenStudio] tutoriels
+# Tutoriels Adobe GenStudio pour les marketeurs de performance
 
-Les tutoriels GenStudio suivent des processus de base détaillés qui contiennent des liens vers des concepts plus détaillés dans le guide de l’utilisateur.
+Les tutoriels Adobe GenStudio pour les marketeurs de performance suivent des workflows détaillés de base qui contiennent des liens vers des concepts plus détaillés dans le guide de l’utilisateur.
 
-Les tutoriels de ce guide détaillent les concepts, les conditions préalables, les bonnes pratiques et les étapes individuelles nécessaires pour générer avec succès du contenu marketing de qualité dans GenStudio.
+Les tutoriels de ce guide détaillent les concepts, les conditions préalables, les bonnes pratiques et les étapes individuelles nécessaires pour générer avec succès du contenu marketing de qualité dans GenStudio pour les marketeurs de performance.
 
 <table style="table-layout:fixed">
 <td valign="top">

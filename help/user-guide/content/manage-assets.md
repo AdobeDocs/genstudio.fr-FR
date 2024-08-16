@@ -2,9 +2,9 @@
 title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: ba7dced9e62f797cd43a0bd8d8263828ec5c3d5e
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestion des ressources et des expériences
 
-GenStudio [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours de marketing numérique.
+Adobe GenStudio pour les marketeurs de performance [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour utilisation et réutilisation dans votre parcours de marketing numérique.
 
 ## Ajout de ressources
 
@@ -26,11 +26,11 @@ GenStudio [!DNL Content] simplifie et améliore la gestion des ressources approu
 
 1. Pour améliorer la visibilité, ajoutez des détails facultatifs tels que _Nom de la marque_, _Personas_, _Région_ et _Mots-clés_ dans la section **Plus de détails**.
 
-   Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
+   Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio pour les marketeurs de performances. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
 
    Tous les détails que vous ajoutez s’appliquent à toutes les ressources ajoutées dans cette action.
 
-   Voir [Détails des métadonnées](/help/user-guide/content/asset-details.md#genstudio-metadata).
+   Voir [Détails des métadonnées](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Cliquez sur **[!UICONTROL Ajouter des ressources]**.
 1. Une fois le chargement de la ressource terminé, cliquez sur **Terminé**.
@@ -59,7 +59,3 @@ Appliquez des filtres et utilisez des balises de métadonnées à partir des dé
 1. Sélectionnez une ressource pour une vue complète et une liste de détails.
 
    Cliquez sur **[!UICONTROL Télécharger]** (flèche vers le bas) pour utiliser la ressource dans votre poste de travail local.
-
-<!-- 
-There is more here, but not ready yet.
--->

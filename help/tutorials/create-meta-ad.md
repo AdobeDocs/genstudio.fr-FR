@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Création d’une expérience de métadonnées publicitaires
 
-Ce tutoriel explique comment générer des expériences de métadonnées de marque à l’aide de GenStudio [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences de métadonnées de marque à l’aide de GenStudio pour les marketeurs de performances [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
-Avant de commencer à générer une expérience de métadonnées publicitaires, il est important d’ [incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
+Avant de commencer à générer une expérience de métadonnées publicitaires, il est important d’ [incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio pour les marketeurs de performance et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
 ## Choisir un modèle
 
@@ -41,7 +41,7 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
 1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
-   Si aucune marque, aucun personnage ou aucun produit n’est disponible dans ces menus, [ajoutez des instructions à votre GenStudio](/help/user-guide/guidelines/add-guidelines.md).
+   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour les marketeurs de performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
@@ -120,8 +120,8 @@ Pour rendre les métadonnées générées disponibles pour une utilisation actue
 
 Voir [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) pour plus d’informations.
 
-## Connexion de métadonnées à GenStudio
+## Connect Meta
 
-Vous pouvez connecter GenStudio à Meta pour recevoir des analyses avancées et des [insights](/help/user-guide/insights/overview.md) sur les performances du contenu.
+Vous pouvez connecter GenStudio pour les marketeurs de performance à Meta afin de recevoir des analyses avancées et des [insights](/help/user-guide/insights/overview.md) sur les performances du contenu.
 
 Pour plus d’informations, voir [Connexion au compte de canal](/help/user-guide/insights/connect-channel.md) .

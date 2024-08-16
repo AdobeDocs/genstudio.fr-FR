@@ -1,13 +1,13 @@
 ---
-source-git-commit: 135502f6743f2d45860c900a49a8c19a024a58dc
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 40%
+source-wordcount: '310'
+ht-degree: 39%
 
 ---
-# Documentation GenStudio
+# Documentation de GenStudio pour les marketeurs de performance
 
-Ce site contient la documentation la plus récente du produit GenStudio.
+Ce site contient la documentation la plus récente du produit GenStudio for Performance Marketing.
 
 ## Code de conduite Adobe Open Source
 
@@ -35,10 +35,10 @@ Pour plus d’informations, consultez le [Guide du contributeur et de la contrib
 
 ## Markdown
 
-Tous les articles de ce référentiel utilisent le markdown GitHub. Si vous n’êtes pas familiarisé avec Markdown, voir :
+Tous les articles de ce référentiel utilisent le markdown GitHub. Si vous ne connaissez pas Markdown, consultez :
 
-- [Notions de base du langage Markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Aide-mémoire du langage Markdown à imprimer](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- les [Concepts de base de Markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- La [Cheatsheet imprimable sur Markdown](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Étiquettes
 

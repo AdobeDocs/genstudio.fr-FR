@@ -1,22 +1,22 @@
 ---
 title: Guide de l’utilisateur d’Adobe GenStudio
-description: Grâce à GenStudio, l’application AI-first d’Adobe permet aux spécialistes du marketing et aux créatifs de surfacturation d’accéder en libre-service au contenu de la marque grâce à des barrières de sécurité et à une gouvernance d’entreprise pour les expériences hautement performantes.
-source-git-commit: 1e30db88fac8e6d47a845d4eb5d54defcc256244
+description: Grâce à GenStudio, les marketeurs et les créatifs surchargent grâce à l’application AI-first d’Adobe, qui leur permet d’accéder en libre-service au contenu de marque avec des garde-fous d’entreprise et une gouvernance pour les expériences hautement performantes.
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Guide de l’utilisateur de GenStudio
+# Guide de l’utilisateur de l’Adobe GenStudio pour les spécialistes du marketing des performances
 
-Adobe GenStudio est une plateforme pilotée par l’IA qui permet aux entreprises de générer et de gérer de manière autonome du contenu marketing conforme aux normes de leur marque, conforme aux politiques de l’entreprise et qui prend en charge de manière transparente une stratégie marketing impactée.
+Adobe GenStudio pour les marketeurs de performance est une plateforme pilotée par l’IA qui permet aux entreprises de générer et de gérer de manière autonome du contenu marketing conforme aux normes de leur marque, conforme aux politiques de l’entreprise et qui prend en charge de manière transparente une stratégie marketing performante.
 
-Avec GenStudio, les marketeurs et les créatifs peuvent rationaliser le processus de création de contenu pour créer du contenu marketing attrayant, culturellement pertinent et adapté à des audiences spécifiques, tout en conservant une haute qualité et une intégrité de la marque.
+Avec GenStudio pour les marketeurs de performance, les marketeurs et les créatifs peuvent rationaliser le processus de création de contenu afin de créer du contenu marketing attrayant, adapté à la culture et adapté à des audiences spécifiques, tout en conservant une haute qualité et une intégrité de la marque.
 
-En exploitant la technologie d’IA, GenStudio fournit une suite complète d’outils qui simplifient la création et la gestion de contenu pour que les créatifs puissent se concentrer sur l’innovation.
+Grâce à la technologie d’IA, GenStudio for Performance Marketing fournit une suite complète d’outils qui simplifient la création et la gestion de contenu pour que les créatifs puissent se concentrer sur l’innovation.
 
-## Exploration des fonctionnalités de GenStudio
+## Exploration des fonctionnalités
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -99,7 +99,7 @@ En exploitant la technologie d’IA, GenStudio fournit une suite complète d’o
       </a>
    </div>
    <p>
-      <em>Découvrez comment ajouter des directives—Marques, Produits et Personas—à GenStudio.</em>
+      <em>Découvrez comment ajouter des directives—Marques, Produits et Personas—à GenStudio pour les marketeurs de performances.</em>
    </p>
 </td>
 <td valign="top">

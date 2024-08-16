@@ -2,17 +2,17 @@
 title: Présentation de [!DNL Insights]
 description: Découvrez comment optimiser des expériences en fonction des mesures de performances du contenu en temps réel.
 feature: Attributes, Insights, Experiences, Assets
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 
-# GenStudio [!DNL Insights]
+# Adobe GenStudio pour les marketeurs de performance [!DNL Insights]
 
-GenStudio [!DNL Insights] fournit des analyses avancées et des informations sur les performances du contenu qui peuvent vous aider à prendre des décisions basées sur les données.
+Adobe GenStudio pour les spécialistes du marketing des performances [!DNL Insights] fournit des analyses avancées et des informations sur les performances du contenu qui peuvent vous aider à prendre des décisions basées sur les données.
 
 Depuis le tableau de bord [!DNL Insights], vous pouvez :
 
@@ -22,7 +22,7 @@ Depuis le tableau de bord [!DNL Insights], vous pouvez :
 
 >[!TIP]
 >
->Consultez le [ compte de canal de connexion ](connect-channel.md) pour connaître les étapes permettant à GenStudio de recevoir des données de vos campagnes marketing, ressources et expériences actives.
+>Voir le [ compte de canal de connexion ](connect-channel.md) pour connaître les étapes permettant à GenStudio pour les marketeurs de performance de recevoir des données de vos campagnes marketing, ressources et expériences actives.
 
 ## Tableau de bord
 

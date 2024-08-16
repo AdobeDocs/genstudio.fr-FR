@@ -2,9 +2,9 @@
 title: Valider le contenu
 description: Découvrez comment approuver le contenu.
 feature: Approval
-source-git-commit: 0d6eff35e66d3657aa4f5fda65f91f0caab4a7e1
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ Si le brouillon de contenu répond aux normes de votre entreprise et à vos atte
 
 1. Remplacez le statut de brouillon **Nécessite le travail** par **Approuvé**.
 
-Votre travail en tant qu’approbateur est terminé. GenStudio alerte le créateur du brouillon de votre approbation. Voir [Contenu Publish](./publish-content.md) pour un aperçu du processus d’enregistrement dans [!DNL Content] ou _publication_.
+Votre travail en tant qu’approbateur est terminé. GenStudio pour les spécialistes du marketing des performances avertit le créateur du brouillon de votre approbation. Voir [Contenu Publish](./publish-content.md) pour un aperçu du processus d’enregistrement dans [!DNL Content] ou _publication_.
 

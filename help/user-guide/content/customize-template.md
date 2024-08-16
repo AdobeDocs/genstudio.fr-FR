@@ -1,11 +1,11 @@
 ---
 title: Personnalisation des modèles
-description: Découvrez comment créer un modèle personnalisé pour GenStudio.
+description: Découvrez comment créer un modèle personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9cf7da078e84cf7696f32ca2278aa71b7b1b7cc
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 0%
 
 # Personnalisation des modèles
 
-Adaptez vos modèles d’HTML pour GenStudio à l’aide du langage de modèle _Handlebars_. La syntaxe Handlebars utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
+Adaptez vos modèles d’HTML pour Adobe GenStudio pour les spécialistes du marketing des performances à l’aide du langage de modèle _Handlebars_. La syntaxe Handlebars utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
 
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+-->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
 
 ```html
 <!DOCTYPE html>
@@ -35,11 +35,11 @@ Voir [Exemples de modèles](#template-examples).
 
 >[!TIP]
 >
->Dans les sections suivantes, ajoutez des espaces réservés de contenu pour les champs d’email, reportez-vous aux exemples de modèles, masquez les éléments superflus de l’aperçu et gérez les liens vers du contenu statique. Une fois votre modèle prêt, vous pouvez [le charger vers GenStudio](use-templates.md#upload-a-template) et commencer à générer des emails personnalisés basés sur votre modèle personnalisé.
+>Dans les sections suivantes, ajoutez des espaces réservés de contenu pour les champs d’email, reportez-vous aux exemples de modèles, masquez les éléments superflus de l’aperçu et gérez les liens vers du contenu statique. Une fois votre modèle prêt, vous pouvez [le charger vers GenStudio pour les marketeurs de performances](use-templates.md#upload-a-template) et commencer à générer des emails personnalisés basés sur votre modèle personnalisé.
 
 ## Espaces réservés de contenu
 
-Dans l’en-tête ou dans le corps d’un modèle, vous pouvez utiliser la syntaxe des Guidons pour insérer des espaces réservés de contenu dans lesquels vous avez besoin de GenStudio pour remplir le modèle avec du contenu réel. GenStudio reconnaît et interprète automatiquement les espaces réservés de contenu en fonction du nom du champ.
+Dans l’en-tête ou dans le corps d’un modèle, vous pouvez utiliser la syntaxe des Guidons pour insérer des espaces réservés de contenu dans lesquels vous avez besoin de GenStudio pour que les marketeurs de performance renseignent le modèle avec du contenu réel. GenStudio pour les spécialistes du marketing des performances reconnaît et interprète automatiquement les espaces réservés de contenu en fonction du nom du champ.
 
 Par exemple, vous pouvez utiliser `{{ headline }}` pour indiquer où le titre de l&#39;email doit être placé :
 
@@ -53,7 +53,7 @@ Le nombre maximal de champs autorisés dans un modèle personnalisé est de ving
 
 #### Noms de champ reconnus
 
-Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour la population dans les modèles.
+Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour les spécialistes du marketing des performances pour la population dans les modèles.
 
 | Champ | Rôle | Modèle de canal |
 | -------------- | ---------------------- | -------------------- |
@@ -65,7 +65,7 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour la 
 | `image` | Image | email (recommandé)<br>Métadonnées (recommandé) |
 | `brand_logo` | Logo de la marque sélectionnée | email<br>Métadonnées |
 
-GenStudio renseigne automatiquement certains champs dans les modèles. Il n’est donc pas nécessaire de les inclure dans vos conceptions de modèle :
+GenStudio pour les spécialistes du marketing des performances renseigne automatiquement certains champs dans les modèles. Il n’est donc pas nécessaire de les inclure dans vos conceptions de modèle :
 
 * Champ `subject` (modèle d&#39;email)
 * Champs `headline`, `body` et `CTA` (modèle de métadonnées publicitaires)
@@ -106,7 +106,7 @@ _Exemple_ : ``{{customVariable}}`` (`customVariable` est la section modifiable m
 
 ## Sections ou groupes
 
-_Les sections_ informent GenStudio que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu qui correspond aux éléments créatifs de la section .
+Les _sections_ informent GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu qui correspond aux éléments créatifs de la section .
 
 Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe.
 
@@ -126,13 +126,13 @@ Un modèle peut comporter trois sections au maximum :
 * `news_headline`
 * `news_body`
 
-GenStudio comprend que `spotlight_headline` est plus étroitement lié à `spotlight_body` qu’à `news_body`.
+GenStudio pour les spécialistes du marketing des performances comprend que `spotlight_headline` est plus étroitement lié à `spotlight_body` qu’à `news_body`.
 
 ## Exemples de modèles
 
 +++Exemple : modèle d&#39;email avec une section
 
-Voici un exemple de base d&#39;un modèle d&#39;HTML pour un email contenant une section. L’en-tête contient une feuille CSS simple et intégrée pour la mise en forme. Le corps contient un `pre-header`, un `headline` et un `image` [espace réservé](#content-placeholders) à utiliser par GenStudio pour injecter du contenu pendant le processus de génération de courrier électronique.
+Voici un exemple de base d&#39;un modèle d&#39;HTML pour un email contenant une section. L’en-tête contient une feuille CSS simple et intégrée pour la mise en forme. Le corps contient un `pre-header`, un `headline` et un `image` [espace réservé](#content-placeholders) à utiliser par GenStudio pour que les marketeurs de performance injectent du contenu pendant le processus de génération de courrier électronique.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -293,9 +293,9 @@ Un autre exemple peut être d’empêcher l’utilisation des codes de suivi lor
 
 ## Contenu statique
 
-Les modèles de courrier électronique et de métadonnées sont souvent liés à des images et à des fichiers CSS hébergés en dehors de GenStudio. Lorsque GenStudio génère des miniatures pour ces modèles ou les expériences qui en découlent, il se peut qu’il ignore ces ressources externes si elles ne comportent pas les en-têtes CORS (Cross-Origin Resource Sharing) corrects.
+Les modèles de courrier électronique et de métadonnées sont souvent liés à des images et à des fichiers CSS hébergés en dehors de GenStudio pour les marketeurs de performances. Lorsque GenStudio pour les spécialistes du marketing des performances génère des miniatures pour ces modèles ou les expériences qui en découlent, il se peut que ces ressources externes soient ignorées si elles ne comportent pas les en-têtes CORS (Cross-Origin Resource Sharing) corrects.
 
 Pour vous assurer que ces ressources sont disponibles pendant le processus de génération de miniatures, envisagez deux options :
 
-1. **Utiliser les en-têtes CORS** : le serveur hôte doit envoyer des réponses avec un en-tête `Access-Control-Allow-Origin` défini sur la valeur `https://experience.adobe.com` pour les environnements de production. Cette méthode permet à GenStudio d’accéder aux ressources et de les inclure.
+1. **Utiliser les en-têtes CORS** : le serveur hôte doit envoyer des réponses avec un en-tête `Access-Control-Allow-Origin` défini sur la valeur `https://experience.adobe.com` pour les environnements de production. Cette méthode permet à GenStudio pour les marketeurs de performances d’accéder aux ressources et de les inclure.
 1. **Utiliser des URL de données** : incorporez les ressources externes directement dans le modèle à l’aide des URL de données. Cette méthode contourne les restrictions CORS et garantit que les ressources sont disponibles pendant la génération des miniatures.

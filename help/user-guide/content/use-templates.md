@@ -1,10 +1,10 @@
 ---
 title: Utilisation des modèles
-description: Découvrez comment utiliser des modèles pour créer des expériences attrayantes dans GenStudio.
+description: Découvrez comment utiliser des modèles pour créer des expériences attrayantes dans Adobe GenStudio pour les marketeurs de performance.
 feature: Templates, Content
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---
@@ -17,8 +17,8 @@ Les modèles GenStudio sont essentiels pour permettre aux créateurs de contenu 
 Ce guide fournit des informations détaillées sur la façon de :
 
 * Préparer un [modèle d’email](email-template.md) ou un modèle de méta-publicité
-* [Personnaliser les modèles](customize-template.md) pour GenStudio
-* [ Télécharger des modèles](#upload-a-template) dans GenStudio
+* [Personnaliser les modèles](customize-template.md) pour GenStudio pour Performance Marketerstudio
+* [ Télécharger des modèles](#upload-a-template) dans GenStudio pour les marketeurs de performance
 * [Utilisation de modèles pour créer des expériences](#use-a-template)
 
 ## Anatomie d&#39;un modèle
@@ -38,11 +38,11 @@ La conception de modèle de base comprend les éléments suivants :
 
 >[!NOTE]
 > 
->Il est recommandé d’inclure des champs spécifiques dans le contenu de chaque canal afin de vous assurer que GenStudio peut générer du texte pour les espaces réservés de contenu. Voir [Noms de champ reconnus](customize-template.md#recognized-field-names) pour voir les champs recommandés pour inclusion.
+>Il est recommandé d’inclure des champs spécifiques dans le contenu de chaque canal afin de vous assurer que GenStudio pour les marketeurs de performances peut générer du texte pour les espaces réservés de contenu. Voir [Noms de champ reconnus](customize-template.md#recognized-field-names) pour voir les champs recommandés pour inclusion.
 
 ## Chargement d’un modèle
 
-GenStudio accepte les modèles au format HTML.
+GenStudio pour les spécialistes du marketing des performances accepte les modèles au format HTML.
 
 **Pour ajouter un modèle** :
 
@@ -80,7 +80,6 @@ Recherchez et utilisez un modèle existant pour créer des expériences.
 >[!TIP]
 >
 >Voir [[!DNL Create] une expérience par e-mail](/help/tutorials/create-email-experience.md) ou [[!DNL Create] une expérience par e-mail ](/help/tutorials/create-meta-ad.md) pour accéder à des tutoriels complets à l’aide de modèles.
-
 <!--  The create button in Content Template view does not work yet.
 1. Click **[!UICONTROL Create Experience]** (paintbrush) from the upper right corner to use the template.
 -->

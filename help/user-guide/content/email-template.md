@@ -1,29 +1,29 @@
 ---
-title: Préparation d’un modèle de courrier électronique pour GenStudio
-description: Découvrez comment créer un modèle de courrier électronique personnalisé pour GenStudio.
+title: Préparation d’un modèle de courrier électronique pour l’Adobe GenStudio pour les spécialistes du marketing des performances
+description: Découvrez comment créer un modèle de courrier électronique personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 
-# Préparer le modèle de courrier électronique pour GenStudio
+# Préparer le modèle de courrier électronique pour l’Adobe GenStudio pour les spécialistes du marketing des performances
 
-En règle générale, un concepteur crée la conception visuelle d’un modèle dans un programme de conception tel qu’Adobe XD. Une fois qu’un modèle d’email a été conçu, codé et testé, vous pouvez le préparer pour le chargement et l’utilisation dans GenStudio.
+En règle générale, un concepteur crée la conception visuelle d’un modèle dans un programme de conception tel qu’Adobe XD. Une fois qu’un modèle de courrier électronique a été conçu, codé et testé, vous pouvez le préparer pour le chargement et l’utilisation dans GenStudio pour les marketeurs de performances.
 
 Voir [Anatomie d’un modèle](/help/user-guide/content/use-templates.md#anatomy-of-a-template).
 
 ## Ajouter des instructions
 
-Avant de préparer un modèle de métadonnées publicitaires, assurez-vous d’avoir ajouté [des instructions](/help/user-guide/guidelines/overview.md) à votre GenStudio et de leur avoir fourni des informations complètes sur les marques pertinentes. Les [directives de marque](/help/user-guide/guidelines/brands.md) influent directement sur le contenu généré.
+Avant de préparer un modèle de métadonnées publicitaires, assurez-vous d’avoir ajouté [des instructions](/help/user-guide/guidelines/overview.md) à votre GenStudio pour les marketeurs de performance et de leur avoir fourni des informations complètes pour les marques pertinentes. Les [directives de marque](/help/user-guide/guidelines/brands.md) influent directement sur le contenu généré.
 
 **Exemple** : si vous souhaitez que le corps d’un modèle de courrier électronique ne dépasse pas 500 caractères, ajoutez cette exigence au [guide du canal](/help/user-guide/guidelines/brands.md#channel-guidelines) pour le champ &quot;body&quot;.
 
-Si des instructions ne sont pas ajoutées à GenStudio, les valeurs par défaut sont utilisées.
+Si des instructions ne sont pas ajoutées à GenStudio pour les spécialistes du marketing des performances, les valeurs par défaut sont utilisées.
 
 ## Code un modèle de courrier électronique
 
@@ -43,11 +43,11 @@ Testez pour vous assurer que votre modèle d&#39;email répond aux critères sui
 
 ## Définition des zones de contenu générées
 
-Définissez les zones de votre modèle de courrier électronique qui doivent être renseignées dynamiquement avec le contenu de GenStudio.
+Définissez les zones de votre modèle de courrier électronique qui doivent être renseignées de manière dynamique avec le contenu de GenStudio pour les spécialistes du marketing des performances.
 
 Pour définir les zones de contenu générées :
 
-* Identifiez les éléments de texte dans le modèle que GenStudio doit générer automatiquement, tels que le titre ou CTA.
+* Identifiez les éléments de texte dans le modèle que GenStudio pour les spécialistes du marketing des performances doit générer automatiquement, tels que le titre ou CTA.
 * Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handblebars .
 
 Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders).
@@ -60,6 +60,6 @@ Voir [Aperçu du modèle](/help/user-guide/content/customize-template.md#templat
 
 ## Télécharger et utiliser un modèle
 
-Une fois votre modèle conçu, codé, testé et prévisualisé, vous pouvez le charger dans GenStudio afin de l’utiliser pour générer du nouveau contenu marketing.
+Une fois votre modèle conçu, codé, testé et prévisualisé, vous pouvez le charger dans GenStudio pour les spécialistes du marketing des performances afin de l’utiliser pour générer du contenu marketing entièrement nouveau.
 
 Voir [Utilisation de modèles](use-templates.md).
