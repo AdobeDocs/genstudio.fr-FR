@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio.
-source-git-commit: 382026b07e123a1e49813b766f69496f6a8f38eb
+source-git-commit: 5505e3fdc78e217dd1eb73ed5bffa5e43d4f3084
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,6 @@ Le panneau de validation de marque a été amélioré afin d’améliorer l’ex
 * _Chargement incrémentiel de la marque lors de l’extraction_ : les directives de marque sont désormais chargées de manière incrémentielle dans l’interface utilisateur.
 
 * _Simplification du schéma de ligne guide de copie_ : les champs `unique attributes` et `frequent keywords` ont été supprimés du schéma de ligne guide de copie, ce qui simplifie le processus de configuration de ligne guide.
-
-* _Génération d’images : sélection de catégorie_ : les utilisateurs peuvent désormais sélectionner les directives d’image spécifiques à leurs besoins de régénération d’image.
 
 ### Créer
 
@@ -63,22 +61,15 @@ Les problèmes connus suivants seront résolus par la version GA de GenStudio po
 
 * Les actions déclenchées par les boutons **[!UICONTROL Ajouter des modèles]** et **[!UICONTROL Télécharger]** ne sont actuellement pas suivies. <!-- GS-3505 -->
 
-### Marque
-
-* Un créateur peut publier une marque, mais les membres de l’organisation ne peuvent pas la voir. <!-- XI-2197 -->
-
-### Créer
-
-* Le recadrage des images dans les métadonnées publicitaires est incohérent. <!-- GS-3739 -->
-
-* Les modèles composés de plusieurs groupes d’éléments de page échouent à la validation de la marque. <!-- GS-4037 -->
-
 ### Insights
 
-* Les erreurs d’accès refusé se produisent avec le point de terminaison `/admin/addOffer` (service de mise en service). **Résolu 8/12**. <!-- GS-4047 -->
+* Les vidéos ne peuvent pas être lues à partir de _Assets_. <!-- GS-3846 -->
+
+* Les utilisateurs doivent se connecter deux fois lorsqu’ils sont également connectés à Facebook. **Solution** : déconnectez-vous de Facebook avant de vous connecter à Insights.
 
 * Les valeurs **Dépensé au niveau de la campagne** ne sont pas exactes. Actuellement, les données ne sont pas cohérentes entre Facebook Ads Manager et le lac de données. <!-- GS-3202 -->
 
 ### Révisions et approbations
 
-* Les créateurs peuvent modifier les ressources après approbation avant de les publier. Les approbateurs ne sont pas informés de ces modifications.
+* Les créateurs peuvent modifier les ressources après les avoir approuvées avant publication. Les approbateurs ne sont pas informés de ces modifications.
+
