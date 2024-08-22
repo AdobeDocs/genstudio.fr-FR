@@ -3,9 +3,9 @@ title: Personnalisation des modèles
 description: Découvrez comment créer un modèle personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 44390d551e638fcff47cff5844fcfda4ed9f98f3
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 Adaptez vos modèles d’HTML pour Adobe GenStudio pour les spécialistes du marketing des performances à l’aide du langage de modèle _Handlebars_. La syntaxe Handlebars utilise du texte normal avec des accolades doubles comme espaces réservés au contenu. Voir [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) dans le _guide de langue Handlebars_ pour apprendre à préparer votre modèle.
 
-<!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+Si vous ne disposez pas d’un modèle d’HTML prêt à l’emploi dans GenStudio pour les spécialistes du marketing des performances, vous pouvez commencer par définir la structure de votre modèle à l’aide des balises d’HTML : `DOCTYPE`, `html`, `head` et `body`. Voici un modèle de courrier électronique de base qui comprend des styles CSS pour personnaliser l’aspect :
 
 ```html
 <!DOCTYPE html>
@@ -30,8 +29,6 @@ Adaptez vos modèles d’HTML pour Adobe GenStudio pour les spécialistes du mar
 </body>
 </html>
 ```
-
-Voir [Exemples de modèles](#template-examples).
 
 >[!TIP]
 >
@@ -47,11 +44,9 @@ Par exemple, vous pouvez utiliser `{{ headline }}` pour indiquer où le titre de
 <div>{{ headline }}</div>
 ```
 
-### Noms de champ
+### Noms de champ reconnus
 
 Le nombre maximal de champs autorisés dans un modèle personnalisé est de vingt.
-
-#### Noms de champ reconnus
 
 Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour les spécialistes du marketing des performances pour la population dans les modèles.
 
@@ -63,12 +58,12 @@ Le tableau suivant répertorie les noms de champ reconnus par GenStudio pour les
 | `cta` | Appel à l’action | email (recommandé)<br>Métadonnées |
 | `on_image_text` | Sur le texte de l’image | Métadonnées publicitaires (recommandé) |
 | `image` | Image | email (recommandé)<br>Métadonnées (recommandé) |
-| `brand_logo` | Logo de la marque sélectionnée | email<br>Métadonnées |
+| `brand_logo` | Logo de la marque sélectionnée <br>Voir [nom du champ](#brand-logo-field-name) pour une utilisation recommandée. | email<br>Métadonnées |
 
 GenStudio pour les spécialistes du marketing des performances renseigne automatiquement certains champs dans les modèles. Il n’est donc pas nécessaire de les inclure dans vos conceptions de modèle :
 
-* Champ `subject` (modèle d&#39;email)
-* Champs `headline`, `body` et `CTA` (modèle de métadonnées publicitaires)
+- Champ `subject` (modèle d&#39;email)
+- Champs `headline`, `body` et `CTA` (modèle de métadonnées publicitaires)
 
 >[!WARNING]
 >
@@ -76,55 +71,53 @@ GenStudio pour les spécialistes du marketing des performances renseigne automat
 
 #### Nom du champ du logo de la marque
 
-Pour ajouter un logo de marque dans votre modèle, utilisez l’une des méthodes suivantes pour effectuer le rendu du logo par défaut.
+Les exemples suivants montrent deux méthodes qui rendent de manière conditionnelle le logo de la marque, vérifient la source, fournissent un logo par défaut ou un autre logo au cas où le logo de la marque n’est pas disponible et appliquent un style :
 
-_Exemple_ :
+_Exemple_ : dans la définition de `img src` HTML
 
-```bash
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default image>{{/if}}" alt="WKND" style="max-width: 88px; margin: 10px auto; display: block;"> 
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;"> 
 ```
 
-_Exemple_ :
+_Exemple_ : dans une condition Handlebars
 
-```bash
+```handlebars
 {{#if brand_logo}}
-
-                    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{else}}
-
-                    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{/if}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
 ```
 
 #### Noms de champ manuels
 
-Tous les autres noms de champ sont traités comme des champs renseignés manuellement. Si vous souhaitez qu’une section soit modifiable, ajoutez des crochets doubles autour de la section à modifier.
+Tous les autres noms de champ sont traités comme des champs renseignés manuellement. Pour créer une section modifiable, ajoutez des crochets doubles autour du nom de la section :
 
-_Exemple_ : ``{{customVariable}}`` (`customVariable` est la section modifiable manuellement)
+```handlebars
+{{customVariable}}
+```
 
 ## Sections ou groupes
 
-Les _sections_ informent GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu qui correspond aux éléments créatifs de la section .
+Les _sections_ informent GenStudio for Performance Marketing que les champs de cette section nécessitent un haut degré de cohérence. L’établissement de cette relation permet à l’IA de générer du contenu correspondant aux éléments créatifs de la section .
 
 Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe.
 
 Par exemple, vous pouvez mettre en évidence le contenu qui s’affiche dans une zone mise en surbrillance :
 
-* `spotlight_headline`
-* `spotlight_body`
+- `spotlight_headline`
+- `spotlight_body`
 
 Chaque section ne peut comporter qu’un seul type de champ. Dans l’exemple ci-dessus, le préfixe `spotlight` ne peut comporter qu’un seul champ `spotlight_headline`.
 
 Un modèle peut comporter trois sections au maximum :
 
-* `headline`
-* `body`
-* `spotlight_headline`
-* `spotlight_body`
-* `news_headline`
-* `news_body`
+- `headline`
+- `body`
+- `spotlight_headline`
+- `spotlight_body`
+- `news_headline`
+- `news_body`
 
 GenStudio pour les spécialistes du marketing des performances comprend que `spotlight_headline` est plus étroitement lié à `spotlight_body` qu’à `news_body`.
 
@@ -263,7 +256,6 @@ Voici un exemple de base d’un modèle de métadonnées publicitaires. L’en-t
     <div class="ad-body">"{{ body }}"</div>
     <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
 </div>
-
 </body>
 </html>
 ```

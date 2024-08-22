@@ -3,9 +3,9 @@ title: Préparation d’un modèle de métadonnées publicitaires pour l’Adobe
 description: Découvrez comment créer un modèle de métadonnées publicitaires personnalisé pour Adobe GenStudio pour les marketeurs de performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -52,18 +52,18 @@ Définissez les zones de votre modèle de courrier électronique qui doivent êt
 Pour définir les zones de contenu générées :
 
 * Identifiez les éléments de texte dans le modèle que GenStudio pour les spécialistes du marketing des performances doit générer automatiquement, tels que le titre ou CTA.
-* Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handblebars .
+* Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handlebars .
 
 Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Prévisualiser le modèle
 
-Contrôlez la visibilité de zones de contenu spécifiques à l’aide des assistants intégrés. Par exemple, vous pouvez inclure des paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
+Contrôlez la visibilité de zones de contenu spécifiques avec des assistants intégrés. Par exemple, incluez des paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
 
 Voir [Aperçu du modèle](/help/user-guide/content/customize-template.md#template-preview).
 
 ## Télécharger et utiliser un modèle
 
-Une fois votre modèle conçu, codé, testé et prévisualisé, vous pouvez le charger dans GenStudio pour les spécialistes du marketing des performances afin de l’utiliser pour générer du contenu marketing entièrement nouveau.
+Une fois votre modèle conçu, codé, testé et prévisualisé, téléchargez-le dans GenStudio pour les spécialistes du marketing des performances afin de l’utiliser pour générer du nouveau contenu marketing.
 
 Voir [Utilisation de modèles](use-templates.md).

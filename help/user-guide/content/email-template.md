@@ -3,7 +3,7 @@ title: Préparation d’un modèle de courrier électronique pour l’Adobe GenS
 description: Découvrez comment créer un modèle de courrier électronique personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Voir [Exemples de modèles](/help/user-guide/content/customize-template.md#templ
 
 Utilisez votre diffusion email ou votre plateforme de vérification pour tester votre email et vérifier qu’il s’affiche correctement sur différents clients et appareils de messagerie.
 
-Testez pour vous assurer que votre modèle d&#39;email répond aux critères suivants :
+Vérifiez que votre modèle d&#39;email répond aux critères suivants :
 
 * La mise en page s’ajuste pour différentes tailles d’écran à l’aide de requêtes multimédias CSS
 * Vous pouvez cliquer sur les boutons et accéder à l’emplacement prévu
@@ -48,13 +48,13 @@ Définissez les zones de votre modèle de courrier électronique qui doivent êt
 Pour définir les zones de contenu générées :
 
 * Identifiez les éléments de texte dans le modèle que GenStudio pour les spécialistes du marketing des performances doit générer automatiquement, tels que le titre ou CTA.
-* Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handblebars .
+* Adaptez votre modèle d’HTML en y insérant des espaces réservés à l’aide de la syntaxe Handlebars .
 
 Voir [Espaces réservés de contenu](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Prévisualiser le modèle
 
-Contrôlez la visibilité de zones de contenu spécifiques à l’aide des assistants intégrés. Par exemple, vous pouvez inclure des paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
+Contrôlez la visibilité de zones de contenu spécifiques avec des assistants intégrés. Par exemple, vous pouvez inclure des paramètres de suivi aux liens dans un modèle exporté tout en conservant des liens d’aperçu propres.
 
 Voir [Aperçu du modèle](/help/user-guide/content/customize-template.md#template-preview).
 
