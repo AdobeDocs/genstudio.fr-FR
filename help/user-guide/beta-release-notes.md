@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
-source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
+source-git-commit: 44cee6fa5b543372b1264745dd42ca6d3c754ec5
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 
 * Le menu déroulant Zone d’invite ([!DNL Brands]) affiche un compteur à la fin de la liste ([!DNL Brands]) lors de la création de l’email. (fixe 8/22) <!-- GS-4077 -->
 
-## Versions bêta précédentes
+## Versions Beta précédentes
 
-Les versions bêta précédentes incluaient les mises en évidence et les correctifs suivants.
+Les versions précédentes de Beta incluaient les mises en évidence et correctifs suivants.
 
 ### Tons clairs
 
