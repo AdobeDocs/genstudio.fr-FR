@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
-source-git-commit: 72103c750a7708d97be87bed144bfe053ceeaa0f
+source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 * Les vidéos ne peuvent pas être lues à partir de _Assets_. <!-- GS-3846 -->
 
 * Les utilisateurs doivent se connecter deux fois à un compte Meta Ads de canal lorsqu’ils sont également connectés à Facebook. **Solution** : déconnectez-vous de Facebook avant de vous connecter à un compte de métadonnées de canal.
+
+### Résolution de problèmes connus
+
+* Le menu déroulant Zone d’invite ([!DNL Brands]) affiche un compteur à la fin de la liste ([!DNL Brands]) lors de la création de l’email. (fixe 8/22) <!-- GS-4077 -->
 
 ## Versions bêta précédentes
 
