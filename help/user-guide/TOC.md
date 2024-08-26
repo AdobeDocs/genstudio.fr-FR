@@ -4,9 +4,9 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez comment rechercher et générer rapidement des ressources sur la marque, créer des variations et optimiser des expériences en fonction des informations de performances du contenu en temps réel.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '125'
 ht-degree: 11%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 11%
    + Modèles {#templates}
       + [Utilisation de modèles](content/use-templates.md)
       + [Personnalisation des modèles](content/customize-template.md)
+      + [Créer des modèles accessibles](content/accessibility-for-templates.md)
       + [Préparer un modèle d&#39;email](content/email-template.md)
       + [Préparation d’un modèle de métadonnées publicitaires](content/meta-template.md)
 + Campagnes {#campaigns}
