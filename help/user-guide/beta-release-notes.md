@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
-source-git-commit: 17d2cb3afd6c3ce8a8c5efe8c5b406f6cdf5aa76
+source-git-commit: f30eaea46a0cbb45f1ba04e393219b843c356e10
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -11,23 +11,44 @@ ht-degree: 0%
 
 # Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 
-Ces notes mettent en évidence un Adobe GenStudio important pour les correctifs et améliorations des marketeurs de performance pour la semaine se terminant le 23 août.
+Ces notes mettent en évidence un Adobe GenStudio important pour les correctifs et améliorations des marketeurs de performance pour la semaine se terminant le 30 août.
+
+## Tons clairs
+
+* Les directives relatives aux canaux Instagram et Facebook ont été combinées dans les directives relatives aux métadonnées de marque.
+
+* Les éléments de navigation Créer un canevas ont été rationalisés. La page d’entrée ([!DNL Create]) affiche le panneau de navigation de gauche, mais les utilisateurs utilisent désormais un bouton **[!UICONTROL Précédent]** pour accéder à cet espace à partir d’autres zones de travail Créer .  <!-- GS-1189 -->
+
+* Les éléments de navigation ont été améliorés afin de prendre en charge la cible d’action des utilisateurs lors de l’exécution de tâches dans l’ensemble du produit, y compris dans les zones suivantes :
+
+   * Ressource, expérience, détails du modèle dans ([!DNL Content])
+   * Expérience, Ressource, Détails des attributs dans ([!DNL Insights])
+   * Détails de la marque dans ([!DNL Brands])
+   * Détails des produits et personnages dans ([!DNL Products]) et ([!DNL Personas]) <!-- GS-1189 -->
+
+* Les utilisateurs n&#39;ont plus besoin de cliquer sur le bouton **[!UICONTROL Actualiser]** pour afficher les mises à jour des expériences dans ([!DNL Content]). <!-- GS-4218 -->
+
+* La page Détails de l’expérience effectue désormais le rendu des miniatures de ressources externes en tant qu’HTML. <!-- GS-3092 -->
+
+* La latence de l’interface utilisateur après l’ajout ou la suppression d’Assets et d’expériences a été améliorée. <!-- GS-3389 -->
+
+* Les aperçus de modèle incluent désormais un texte par défaut plus explicite. <!-- GS-4028 -->
 
 ## Problèmes connus
 
 Les problèmes connus suivants sont programmés pour la résolution dans la version GA de GenStudio pour les marketeurs de performance.
 
-* Le téléchargement des directives sur la marque échoue en raison de problèmes liés à la plateforme de stockage ACP. <!-- GS-4369 -->
+* Il existe une différence entre les aperçus du canevas de métadonnées et les vues exportées. <!-- GS-4492 4401 -->
+
+* Les miniatures de campagne sont absentes de la vue ([!DNL Insights]). <!-- GS-4648 -->
 
 * Les utilisateurs peuvent actuellement sélectionner de petites ressources qui nécessitent un redimensionnement, mais l’agrandissement de ces ressources n’est pas pris en charge. <!-- GS-3131 -->
-
-* Les vidéos ne peuvent pas être lues à partir de _Assets_. <!-- GS-3846 -->
 
 * Les utilisateurs doivent se connecter deux fois à un compte Meta Ads de canal lorsqu’ils sont également connectés à Facebook. **Solution** : déconnectez-vous de Facebook avant de vous connecter à un compte de métadonnées de canal.
 
 ### Résolution de problèmes connus
 
-* Le menu déroulant Zone d’invite ([!DNL Brands]) affiche un compteur à la fin de la liste ([!DNL Brands]) lors de la création de l’email. (fixe 8/22) <!-- GS-4077 -->
+* GenStudio affiche une erreur lorsqu’un utilisateur tente de saisir des informations d’identification dans la vue ([!DNL Insights]). (fixe 8/29) <!-- GS-4689 -->
 
 ## Versions Beta précédentes
 
@@ -56,3 +77,10 @@ Les versions précédentes de Beta incluaient les mises en évidence et correcti
 * Le nombre de résultats de recherche sur l’écran Attributs n’affiche plus `0 of` avant qu’un utilisateur ne se connecte.  (8/16) <!-- GS- 3665 -->
 
 * Cliquer sur le champ de comptage **[!UICONTROL [!DNL Insights]]** > **[!UICONTROL Asset]** n’efface plus les paramètres de recherche et de filtre. (8/16) <!-- GS-3476 -->
+
+### Problèmes connus résolus dans les versions précédentes de Beta
+
+* Le téléchargement des directives sur la marque échoue en raison de problèmes liés à la plateforme de stockage ACP. (fixe 8/22) <!-- GS-4369 -->
+
+* Le menu déroulant Zone d’invite ([!DNL Brands]) affiche un compteur à la fin de la liste ([!DNL Brands]) lors de la création de l’email. (fixe 8/22) <!-- GS-4077 -->
+
