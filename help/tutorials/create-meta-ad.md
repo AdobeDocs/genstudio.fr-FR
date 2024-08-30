@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 4745e7cab9cd605c3bc7e93cb610e510566c9302
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,8 @@ Lors de la génération d’une méta-publicité, vous pouvez choisir entre les 
 
 Activez l’option de canal Métadonnées dans la barre de menu supérieure sur **Facebook** ou **Instagram** pour gérer les brouillons générés de chaque canal.
 
+Lors de la [révision des métadonnées publicitaires](#revise-generated-meta-ads), vous pouvez modifier les proportions des publicités Facebook et Instagram.
+
 ## Modification des métadonnées générées
 
 Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez modifier les Métadonnées ou supprimer une variante de l’ensemble de publicités générées.
@@ -81,6 +83,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
   L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête et la copie du corps nécessitent un double clic.
 
 * **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez un bouton disponible.
+* **Pour modifier la taille et les proportions**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
 * **Pour supprimer une méta-publicité**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques

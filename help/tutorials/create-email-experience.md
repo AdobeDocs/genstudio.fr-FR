@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pour créer une expérience d’e-mail efficace, il est recommandé d’[ajouter
 
 ## Choisir un modèle
 
-Pour commencer à créer une expérience de courrier électronique, utilisez un modèle disponible afin de fournir la structure de votre contenu.
+Pour créer une expérience de courrier électronique, utilisez un modèle disponible afin de fournir la structure de votre contenu.
 
 **Pour choisir un modèle d&#39;email** :
 
@@ -47,6 +47,10 @@ L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ress
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
+
+>[!NOTE]
+>
+>Si votre modèle de courrier électronique comporte plusieurs sections, sélectionnez [!DNL Products] et contenu (ressources visuelles) pour chaque section d’email dans les _emails à plusieurs sections_. Les emails à plusieurs sections prennent en charge une ressource visuelle par section.
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
