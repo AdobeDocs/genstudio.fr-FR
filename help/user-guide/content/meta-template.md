@@ -3,9 +3,9 @@ title: Préparation d’un modèle de métadonnées publicitaires pour l’Adobe
 description: Découvrez comment créer un modèle de métadonnées publicitaires personnalisé pour Adobe GenStudio pour les marketeurs de performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Si des instructions ne sont pas ajoutées à GenStudio pour les spécialistes du
 
 En règle générale, un concepteur crée la conception visuelle d’un modèle dans un programme de conception tel qu’Adobe XD.
 
-Voir [Anatomie d’un modèle](/help/user-guide/content/use-templates.md#anatomy-of-a-template) et [Exemples de modèles](/help/user-guide/content/customize-template.md#template-examples).
+Voir [Eléments de modèle](use-templates.md#template-elements) et [Exemples de modèles](/help/user-guide/content/customize-template.md#template-examples).
 
 ### Spécifications des publicités
 

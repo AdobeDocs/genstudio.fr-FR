@@ -3,9 +3,9 @@ title: Préparation d’un modèle de courrier électronique pour l’Adobe GenS
 description: Découvrez comment créer un modèle de courrier électronique personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 En règle générale, un concepteur crée la conception visuelle d’un modèle dans un programme de conception tel qu’Adobe XD. Une fois qu’un modèle de courrier électronique a été conçu, codé et testé, vous pouvez le préparer pour le chargement et l’utilisation dans GenStudio pour les marketeurs de performances.
 
-Voir [Anatomie d’un modèle](/help/user-guide/content/use-templates.md#anatomy-of-a-template).
+Voir [Eléments de modèle](use-templates.md#template-elements).
 
 ## Ajouter des instructions
 
