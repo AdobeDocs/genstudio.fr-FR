@@ -2,9 +2,9 @@
 title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio pour les spécialistes du marketing des performances.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 306b64b44e69dbcec3984d1a0b54230fe0dbe48c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Pour [emails](/help/tutorials/create-email-experience.md), les critères d’inv
 
 >[!NOTE]
 >
->Si des instructions sont ajoutées dans la zone d’invite _Parameters_ , il n’est pas nécessaire d’inclure des références à celles de votre invite. GenStudio pour les spécialistes du marketing des performances exploitera ces [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
+>Si des instructions sont ajoutées dans la zone d’invite _Paramètres_, il n’est pas nécessaire d’y inclure des références dans votre invite. GenStudio pour les spécialistes du marketing des performances exploite les [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
 
 ### Instructions
 
@@ -57,15 +57,7 @@ Les instructions de GenStudio pour les spécialistes du marketing des performanc
 
 ## Réessayer
 
-Prompter est un processus itératif. Si les résultats ne répondent pas à vos attentes, passez en revue votre invite et apportez des modifications ou ajoutez des détails supplémentaires. Vous pouvez affiner votre invite en fournissant une URL comme exemple ou une source pour plus d’informations.
-
-```bash
-Write an email to motivate infrequent users of Photoshop to follow an in-app tutorial that teaches them to combine elements of two photos into a beautiful work of art. Highlight the generative AI capabilities of Photoshop and use references to natural imagery.
-
-Use information from https://www.adobe.com/products/photoshop.html to inspire users with the latest features.
-```
-
-Vous pouvez également coller des sections dans un résumé de campagne. Vous pouvez même demander à GenStudio pour les marketeurs de la performance d’éviter certains mots, éléments ou thèmes.
+Prompter est un processus itératif. Si les résultats ne répondent pas à vos attentes, passez en revue votre invite et apportez des modifications ou ajoutez des détails supplémentaires. Vous pouvez également coller des sections dans un résumé de campagne. Vous pouvez même demander à GenStudio pour les marketeurs de la performance d’éviter certains mots, éléments ou thèmes.
 
 ## Bonnes pratiques
 
