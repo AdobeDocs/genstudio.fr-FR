@@ -1,7 +1,7 @@
 ---
-source-git-commit: 57c1780d010e6c95160b4c0cc45b2c9e9b528d3c
+source-git-commit: 5637f43a059fd747f7d656852d5428784525771a
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '17'
 ht-degree: 0%
 
 ---
@@ -9,19 +9,17 @@ ht-degree: 0%
 
 Cette requête de tirage...
 
-## Problèmes connexes
+## Contexte supplémentaire
 
-Fournir des liens vers des problèmes ou du code connexes :
+Liens vers des problèmes ou du code connexes :
 
-<!-- 
-Provide links to any issues tracking this work.
+<!-- Provide links to any issues tracking this work.
 
 If you are fixing a GitHub issue, using the [GitHub keyword format](https://help.github.com/en/articles/closing-issues-using-keywords#closing-an-issue-in-a-different-repository) closes the issue when this pull request is merged. Example: `Fixes #1234`. -->
 
-## Contexte supplémentaire
+Captures d’écran :
 
-Ajoutez tout autre contexte, tel que des captures d’écran ou des résultats de test qui présentent un correctif.
+<!-- Add any other context, such as screenshots or test results that demonstrate a fix.
 
-<!--
 Thank you for taking the time to contribute to our documentation.
 -->
