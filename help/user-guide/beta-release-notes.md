@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
-source-git-commit: 21b81ab6776d504656ba8c3017f8b2897dc173ea
+source-git-commit: 16f44baf646d696da3572ac2c17a5efb7c8f7fc6
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -11,36 +11,21 @@ ht-degree: 0%
 
 # Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 
-Ces notes mettent en évidence un Adobe GenStudio important pour les correctifs et améliorations des marketeurs de performance pour la semaine se terminant le 30 août.
-
-## Tons clairs
-
-* Les directives relatives aux canaux Instagram et Facebook ont été combinées dans les directives relatives aux métadonnées de marque.
-
-* Les éléments de navigation Créer un canevas ont été rationalisés. La page d’entrée [!DNL Create] affiche le panneau de navigation de gauche, mais les utilisateurs utilisent désormais un bouton **[!UICONTROL Précédent]** pour accéder à cet espace à partir d’autres zones de travail [!DNL Create].  <!-- GS-1189 -->
-
-* Les éléments de navigation ont été améliorés afin de prendre en charge la cible d’action des utilisateurs lors de l’exécution de tâches dans l’ensemble du produit, y compris dans les zones suivantes :
-
-   * Détails des ressources, de l’expérience et des modèles dans [!DNL Content]
-   * Expérience, Ressource, Détails des attributs dans [!DNL Insights]
-   * Détails de la marque dans [!DNL Brands]
-   * Détails des produits et personnages dans [!DNL Products] et [!DNL Personas] <!-- GS-1189 -->
-
-* Les utilisateurs n&#39;ont plus besoin de cliquer sur le bouton **[!UICONTROL Actualiser]** pour afficher les mises à jour des expériences dans [!DNL Content]. <!-- GS-4218 -->
-
-* La page _Détails de l’expérience_ effectue désormais le rendu des miniatures de ressources externes en tant qu’HTML. <!-- GS-3092 -->
-
-* La latence de l’interface utilisateur après l’ajout ou la suppression d’Assets et d’expériences a été améliorée. <!-- GS-3389 -->
-
-* Les aperçus de modèle incluent désormais un texte par défaut plus explicite. <!-- GS-4028 -->
+Ces notes mettent en évidence un Adobe GenStudio important pour les correctifs et améliorations des marketeurs de performance pour la semaine se terminant le 6 septembre.
 
 ## Problèmes connus
 
 Les problèmes connus suivants sont programmés pour la résolution dans la version GA de GenStudio pour les marketeurs de performance.
 
+* Les éditeurs rencontrent parfois un message d’erreur &quot;Une erreur s’est produite&quot; sur le [!DNL Create Canvas] lors de la génération de l’image. **Solution** : si l’erreur se répète, l’utilisateur peut se déconnecter, puis se reconnecter à GenStudio et régénérer l’image.  <!-- GS-4813 -->
+
+* Le [!DNL Create Canvas] effectue un rendu incorrect des images dans les métadonnées publicitaires. <!-- GS-4864 -->
+
+* Assets sans campagnes peut être transféré dans [!DNL Content], mais les utilisateurs peuvent ne pas être visibles. <!-- GS-4815 -->
+
 * Il existe une différence entre les aperçus du canevas de métadonnées et les vues exportées. <!-- GS-4492 4401 -->
 
-* Les miniatures de campagne sont absentes de la vue [!DNL Insights]. <!-- GS-4648 -->
+* Les miniatures de campagne sont absentes de [!DNL Insights]. <!-- GS-4648 -->
 
 * Les utilisateurs peuvent actuellement sélectionner de petites ressources qui nécessitent un redimensionnement, mais l’agrandissement de ces ressources n’est pas pris en charge. <!-- GS-3131 -->
 
