@@ -1,14 +1,14 @@
 ---
 title: Présentation de [!DNL Insights]
 description: Découvrez comment optimiser des expériences en fonction des mesures de performances du contenu en temps réel.
-feature: Attributes, Insights, Experiences, Assets
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+feature: Attributes, Insights, Experiences, Assets, Channels
+exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
+source-git-commit: 2a3085f535b4f161bd6e8bf321eac11357c44a5a
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
-
 
 # Adobe GenStudio pour les marketeurs de performance [!DNL Insights]
 
@@ -26,21 +26,23 @@ Depuis le tableau de bord [!DNL Insights], vous pouvez :
 
 ## Tableau de bord
 
-Le tableau de bord [!DNL Insights] dispose d’une grille configurable pour chaque type de contenu : Canaux, Expériences, Assets et Attributs.
+Le tableau de bord [!DNL Insights] comporte une table configurable pour chaque type de contenu : [!UICONTROL Canaux], [!UICONTROL Expériences], [!UICONTROL Assets] et [!UICONTROL Attributs].
 
 ![[!DNL Insights] tableau de bord](/help/assets/insights-dashboard.png)
 
-Chaque vue affiche une grille correspondante, que vous pouvez rechercher par mot-clé, filtrage et période. Vous pouvez cliquer sur l’icône représentant un engrenage au-dessus du côté droit du tableau pour activer ou désactiver les types de colonnes visibles. La ligne _[!UICONTROL Summary]_ peut afficher les totaux ou les moyennes d’une colonne.
+Chaque vue affiche un tableau correspondant, que vous pouvez rechercher par mot-clé, filtrage et période. Vous pouvez cliquer sur l’icône de paramètres (engrenage) située au-dessus du côté droit du tableau pour activer ou désactiver les types de colonnes visibles. La ligne _[!UICONTROL Summary]_ peut afficher les totaux ou les moyennes d’une colonne.
 
-Voir [Colonnes de données pour [!DNL Insights]](data-columns.md) pour une description de chaque type de colonne dans la grille.
+Voir [Colonnes de données pour [!DNL Insights]](data-columns.md) pour une description de chaque type de colonne dans le tableau.
+
+[!UICONTROL Expériences], [!UICONTROL Assets] et [!UICONTROL Attributs] incluent une vue de galerie qui vous permet d’analyser et de trier des ressources à l’aide de cartes avec une miniature d’image ou vidéo. Il existe une option pour afficher l’une des trois mesures clés sur chaque carte : `Click-through rate`, `Cost per click` et `Spend`.
 
 ### Canaux
 
-La vue [!DNL Insights] _[!UICONTROL Canaux]_ est la vue par défaut et affiche une liste des détails de campagne actifs, tels que les objectifs, le budget, la date de lancement et l’activité.
+La vue [!DNL Insights] _[!UICONTROL Canaux]_ est la vue par défaut et affiche une liste des détails de campagne actifs, tels que les objectifs, le budget, la date de lancement et l’activité. Voir [Présentation des canaux](channels.md).
 
 ### Expériences
 
-La vue [!DNL Insights] _[!UICONTROL Expériences]_ se concentre sur l’évaluation de l’efficacité d’une expérience. Ce mode vous permet d’analyser les mesures d’une expérience en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur **[!UICONTROL Afficher les performances des ressources]**, vous pouvez accéder à la liste des ressources utilisées dans l’expérience sélectionnée, ce qui vous permet d’identifier les composants qui ont contribué à son succès global.
+La vue [!DNL Insights] _[!UICONTROL Expériences]_ se concentre sur l’évaluation de l’efficacité d’une expérience. La vue [!UICONTROL Expériences] vous permet d’analyser les mesures d’une expérience en fonction de son emplacement publicitaire au cours d’une période spécifiée. En cliquant sur un _[!UICONTROL nom de la publicité]_, vous pouvez accéder à une liste des ressources utilisées dans l’expérience sélectionnée, ce qui vous permet d’identifier les composants qui ont contribué à son succès global.
 
 ### Ressources
 
@@ -50,10 +52,10 @@ Cliquer sur une ressource fournit un contexte plus détaillé sur ses performanc
 
 ![Affichage de ressource](/help/assets/insights-asset-view.png){width="600" zoomable="yes"}
 
-Dans l’affichage de la ressource, le côté gauche affiche un gros plan de la ressource et une liste d’attributs. Il existe trois mesures en surbrillance : `Click-through rate`, `Cost per click` et `Spend`. Les performances montrent comment les valeurs réelles (ligne continue) se comparent à la valeur moyenne (ligne pointillée) sur la période sélectionnée (la valeur par défaut est `Last 30 days`).
+Dans l’affichage de la ressource, le côté gauche affiche une miniature de la ressource et une liste d’attributs. Il existe trois mesures en surbrillance : `Click-through rate`, `Cost per click` et `Spend`. Les performances montrent comment les valeurs réelles (ligne continue) se comparent à la valeur moyenne (ligne pointillée) sur la période sélectionnée (la valeur par défaut est `Last 30 days`).
 
 ### Attributs
 
-Le contenu _attributes_ permet d’identifier les ressources par des détails inhérents, tels que la couleur, le ton, la composition (objet, polices, éléments visuels) et d’autres composants clés. Les attributs sont souvent l’ensemble d’informations de contenu le moins mesuré et le moins analysé.
+Le contenu _attributes_ permet d’identifier les ressources par des détails inhérents, tels que la couleur, le ton, la composition (comme l’objet, les polices, les éléments visuels) et d’autres composants clés. Les attributs sont souvent l’ensemble d’informations de contenu le moins mesuré et le moins analysé.
 
-La vue [!DNL Insights] _[!UICONTROL Attributs]_ peut vous aider à étudier et à identifier les attributs les plus performants avec certaines audiences, canaux, régions et mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou tester différentes stratégies de campagne.
+La vue [!DNL Insights] _[!UICONTROL Attributs]_ peut vous aider à étudier et à identifier les attributs qui fonctionnent mieux avec certaines audiences, canaux, régions et peut vous aider à mettre en évidence les tendances saisonnières. Grâce à ces informations, vous pouvez utiliser des attributs performants pour créer des variantes, cibler une audience spécifique ou tester différentes stratégies de campagne.

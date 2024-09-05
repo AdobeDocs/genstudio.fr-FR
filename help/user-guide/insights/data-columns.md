@@ -1,28 +1,28 @@
 ---
 title: Colonnes de données pour [!DNL Insights]
-description: Comprenez ce que représente chaque colonne d'une grille  [!DNL Insights] .
+description: Comprenez ce que représente chaque colonne d’un tableau  [!DNL Insights]  dans GenStudio pour les marketeurs de performances.
 feature: Attributes, Insights
 recommendations: noDisplay
-source-git-commit: 4d5de6fc053297c823be9005c628dafcecc3f7a7
+exl-id: 138ad192-b178-45c9-9293-96d89ed7f2aa
+source-git-commit: 2a3085f535b4f161bd6e8bf321eac11357c44a5a
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '282'
 ht-degree: 3%
 
 ---
 
-
 # Colonnes de données pour [!DNL Insights]
 
-[!DNL Insights] affiche des grilles personnalisables pour chaque affichage : canaux, expériences, Assets et attributs.
+[!DNL Insights] affiche des tableaux personnalisables pour chaque vue : Canaux, Expériences, Assets et Attributs.
 
-Personnaliser la grille :
+Personnaliser le tableau :
 
-- Cliquez sur un en-tête de colonne pour accéder au menu contextuel avec les options de redimensionnement et de tri.
-- Cliquez sur l’icône représentant un engrenage au-dessus du côté droit de la grille et ouvrez le menu _[!UICONTROL Configurer la table]_ pour basculer entre les colonnes visibles.
+- Cliquez sur un en-tête de colonne pour accéder au menu contextuel avec les options _Redimensionner_ et _Tri_ .
+- Cliquez sur l’icône de paramètres (engrenage) à droite au-dessus du tableau et ouvrez le menu _[!UICONTROL Configurer la table]_ pour basculer entre les colonnes visibles.
 
-Les colonnes disponibles sont les suivantes :
+## Vue Tableau des canaux
 
-| Colonne | Description |
+| Colonnes | Description |
 | ----------- | ------------ |
 | Budget | Le budget global d’une opération. |
 | Campaign | Série de publicités et d’expériences pour atteindre un seul objectif, comme générer des pistes ou augmenter l’engagement. |
@@ -32,5 +32,7 @@ Les colonnes disponibles sont les suivantes :
 | CTR | Le taux de clics publicitaires est mesuré comme tous les clics sur la publicité. |
 | Conversion | Événements qui représentent des actions client importantes vers la fin du parcours client, telles que des achats, des abonnements ou des prospects. |
 | Impressions | Nombre de fois où des publicités de campagne ont été affichées pour les visiteurs par le biais d’impressions enregistrées. |
+| Launch | Date de lancement de la campagne. |
 | Objectif | Objectif d’une campagne ou d’un projet. Définissez l’objectif lors de la création de la campagne ou du projet.<br>Les types d’objectifs incluent : `Awareness`, `Traffic`, `Engagement`, `Leads`, `App promotion`, `Sales` |
 | Dépenser | Montant total dépensé en dollars américains pour toutes les publicités d’une campagne. |
+| Lecture de vidéo | Nombre de fois où la lecture d’une vidéo commence lorsque l’utilisateur clique ou par lecture automatique. |
