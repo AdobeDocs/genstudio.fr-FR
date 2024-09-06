@@ -1,17 +1,23 @@
 ---
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
-source-git-commit: 16f44baf646d696da3572ac2c17a5efb7c8f7fc6
+exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
+source-git-commit: ca5e746850925252679facc321d7522b251cd57a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
 
-
 # Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 
 Ces notes mettent en évidence un Adobe GenStudio important pour les correctifs et améliorations des marketeurs de performance pour la semaine se terminant le 6 septembre.
+
+## Nouvelles fonctionnalités
+
+* GenStudio prend désormais en charge l’option de prévisualisation des ressources multimédia dans [!DNL Insights]. Les miniatures vidéo incluent un bouton **Lire** avec une option silencieuse. <!-- GS-4398 -->
+
+* Assets peut désormais être filtré dans [!DNL Insights] par type `video`. <!-- GS-4398 -->
 
 ## Problèmes connus
 
@@ -31,15 +37,48 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 
 * Les utilisateurs doivent se connecter deux fois à un compte Meta Ads de canal lorsqu’ils sont également connectés à Facebook. **Solution** : déconnectez-vous de Facebook avant de vous connecter à un compte de métadonnées de canal.
 
-### Résolution de problèmes connus
+* Les images téléchargées n’incluent pas toujours les balises intelligentes attendues. <!-- GS-4856 -->
 
-* GenStudio affiche une erreur lorsqu’un utilisateur tente de saisir des informations d’identification dans la vue [!DNL Insights]. (fixe 8/29) <!-- GS-4689 -->
+### Améliorations supplémentaires et problèmes résolus
+
+* La fenêtre contextuelle _Ajouter Assets_ est désormais localisée comme prévu. <!-- GS-3834 -->
+
+* Les problèmes de mise à l’échelle du modèle d’expérience Métadonnées ont été résolus. <!-- GS-4174 -->
+
+* Les modèles de fragment de contenu créés pour les modèles peuvent désormais être représentés avec précision dans AEM. <!-- GS-4716 -->
+
+* Les champs de texte du fichier d’exportation CSV pour les emails en plusieurs parties sont désormais classés comme prévu. <!-- GS-4013 -->
+
+* Le champ de recherche [!DNL Content] ne disparaît plus lorsqu’un utilisateur appuie à plusieurs reprises sur la touche **Retour arrière** pour effacer le texte du champ de recherche.  <!-- GS-4543 -->
+
+* GenStudio charge désormais les utilisateurs comme prévu lorsqu’un collaborateur ajoute une mention @ à un commentaire. Auparavant, GenStudio ne chargeait pas les utilisateurs et affichait cette erreur : `Unable to load users. Refresh the page`. <!-- GS-4113 -->
+
+* GenStudio n’affiche plus le message **Une erreur s’est produite** lorsqu’un éditeur clique sur **Sélectionner le contenu** lors de la création de l’email dans la zone d’invite. <!-- GS-4879 -->
 
 ## Versions Beta précédentes
 
 Les versions précédentes de Beta incluaient les mises en évidence et correctifs suivants.
 
 ### Tons clairs
+
+* Les directives relatives aux canaux Instagram et Facebook ont été combinées dans les directives relatives aux métadonnées de marque.
+
+* [!DNL Create] Les éléments de navigation du canevas ont été rationalisés. La page d’entrée [!DNL Create] affiche le panneau de navigation de gauche, mais les utilisateurs utilisent désormais un bouton **[!UICONTROL Précédent]** pour accéder à cet espace à partir d’autres zones de travail [!DNL Create].
+
+* Les éléments de navigation ont été améliorés afin de prendre en charge la cible d’action des utilisateurs lors de l’exécution de tâches dans l’ensemble du produit, y compris dans les zones suivantes :
+
+   * Détails des ressources, de l’expérience et des modèles dans [!DNL Content]
+   * Expérience, Ressource, Détails des attributs dans [!DNL Insights]
+   * Détails de la marque dans [!DNL Brands]
+   * Détails du produit et du personnage dans Produits et acteurs impliqués
+
+* Les utilisateurs n’ont plus besoin de cliquer sur le bouton **[!UICONTROL Actualiser]** pour afficher les mises à jour des expériences dans [!DNL Content].
+
+* La page _Détails de l’expérience_ effectue désormais le rendu des miniatures de ressources externes en tant qu’HTML.
+
+* La latence de l’interface utilisateur après l’ajout ou la suppression d’Assets et d’expériences a été améliorée.
+
+* Les aperçus de modèle incluent désormais un texte par défaut plus explicite. Voir [Personnaliser un modèle](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/content/templates/customize-template#template-preview).
 
 * **Score de validation basé sur le pourcentage** : la validation de marque affiche désormais le score de validation de marque sous forme de pourcentage plutôt qu’une valeur de réussite/échec. (fixed 8/16)
 
@@ -51,7 +90,7 @@ Les versions précédentes de Beta incluaient les mises en évidence et correcti
 
 * **Redimensionnement des métadonnées publicitaires** : les éditeurs peuvent redimensionner les proportions des métadonnées publicitaires. (fixed 8/16)
 
-* **Comptes de connexion de statistiques limités** : la connexion de statistiques ne prend désormais en charge qu’un seul compte par client. (fixed 8/16)
+* **Comptes de connexion limités [!DNL Insights]** : la connexion [!DNL Insights] ne prend désormais en charge qu’un seul compte par client. (fixed 8/16)
 
 ### Améliorations supplémentaires et problèmes résolus
 
@@ -65,7 +104,8 @@ Les versions précédentes de Beta incluaient les mises en évidence et correcti
 
 ### Problèmes connus résolus dans les versions précédentes de Beta
 
+* GenStudio affiche une erreur lorsqu’un utilisateur tente de saisir des informations d’identification dans la vue [!DNL Insights]. (fixe 8/29) <!-- GS-4689 -->
+
 * Le téléchargement des directives sur la marque échoue en raison de problèmes liés à la plateforme de stockage ACP. (fixe 8/22) <!-- GS-4369 -->
 
 * Le menu déroulant Zone d’invite [!DNL Brands] affiche un compteur à la fin de la liste [!DNL Brands] lors de la création de l’email. (fixe 8/22) <!-- GS-4077 -->
-
