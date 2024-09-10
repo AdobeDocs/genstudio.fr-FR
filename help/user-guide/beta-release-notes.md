@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 62793ab56b635f17e037b63beb56c09ff2d45621
+source-git-commit: 2e40260db0f9972675b103c51f09acbfa83a1cb5
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,6 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 * La fenêtre contextuelle _Ajouter Assets_ est désormais localisée comme prévu. <!-- GS-3834 -->
 
 * Les problèmes de mise à l’échelle du modèle d’expérience Métadonnées ont été résolus. <!-- GS-4174 -->
-
-* Les modèles de fragment de contenu créés pour les modèles peuvent désormais être représentés avec précision dans AEM. <!-- GS-4716 -->
 
 * Les champs de texte du fichier d’exportation CSV pour les emails en plusieurs parties sont désormais classés comme prévu. <!-- GS-4013 -->
 
