@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 2e40260db0f9972675b103c51f09acbfa83a1cb5
+source-git-commit: 2861dd76dde9428e0c39af18c1d5e21dc2b32b91
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 
 * Le [!DNL Create Canvas] effectue un rendu incorrect des images dans les métadonnées publicitaires. <!-- GS-4864 -->
 
-* Assets sans campagnes peut être transféré dans [!DNL Content], mais les utilisateurs peuvent ne pas être visibles. <!-- GS-4815 -->
+* Les modèles peuvent être chargés, mais ils ne sont pas visibles. <!-- GS-4815 -->
 
 * Il existe une différence entre les aperçus du canevas de métadonnées et les vues exportées. <!-- GS-4492 4401 -->
 
