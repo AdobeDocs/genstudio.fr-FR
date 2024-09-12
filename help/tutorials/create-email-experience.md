@@ -7,9 +7,9 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9624429977e21af614173c5078c6b470c8b5a147
+source-git-commit: 3827d8222bd548caf83288656d5f2af8d2248dec
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 * **Pour [modifier le nom du brouillon de l’email](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
-* **Pour [régénérer une section d&#39;une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications proposées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
+<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
 * **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Aperçu pour le périphérique
