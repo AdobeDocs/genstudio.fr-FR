@@ -1,15 +1,15 @@
 ---
 title: Création d’une expérience de courrier électronique
-description: Découvrez comment créer des expériences de courrier électronique dans Adobe [!DNL GenStudio].
-feature: Content, Brands Service, Guidelines, Content Generation
+description: Découvrez comment créer des expériences par e-mail dans Adobe [!DNL GenStudio] pour les marketeurs de performances.
+feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
+source-git-commit: 9624429977e21af614173c5078c6b470c8b5a147
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,7 @@ L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ress
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
+1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 >[!NOTE]
 >
@@ -77,6 +78,12 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
 * **Pour [régénérer une section d&#39;une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications proposées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
 * **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+
+## Aperçu pour le périphérique
+
+Lors de la révision et de la préparation des expériences par e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobiles afin d’assurer la cohérence et l’attrait visuel des variantes d’aperçus.
+
+**Pour prévisualiser des variantes pour les appareils mobiles et de bureau**, activez l’option d’aperçu de l’appareil (entre **bureau** et **mobile**) dans la barre de menu de droite (icônes d’ordinateur et de téléphone) afin de prévisualiser l’affichage des variantes.
 
 ## Vérifier l&#39;alignement des marques
 

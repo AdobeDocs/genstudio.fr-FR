@@ -1,15 +1,15 @@
 ---
 title: Création d’une expérience de métadonnées publicitaires
-description: Découvrez comment créer une nouvelle expérience de métadonnées de publicité sur la marque (pour Facebook ou Instagram) avec une IA générative.
-feature: Content, Brands Service, Guidelines, Content Generation
+description: Découvrez comment créer une nouvelle expérience de métadonnées de publicité sur la marque (pour Facebook ou Instagram) avec Adobe GenStudio pour les marketeurs de performances.
+feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: b71f53eca2a0fdd7bf353a2eaf0b1b4e657b18b0
+source-git-commit: d300d9e68cf63cde69500c90d97999057c8d1575
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,7 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
+1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
@@ -67,7 +68,7 @@ Par défaut, quatre variantes, toutes alimentées par l’invite, les directives
 
 Lors de la génération d’une méta-publicité, vous pouvez choisir entre les publicités Facebook ou Instagram.
 
-Activez l’option de canal Métadonnées dans la barre de menu supérieure sur **Facebook** ou **Instagram** pour gérer les brouillons générés de chaque canal.
+Activez l’option de canal Métadonnées (entre **Facebook** et **Instagram**) dans la barre de menu de droite (icônes Facebook et Instagram) pour afficher et gérer les variantes de chaque canal.
 
 Lors de la [révision des métadonnées publicitaires](#revise-generated-meta-ads), vous pouvez modifier les proportions des publicités Facebook et Instagram.
 
@@ -77,6 +78,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 **Pour réviser les variantes générées** :
 
+
 * **Pour [modifier le nom de la version préliminaire de la méta-publicité](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement une méta-publicité](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections de l’annonce (par exemple la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-la si nécessaire.
 
@@ -85,7 +87,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles. Dans _[!UICONTROL Lien]_, saisissez un lien pour le texte d’appel à l’action.
 * **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
 * **Pour [régénérer une section d&#39;une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications proposées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
-* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)** survolez une image, cliquez sur **[!UICONTROL Appliquer le recadrage]**, puis ajustez la taille et l’emplacement de l’image.
+<!-- * **To [crop or reposition images](/help/user-guide/create/manage-variants.md#crop-assets)** hover over an image, click **[!UICONTROL Apply Crop]**, and adjust the image size and placement. -->
 * **Pour [supprimer une méta-publicité](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques

@@ -2,9 +2,9 @@
 title: Gestion des variantes
 description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: a6cf07179e888599860bc699ec17a3e8e4167e7b
+source-git-commit: d300d9e68cf63cde69500c90d97999057c8d1575
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -55,30 +55,35 @@ Par exemple, vous pouvez générer à nouveau la section du titre d’une varian
 
    La variante est mise à jour avec le texte révisé.
 
-## Recadrage de ressources
+<!-- ## Crop assets
 
-Vous pouvez recadrer et repositionner manuellement les ressources image dans des variantes générées individuellement.
+You can manually crop and reposition image assets in individual generated variants.
 
-**Pour recadrer et repositionner des images dans des variantes** :
+**To crop and reposition images in variants**:
 
-1. Après avoir généré un ensemble de variantes, pointez sur une image dans une variante.
-1. Cliquez sur **[!UICONTROL Appliquer le recadrage]**.
-1. Zoomer avant et arrière et faire glisser l’image à l’emplacement souhaité.
-1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. After generating a set of variants, hover over an image within a variant.
+1. Click **[!UICONTROL Apply Crop]**.
+1. Zoom in and out and drag the image into the desired position.
+1. Click **[!UICONTROL Apply]**.
 
-   L’image recadrée est automatiquement enregistrée et visible pour la variante.
+   The cropped image is automatically saved and visible for the variant. -->
 
 ## Modifier le format
 
 Vous pouvez rapidement modifier le rapport L/H des métadonnées publicitaires pour adapter le dimensionnement d’annonce souhaité.
 
-Les proportions disponibles sont les suivantes :
+Les tailles/proportions disponibles sont les suivantes :
 
-* 1:1 carré
-* 4:5 vertical
-* 9:16 vertical
+* 1:1 carré (méta)
+* 4:5 vertical (Meta)
+* 9:16 vertical (Meta)
+* 250 x 980 (publicité display)
 
-**Pour modifier le rapport L/H des métadonnées générées** :
+>[!NOTE]
+>
+>D’autres formats et tailles peuvent être disponibles en fonction des modèles disponibles.
+
+**Pour modifier le rapport L/H des variantes générées** :
 
 1. Après avoir généré un ensemble de variantes, sélectionnez l’icône de redimensionnement du format (flèche pointant vers le coin de la zone) sur le côté gauche du Canevas.
 
