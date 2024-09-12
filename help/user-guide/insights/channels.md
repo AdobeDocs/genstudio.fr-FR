@@ -2,13 +2,13 @@
 title: Présentation des canaux
 description: Consultez un aperçu de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing dans Adobe GenStudio pour les marketeurs de performance.
 feature: Insights, Channels
-source-git-commit: 2e76eadcc3281ea935dca383eb3db8c41b83e679
+exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
+source-git-commit: 13e49dd7bd36e842513baa6311373671da827926
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des canaux
 
@@ -20,9 +20,9 @@ La vue [!DNL Insights] _[!UICONTROL Channels]_ (Canaux) affiche une liste des ca
 
 La table [!UICONTROL Canaux] est organisée à l’aide de la campagne publicitaire basée sur les canaux. L’icône de filtre (entonnoir) au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** où vous pouvez sélectionner les listes [!UICONTROL Compte], [!UICONTROL État] et [!UICONTROL Objectif] pour filtrer les campagnes dans le tableau.
 
-![Filtre de canal et table](../../assets/insights-channel-filter.png)
+![Filtre de canaux et table](../../assets/insights-channels-filter.png)
 
-Lorsque vous sélectionnez une campagne, l’onglet [!UICONTROL Expériences] s’ouvre sur une liste de noms d’annonces associés à cette campagne.
+Lorsque vous sélectionnez une campagne, l’onglet [[!UICONTROL Expériences]](experiences.md) s’ouvre sur une liste de noms d’annonces associés à cette campagne, ce qui vous permet d’identifier les expériences qui ont contribué à son succès global.
 
 ## Objectifs
 
