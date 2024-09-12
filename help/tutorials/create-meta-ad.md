@@ -6,13 +6,13 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 4745e7cab9cd605c3bc7e93cb610e510566c9302
+exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
+source-git-commit: b71f53eca2a0fdd7bf353a2eaf0b1b4e657b18b0
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
-
 
 # Création d’une expérience de métadonnées publicitaires
 
@@ -77,14 +77,16 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 **Pour réviser les variantes générées** :
 
-* **Pour modifier le nom de la version préliminaire des métadonnées**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour modifier manuellement une méta-publicité**, double-cliquez dans l’un des fragments de publicité (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
+* **Pour [modifier le nom de la version préliminaire de la méta-publicité](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour [modifier manuellement une méta-publicité](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections de l’annonce (par exemple la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-la si nécessaire.
 
   L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête et la copie du corps nécessitent un double clic.
 
-* **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez un bouton disponible.
-* **Pour modifier la taille et les proportions**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
-* **Pour supprimer une méta-publicité**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles. Dans _[!UICONTROL Lien]_, saisissez un lien pour le texte d’appel à l’action.
+* **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
+* **Pour [régénérer une section d&#39;une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications proposées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
+* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)** survolez une image, cliquez sur **[!UICONTROL Appliquer le recadrage]**, puis ajustez la taille et l’emplacement de l’image.
+* **Pour [supprimer une méta-publicité](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques
 
@@ -93,7 +95,7 @@ Pour optimiser les publicités générées et garantir une stricte conformité a
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
-1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
 1. [Révision manuelle des publicités](#revise-generated-meta-ads) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.

@@ -2,13 +2,13 @@
 title: Présentation de GenStudio pour les marketeurs de performances [!DNL Create]
 description: Générez rapidement du contenu hautement performant sur marque avec une IA générative dans Adobe GenStudio pour les marketeurs de performances [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
-
 
 # GenStudio pour les marketeurs de performance [!DNL Create]
 
@@ -80,7 +80,7 @@ Après avoir sélectionné le canal de contenu que vous souhaitez produire dans 
 
 Les modèles sont [ chargés et stockés dans  [!DNL Content]](/help/user-guide/content/overview.md) et sont accessibles dans [!DNL Create].
 
-### Invitations
+### Invites
 
 [La création d&#39;invites efficaces](/help/user-guide/effective-prompts.md) est une partie importante du processus de génération dans [!DNL Create].
 
@@ -103,6 +103,12 @@ GenStudio pour les spécialistes du marketing des performances effectue la valid
 Demandez des révisions, effectuez le suivi des commentaires de révision et obtenez des approbations pendant le processus de création avec la fonctionnalité intégrée [Révisions et approbations](/help/user-guide/approvals/overview.md) .
 
 Une fois les variations de contenu générées, envoyez vos brouillons pour approbation par les parties prenantes afin qu’ils puissent être enregistrés dans [!DNL Content] et implémentés dans les efforts marketing.
+
+### Gestion des variantes
+
+GenStudio pour les spécialistes du marketing des performances permet un [ contrôle complet des sections de variantes individuelles ](/help/user-guide/create/manage-variants.md).
+
+Vous pouvez réviser les sections d’une seule variante, générer à nouveau le contenu de sections individuelles et utiliser les modifications suggérées pour améliorer le message, recadrer et dimensionner les ressources, etc., le tout dans la zone de travail.
 
 ## Tutoriels
 

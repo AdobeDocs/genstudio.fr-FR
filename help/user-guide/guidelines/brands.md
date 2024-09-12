@@ -2,13 +2,13 @@
 title: GenStudio pour les marketeurs de performance [!DNL Brands]
 description: GenStudio pour les marketeurs de performance  [!DNL Brands]  est une collection complète de ressources de marque (copie marketing, imagerie, expériences, etc.) permettant d’informer la création de contenu aligné sur la marque.
 feature: Brands Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
 
 ---
-
 
 # GenStudio pour les marketeurs de performance [!DNL Brands]
 
@@ -45,9 +45,9 @@ Le tableau suivant présente chaque catégorie d’exemples de directives et de 
 
 Chaque canal comporte certaines directives inhérentes qui influent sur la composition des ressources du canal.
 
-Le tableau suivant présente chaque fragment de canal, les canaux pour lesquels il est disponible, la description du fragment, des exemples de lignes guides et des exemples de résultats.
+Le tableau suivant présente chaque section de canal, les canaux pour lesquels elle est disponible, la description de la section, des exemples de lignes guides et des exemples de résultats.
 
-| Fragments | Canaux | Description | Bonnes pratiques |
+| Sections | Canaux | Description | Bonnes pratiques |
 | ------------------| --------- | --------- | -------- |
 | Général | e-mail, publicités sociales | Une deuxième ligne d’objet ou un texte d’aperçu d’email | Définissez une tonalité/émotion globale cohérente dans l’ensemble de l’email (2 à 5 lignes directrices).<br>_Exemples_ : &quot;Conserver un ton convivial et accessible&quot;, &quot;Éviter une langue trop formelle&quot;<br><br> |
 | Objet | email | Titre fascinant et intéressant pour résumer le contenu d’un email | Fournissez des conseils spécifiques (2 à 5 consignes) sur le ton, la longueur, etc. Ajoutez des lignes d’objet précédemment réussies dans la section _Exemples_ pour un résultat de meilleure qualité.<br>_Exemple_ : &quot;Aligner l&#39;objet avec le corps de l&#39;email&quot; |

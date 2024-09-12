@@ -6,13 +6,13 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
+exl-id: 34446202-da98-45ff-869a-b43496a477f8
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
-
 
 # Création d’une expérience de courrier électronique
 
@@ -69,16 +69,14 @@ Par défaut, quatre variantes, toutes alimentées par l’invite, les directives
 
 ## Modification des emails générés
 
-Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez éditer des fragments d&#39;email ou supprimer une variante de l&#39;ensemble des emails générés.
+Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez modifier les sections d&#39;email ou supprimer une variante de l&#39;ensemble des emails générés.
 
 **Pour réviser les variantes générées** :
 
-* **Pour modifier le nom du brouillon de l’email**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour modifier manuellement un email**, double-cliquez dans l’un des fragments d’email (par exemple, la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire.
-
-  L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête, la copie du corps et l’appel à l’action nécessitent un double clic.
-
-* **Pour supprimer un email**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;Email 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour [modifier le nom du brouillon de l’email](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
+* **Pour [régénérer une section d&#39;une variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, cliquez sur un champ de texte modifiable et utilisez les options _[!UICONTROL Modifications proposées]_ ou saisissez une nouvelle invite et cliquez sur **[!UICONTROL Générer]**.
+* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques
 
@@ -87,7 +85,7 @@ Pour optimiser les e-mails générés et garantir une stricte conformité avec l
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
-1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’un courrier électronique à l’autre pour voir comment améliorer le contenu généré pour qu’il soit davantage aligné sur la marque.
 1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos emails sont étroitement alignés sur votre marque.
