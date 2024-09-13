@@ -2,7 +2,7 @@
 title: Présentation des expériences
 description: Consultez une présentation de l’engagement, du budget et des dépenses des clients pour les expériences et les performances des ressources dans Adobe GenStudio pour les marketeurs de performance.
 feature: Insights, Experiences
-source-git-commit: 70ce82b026b2ee1f088cda75caa22bbb1b9c5ef3
+source-git-commit: ed0ddb10ee65c2691f8ecbfe23533508e9174bf9
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%

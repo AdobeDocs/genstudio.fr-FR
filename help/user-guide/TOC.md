@@ -4,9 +4,9 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez comment rechercher et générer rapidement des ressources sur la marque, créer des variations et optimiser des expériences en fonction des informations de performances du contenu en temps réel.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 0713b18ed1ca5a0b695fdcef4bd488cf87bf2040
+source-git-commit: a531ef2a7869a3f8e19fccd17b7acda54a767f6b
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 12%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 12%
    + [Validation de marque](guidelines/brand-validation.md)
 + Créer {#create}
    + [Vue d’ensemble de [!DNL Create]](create/overview.md)
-   + [Gestion des variantes](create/manage-variants.md)
 + Révisions et approbations {#approve}
    + [Révision et approbations - Aperçu](approvals/overview.md)
    + [Demande d’examen et d’approbation du contenu](approvals/request-review.md)
