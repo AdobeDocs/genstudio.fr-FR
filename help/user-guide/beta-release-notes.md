@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio pour les spécialistes du marketing de performance Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio pour les marketeurs de performance.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 5f729070a3a4c162ebac0fde9814c649c9984b4d
+source-git-commit: d1904bfe6e5775f71290c2fc7aa185ac2a4a4668
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Les problèmes connus suivants sont programmés pour la résolution dans la vers
 
 ### Améliorations supplémentaires et problèmes résolus
 
-* Le canevas [!DNL Create] effectue un rendu incorrect des images dans les métadonnées publicitaires. <!-- GS-4864 -->
+* Le canevas [!DNL Create] effectue désormais correctement le rendu des images dans les métadonnées publicitaires. <!-- GS-4864 -->
 
 * Bien que des incohérences puissent exister entre les aperçus du canevas de métadonnées et les vues exportées, les expériences exportées fonctionnent comme prévu. <!-- GS-4492 4401 -->
 
-* Les images téléchargées n’incluent pas toujours les balises intelligentes attendues. <!-- GS-4856 -->
+* Les images téléchargées incluent désormais les balises intelligentes attendues. <!-- GS-4856 -->
 
 * Le fichier CSV d’exportation de métadonnées contient désormais des images comme prévu. Auparavant, le fichier ZIP contenait le fichier d’exportation CSV et les fichiers NULL au lieu des images.  <!-- GS-5107 -->
 
