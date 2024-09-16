@@ -1,15 +1,15 @@
 ---
 title: Création d’une expérience de métadonnées publicitaires
-description: Découvrez comment créer une nouvelle expérience de métadonnées de publicité sur la marque (pour Facebook ou Instagram) avec Adobe GenStudio pour les marketeurs de performances.
-feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
+description: Découvrez comment créer une nouvelle expérience de métadonnées de publicité sur la marque (pour Facebook ou Instagram) avec une IA générative.
+feature: Content, Brands Service, Guidelines, Content Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 3827d8222bd548caf83288656d5f2af8d2248dec
+source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,6 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
-1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 Lorsque vous avez terminé d’ajouter des paramètres, vous pouvez réduire la zone d’invite en cliquant de nouveau sur l’icône _Paramètres_ .
 
@@ -68,7 +67,7 @@ Par défaut, quatre variantes, toutes alimentées par l’invite, les directives
 
 Lors de la génération d’une méta-publicité, vous pouvez choisir entre les publicités Facebook ou Instagram.
 
-Activez l’option de canal Métadonnées (entre **Facebook** et **Instagram**) dans la barre de menu de droite (icônes Facebook et Instagram) pour afficher et gérer les variantes de chaque canal.
+Activez l’option de canal Métadonnées dans la barre de menu supérieure sur **Facebook** ou **Instagram** pour gérer les brouillons générés de chaque canal.
 
 Lors de la [révision des métadonnées publicitaires](#revise-generated-meta-ads), vous pouvez modifier les proportions des publicités Facebook et Instagram.
 
@@ -78,17 +77,14 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 **Pour réviser les variantes générées** :
 
-
-* **Pour [modifier le nom de la version préliminaire de la méta-publicité](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement une méta-publicité](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections de l’annonce (par exemple la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-la si nécessaire.
+* **Pour modifier le nom de la version préliminaire des métadonnées**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour modifier manuellement une méta-publicité**, double-cliquez dans l’un des fragments de publicité (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
 
   L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête et la copie du corps nécessitent un double clic.
 
-* **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles. Dans _[!UICONTROL Lien]_, saisissez un lien pour le texte d’appel à l’action.
-* **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**.
-* **To [crop or reposition images](/help/user-guide/create/manage-variants.md#crop-assets)** hover over an image, click **[!UICONTROL Apply Crop]**, and adjust the image size and placement. -->
-* **Pour [supprimer une méta-publicité](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez un bouton disponible.
+* **Pour modifier la taille et les proportions**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
+* **Pour supprimer une méta-publicité**, cliquez pour sélectionner le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques
 
@@ -97,7 +93,7 @@ Pour optimiser les publicités générées et garantir une stricte conformité a
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
-1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’une publicité à l’autre pour voir comment améliorer le contenu généré afin d’être plus aligné sur la marque.
 1. [Révision manuelle des publicités](#revise-generated-meta-ads) pour vous assurer que vos publicités sont étroitement alignées sur votre marque.

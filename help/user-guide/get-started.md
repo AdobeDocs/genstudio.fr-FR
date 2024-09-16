@@ -4,7 +4,7 @@ description: Découvrez comment configurer GenStudio pour les marketeurs de perf
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
+source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 8%
@@ -38,7 +38,7 @@ Trois types de rôles d’utilisateur GenStudio pour les marketeurs de performan
 
 ### Éditeurs GenStudio
 
-**Les éditeurs** disposent des autorisations de base nécessaires pour créer GenStudio pour les ressources [!DNL Brands], [!DNL Campaigns] et [!DNL Content] des marketeurs de performances. Ils peuvent également modifier et supprimer les ressources qu’ils ont créées. GenStudio pour les spécialistes du marketing des performances prend en charge la création rapide de centaines de fragments de contenu. Ces utilisateurs peuvent générer des sections de contenu ou des expériences complètes qui orchestrent des éléments distincts de contenu approuvé pour répondre aux besoins de campagnes marketing spécifiques.
+**Les éditeurs** disposent des autorisations de base nécessaires pour créer GenStudio pour les ressources [!DNL Brands], [!DNL Campaigns] et [!DNL Content] des marketeurs de performances. Ils peuvent également modifier et supprimer les ressources qu’ils ont créées. GenStudio pour les spécialistes du marketing des performances prend en charge la création rapide de centaines de fragments de contenu. Ces utilisateurs peuvent générer des fragments de contenu ou des expériences complètes qui orchestrent des éléments distincts de contenu approuvé pour répondre aux besoins de campagnes marketing spécifiques.
 
 Les éditeurs interagissent avec GenStudio pour les technologies d’IA générative des marketeurs de performance via _invite_. La zone d’invite de la zone de travail fournit des outils pour placer des invites dans le contexte des instructions d’une campagne spécifique. Par conséquent, la qualité et le succès du contenu généré dépendent partiellement de la qualité des directives de marque que votre entreprise a chargées et de la spécificité de votre invite.
 

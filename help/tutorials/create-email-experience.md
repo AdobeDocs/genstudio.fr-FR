@@ -1,15 +1,15 @@
 ---
 title: Création d’une expérience de courrier électronique
-description: Découvrez comment créer des expériences par e-mail dans Adobe [!DNL GenStudio] pour les marketeurs de performances.
-feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
+description: Découvrez comment créer des expériences de courrier électronique dans Adobe [!DNL GenStudio].
+feature: Content, Brands Service, Guidelines, Content Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 3827d8222bd548caf83288656d5f2af8d2248dec
+source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,6 @@ L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ress
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
    * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
-1. Cliquez sur **[!UICONTROL Utiliser]**.
 
 >[!NOTE]
 >
@@ -70,20 +69,16 @@ Par défaut, quatre variantes, toutes alimentées par l’invite, les directives
 
 ## Modification des emails générés
 
-Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez modifier les sections d&#39;email ou supprimer une variante de l&#39;ensemble des emails générés.
+Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez éditer des fragments d&#39;email ou supprimer une variante de l&#39;ensemble des emails générés.
 
 **Pour réviser les variantes générées** :
 
-* **Pour [modifier le nom du brouillon de l’email](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour modifier le nom du brouillon de l’email**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
+* **Pour modifier manuellement un email**, double-cliquez dans l’un des fragments d’email (par exemple, la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-le si nécessaire.
 
-## Aperçu pour le périphérique
+  L’objet et le pré-titre ne nécessitent qu’un seul clic pour être modifiés, tandis que l’en-tête, la copie du corps et l’appel à l’action nécessitent un double clic.
 
-Lors de la révision et de la préparation des expériences par e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobiles afin d’assurer la cohérence et l’attrait visuel des variantes d’aperçus.
-
-**Pour prévisualiser des variantes pour les appareils mobiles et de bureau**, activez l’option d’aperçu de l’appareil (entre **bureau** et **mobile**) dans la barre de menu de droite (icônes d’ordinateur et de téléphone) afin de prévisualiser l’affichage des variantes.
+* **Pour supprimer un email**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;Email 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques
 
@@ -92,7 +87,7 @@ Pour optimiser les e-mails générés et garantir une stricte conformité avec l
 **Pour vérifier l’alignement de la marque** :
 
 1. Cliquez sur l’icône [**[!UICONTROL [!DNL Brand] de vérification de directives]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) pour une variante et affichez un résumé de son fonctionnement lors de la vérification de votre marque.
-1. Pour obtenir les détails des sections et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Passez d’un courrier électronique à l’autre pour voir comment améliorer le contenu généré pour qu’il soit davantage aligné sur la marque.
 1. [Révision manuelle des emails](#revise-generated-emails) pour vous assurer que vos emails sont étroitement alignés sur votre marque.

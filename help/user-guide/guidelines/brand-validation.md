@@ -3,9 +3,9 @@ title: Validation de marque dans Adobe GenStudio pour les marketeurs de performa
 description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio pour les marketeurs de performance.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
+source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -32,22 +32,22 @@ Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 
 ## Panneau de validation des marques
 
-Le _panneau de validation de marque_ fournit des informations détaillées sur la validation de marque et indique les opportunités d’amélioration pour chaque section de variante.
+Le _panneau de validation de marque_ fournit des informations détaillées sur la validation de marque et éclaire les opportunités d’amélioration pour chaque fragment de variante.
 
 Le _panneau de validation de marque_ affiche des informations sur :
 
 * **Email** :
-   * Objet
-   * Preheader
-   * En-tête
-   * Corps
-   * CTA (appel à l’action)
+   * Fragment de ligne d’objet
+   * Fragment de prétitre
+   * Fragment d’en-tête
+   * Fragment de contenu
+   * Fragment CTA (appel à l’action)
    * Indications pour la marque et la voix
 * **Méta-publicité** :
-   * Titre
-   * Copie de contenu
-   * CTA (appel à l’action)
-   * Texte sur image
+   * Fragment de titre
+   * Fragment de copie de contenu
+   * Fragment CTA (appel à l’action)
+   * Fragment de texte sur image
 
 Voir [Améliorer l&#39;alignement de la marque](#improve-brand-alignment).
 
@@ -66,7 +66,7 @@ Dans le _panneau de validation de marque_, vous pouvez filtrer les directives af
 
 ## Améliorer l&#39;alignement des marques
 
-Pour optimiser l’efficacité du contenu généré et maintenir une identité de marque cohérente, utilisez la _vérification des directives de marque_ et le _panneau Validation de marque_. Vous pouvez modifier manuellement des sections spécifiques pour vous aligner sur les [directives de marque](brands.md).
+Pour optimiser l’efficacité du contenu généré et maintenir une identité de marque cohérente, utilisez la _vérification des directives de marque_ et le _panneau Validation de marque_. Vous pouvez modifier manuellement des fragments spécifiques pour vous aligner sur les [directives de marque](brands.md).
 
 **Pour améliorer l’alignement de la marque pour les variantes de contenu générées** :
 
@@ -74,24 +74,24 @@ Pour optimiser l’efficacité du contenu généré et maintenir une identité d
 
    Affichez un résumé des performances de cette variante spécifique (des instructions qui transmettent la validation de la marque et celles qui doivent être examinées) lorsqu’elle est comparée à votre marque.
 
-1. Pour obtenir les détails des sections de ressources et des directives qui doivent être améliorées, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône de validation de marque dans la barre de menu supérieure pour ouvrir le _panneau de validation de marque_.
+1. Pour obtenir les détails des fragments et des directives qui doivent être améliorés, cliquez sur **[!UICONTROL Réviser]** _ou_ cliquez sur l’icône Validation de marque dans la barre de menu supérieure pour ouvrir le _panneau de validation de marque_.
 
-   Consultez toutes les sections et les directives sur la marque qui nécessitent votre attention. La section mise en surbrillance dans le panneau correspond à la section mise en surbrillance dans la variante générée dans la zone de travail.
+   Consultez tous les fragments et les directives sur la marque qui nécessitent votre attention. Le fragment surligné dans le panneau correspond au fragment surligné dans la variante générée dans la zone de travail.
 
    >[!NOTE]
    >
-   > La directive _Brand voice_ notée dans le _panneau de validation de marque_ s’applique à la variante entière, et non à une section individuelle. Toute la variante de contenu est mise en surbrillance pour l’amélioration suggérée.
+   > La directive _Brand voice_ notée dans le _panneau de validation de marque_ s’applique à la variante entière, et non à un fragment individuel. Toute la variante de contenu est mise en surbrillance pour l’amélioration suggérée.
 
-1. Révisez manuellement les sections de variante pour obtenir l’alignement le plus solide sur votre marque.
+1. Révisez manuellement les fragments de variante pour obtenir l’alignement le plus fort possible sur votre marque.
 
 1. Après avoir effectué les modifications nécessaires, cliquez sur **[!UICONTROL Révérifier]** pour valider vos modifications et vous assurer qu’elles sont plus étroitement alignées sur l’identité de votre marque.
 
-   Le processus de validation de marque s’exécute à nouveau. Si la section/la directive passe la validation, une coche verte s’affiche pour cette section dans le _panneau de validation de marque_. Le pourcentage de l&#39;icône _Vérification de la marque_ pour la variante révisée indique également votre progression.
+   Le processus de validation de marque s’exécute à nouveau. Si le fragment/la consigne est validé, une coche verte s’affiche pour ce fragment dans le _panneau de validation de marque_. Le pourcentage de l&#39;icône _Vérification de la marque_ pour la variante révisée indique également votre progression.
 
-1. Continuez à revoir les sections pour vous assurer que l’ensemble de la variante est validé par la marque.
+1. Poursuivez la révision des fragments pour vous assurer que l’ensemble de la variante passe la validation de la marque.
 
    Naviguez entre les instructions du _panneau de validation de marque_ à l’aide des boutons **[!UICONTROL Suivant]** et **[!UICONTROL Précédent]** .
 
-1. Dans la partie supérieure du _panneau de validation de marque_, parcourez chaque variante à l’aide des flèches (par exemple, utilisez la flèche pour passer de `Email 1` à `Email 2`) et continuez à revoir les sections de variante afin de mieux se conformer à votre marque.
+1. Dans la partie supérieure du _panneau de validation de marque_, naviguez dans chaque variante à l’aide des flèches (par exemple, utilisez la flèche pour passer de `Email 1` à `Email 2`) et continuez à réviser les fragments afin de mieux se conformer à votre marque.
 
    Pour plus d’informations sur les consignes prises en compte, voir [Brand voice Guidelines](/help/user-guide/guidelines/brands.md#brand-voice-guidelines) .
