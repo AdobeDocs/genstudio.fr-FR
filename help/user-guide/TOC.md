@@ -4,7 +4,7 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez comment rechercher et générer rapidement des ressources sur la marque, créer des variations et optimiser des expériences en fonction des informations de performances du contenu en temps réel.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: a531ef2a7869a3f8e19fccd17b7acda54a767f6b
+source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 12%
@@ -15,6 +15,8 @@ ht-degree: 12%
 # Adobe GenStudio pour le guide des marketeurs de performance {#user-guide}
 
 + [Guide de GenStudio pour les marketeurs de performance](home.md)
++ Notes de mise à jour {#release-notes}
+   + [Notes de mise à jour de Beta](beta-release-notes.md)
 + [Prise en main](get-started.md)
 + Présentation {#intro}
    + [Concepts](concepts.md)
@@ -55,5 +57,3 @@ ht-degree: 12%
    + [Canaux](insights/channels.md)
    + [Expériences](insights/experiences.md)
    + [Colonnes de données](insights/data-columns.md)
-+ Notes de mise à jour {#release-notes}
-   + [Notes de mise à jour de Beta](beta-release-notes.md)

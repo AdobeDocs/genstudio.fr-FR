@@ -1,20 +1,24 @@
 ---
 title: Guide de l’utilisateur d’Adobe GenStudio
 description: Grâce à GenStudio, les marketeurs et les créatifs surchargent grâce à l’application AI-first d’Adobe, qui leur permet d’accéder en libre-service au contenu de marque avec des garde-fous d’entreprise et une gouvernance pour les expériences hautement performantes.
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
+source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 1%
 
 ---
 
 # Guide de l’utilisateur de l’Adobe GenStudio pour les spécialistes du marketing des performances
 
-Adobe GenStudio pour les marketeurs de performance est une plateforme pilotée par l’IA qui permet aux entreprises de générer et de gérer de manière autonome du contenu marketing conforme aux normes de leur marque, conforme aux politiques de l’entreprise et qui prend en charge de manière transparente une stratégie marketing performante.
+Adobe GenStudio for Performance Marketing est une plateforme pilotée par l’IA qui vous permet de générer et de gérer du contenu marketing conforme aux normes de votre marque et conforme aux politiques de votre entreprise.
 
-Avec GenStudio pour les marketeurs de performance, les marketeurs et les créatifs peuvent rationaliser le processus de création de contenu afin de créer du contenu marketing attrayant, adapté à la culture et adapté à des audiences spécifiques, tout en conservant une haute qualité et une intégrité de la marque.
+Grâce à la technologie Adobe AI, GenStudio for Performance Marketing fournit une suite complète d’outils qui simplifient la création et la gestion de contenu pour que les créatifs puissent se concentrer sur l’innovation.
 
-Grâce à la technologie d’IA, GenStudio for Performance Marketing fournit une suite complète d’outils qui simplifient la création et la gestion de contenu pour que les créatifs puissent se concentrer sur l’innovation.
+## Nouveautés
+
+- [[!DNL Insights Channels]](insights/channels.md) : nouvel aperçu de l’engagement des clients, des performances, du budget et des dépenses pour les campagnes marketing.
+- [[!DNL Insights Experiences]](insights/experiences.md) : nouvel aperçu des informations relatives aux expériences et aux performances publicitaires.
 
 ## Exploration des fonctionnalités
 
