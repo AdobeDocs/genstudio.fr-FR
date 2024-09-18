@@ -2,13 +2,13 @@
 title: Détails de la ressource
 description: Adobe GenStudio pour les spécialistes du marketing des performances stocke le contenu approuvé avec des métadonnées enrichies pour la recherche et le suivi des performances.
 feature: Attributes, Assets
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
+source-git-commit: 95eb7c2eaeeceedf3abe5ab16e1e7c2de7bf8117
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 6%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
-
 
 # Détails de la ressource
 
@@ -16,7 +16,21 @@ Adobe GenStudio pour les spécialistes du marketing des performances stocke le c
 
 Chaque ressource (y compris les expériences et les modèles) est associée à _details_ (métadonnées) qui permettent d’identifier, de suivre, d’utiliser et d’apprendre des performances du contenu.
 
-Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+**Pour afficher les détails de la ressource** :
+
+1. Dans _[!DNL Content]_, sélectionnez une ressource, une expérience ou un modèle. Cliquer sur une ressource ouvre une vue sélectionnée de la ressource.
+
+1. Dans la vue de la ressource, passez en revue la section _[!UICONTROL Details]_ à droite.
+
+   >[!TIP]
+   >
+   >Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
+
+Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+
+>[!NOTE]
+>
+>Assets des référentiels AEM affiche différentes métadonnées. Voir [Configuration de la visibilité des ressources](connect-aem-repo.md#step-4-configure-asset-visibility) pour savoir comment configurer les détails des ressources Content Hub AEM Assets.
 
 ## Métadonnées système
 
@@ -26,7 +40,7 @@ Les métadonnées par défaut stockées et capturées pour une ressource incluen
 
 ### Balises générées
 
-Lorsque les ressources sont approuvées et stockées dans [!DNL Content], GenStudio for Performance Marketing utilise les fonctionnalités d’IA et d’apprentissage automatique d’Adobe pour générer des balises en fonction des fonctionnalités de la ressource, telles que la couleur et le ton, ou les mots-clés qui identifient les fonctionnalités de la ressource. Vous ne pouvez pas modifier de balises.
+Lorsque vous stockez une ressource approuvée dans [!DNL Content], GenStudio for Performance Marketing utilise les fonctionnalités d’IA et d’apprentissage automatique d’Adobe pour étudier la ressource et appliquer des balises en fonction des fonctionnalités de la ressource. Par exemple, une image d’un chat peut donner lieu à des balises intelligentes telles que `pet photography` ou `cat`, ainsi qu’à des balises de couleur qui identifient les couleurs dominantes de l’image. Vous ne pouvez pas modifier de balises.
 
 ### Métadonnées de contenu générées
 
@@ -34,39 +48,25 @@ Les informations utilisées pour générer une nouvelle ressource ou expérience
 
 ## Métadonnées définies par les utilisateurs
 
-Les métadonnées définies par l’utilisateur ajoutent du contexte marketing au contenu de la ressource, ce qui permet aux marketeurs de mieux comprendre comment utiliser la ressource et interagir avec elle.
+Les métadonnées définies par l’utilisateur ajoutent du contexte marketing au contenu de la ressource, ce qui permet aux marketeurs de comprendre comment utiliser la ressource et interagir avec elle.
 
-Lorsque vous [téléchargez une ressource](/help/user-guide/content/manage-assets.md#add-assets), vous pouvez définir un ensemble de détails de ressource facultatifs qui existent dans GenStudio pour les spécialistes du marketing des performances sous forme de métadonnées.
+Lorsque vous [téléchargez une ressource](/help/user-guide/content/manage-assets.md#add-assets), vous pouvez définir un ensemble de détails de ressource facultatifs qui existent dans GenStudio pour les spécialistes du marketing des performances sous forme de métadonnées. L’inclusion d’autres détails peut améliorer l’identification des ressources dans les recherches et le filtrage.
 
 ### Détails des métadonnées
 
-Le tableau suivant détaille les métadonnées (détails de la ressource) que vous pouvez définir lors de la création d’une ressource.
+Le tableau suivant décrit les métadonnées (détails de la ressource) que vous pouvez définir lors de la création d’une ressource.
 
-| Champ | Description | Modifiable | Obligatoire |
-| ------------- | ----------- | -------- | -------- |
-| Nom de la campagne (nom du projet) | Métadonnées par défaut capturées et stockées avec la ressource | Y | N |
-| Nom de la marque | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ajouté à GenStudio pour les marketeurs de performance et publié pour utilisation | Y | N |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio pour les marketeurs de performance à utiliser | Y | N |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio pour les marketeurs de performance à utiliser | Y | N |
-| Canaux | Types de contenu dans GenStudio pour les spécialistes du marketing des performances pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires | Y | N |
-| Période | Période pour laquelle la ressource a été utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` | Y | N |
-| Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` | Y | N |
-| Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` | Y | N |
-| Mots-clés | Mots-clés utilisés pour identifier l’objectif de la ressource | Y | N |
-
-## Affichage des détails de la ressource
-
-**Pour afficher les détails de la ressource** :
-
-1. Dans _[!DNL Content]_, sélectionnez une ressource.
-
-1. Dans la vue de la ressource, passez en revue la section _[!UICONTROL Details]_ à droite.
-
-   Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
-
->[!TIP]
->
->Vous pouvez également afficher les détails des ressources à partir de [!DNL Insights]. [!DNL Insights] fournit des statistiques d’utilisation et un contexte de performances entre les expériences. Dans _[!DNL Insights]_, sélectionnez la section **[!UICONTROL Assets]**.
+| champ | Description |
+| ------------- | ----------- |
+| Campagnes (nom du projet) | Métadonnées par défaut capturées et stockées avec la ressource |
+| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ajouté à GenStudio pour les marketeurs de performance et publié pour utilisation |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio pour les marketeurs de performance à utiliser |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio pour les marketeurs de performance à utiliser |
+| Canaux | Types de contenu dans GenStudio pour les spécialistes du marketing des performances pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires |
+| Période | Période pour laquelle la ressource a été utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
+| Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
+| Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |
+| Mots-clés | Mots-clés utilisés pour une identification plus approfondie des caractéristiques et de l’objectif des ressources |
 
 <!-- ## History
 

@@ -2,19 +2,45 @@
 title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
+source-git-commit: dc438085cfe7c93b20dc7fb0d5919d2dc8b3dcde
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
-
 
 # Gestion des ressources et des expériences
 
 Adobe GenStudio pour les marketeurs de performance [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour utilisation et réutilisation dans votre parcours de marketing numérique.
 
-## Ajout de ressources
+## Galerie Assets
+
+La galerie [!UICONTROL Assets] présente un inventaire des ressources approuvées. L’icône de filtre (entonnoir) située au-dessus du côté gauche du tableau ouvre le menu **[!UICONTROL Filtre]** où vous pouvez sélectionner de nombreuses catégories pour filtrer les ressources affichées dans la galerie. Cliquez sur l’icône de recherche (loupe) pour utiliser un mot-clé afin de trouver une ressource.
+
+Vous trouverez ci-dessous une recherche sur le terme `dog` dans la galerie [!UICONTROL Assets] :
+
+![Vue Assets avec recherche sur chien](../../assets/content-assets.png)
+
+### Emplacement Assets
+
+Par défaut, les ressources que vous ajoutez à [!DNL Content] par le biais du processus [!DNL Create] ou par le transfert sont stockées dans le référentiel `GenStudio assets`. Le référentiel `GenStudio assets` est un référentiel de lecture-écriture dans GenStudio pour les marketeurs de performances. Cela signifie que vous pouvez enregistrer, modifier et supprimer des ressources dans le référentiel `GenStudio assets`.
+
+La liste **[!UICONTROL Location]** située au-dessus de la galerie sur le côté droit vous permet de choisir parmi les référentiels Adobe Experience Manager (AEM) [!DNL Assets Content Hub] connectés. Lorsque vous sélectionnez un référentiel AEM, la galerie affiche un inventaire des ressources de ce référentiel, ce qui vous permet d’exploiter les ressources approuvées de ces référentiels en tant qu’entrées pour la création de contenu. Les options de filtre changent pour refléter les catégories configurées dans [!DNL AEM Assets Content Hub].
+
+Le référentiel AEM est en lecture seule, ce qui signifie que vous ne pouvez pas enregistrer de brouillons, de nouvelles ressources ou de nouvelles métadonnées dans le référentiel AEM. Tous les brouillons et mises à jour finales pour les ressources, les expériences et les modèles sont enregistrés dans le référentiel `GenStudio assets` avec de nouvelles [métadonnées système](asset-details.md#system-metadata).
+
+Voir [Connexion d’un référentiel d’AEM](connect-aem-repo.md) pour plus d’informations sur l’ajout de votre référentiel [!DNL AEM Assets Content Hub] à GenStudio pour les marketeurs de performances.
+
+## Gestion d’Assets
+
+Dans [!UICONTROL Contenu], les marketeurs de performances peuvent facilement stocker, récupérer et gérer leurs ressources numériques. En exploitant à la fois le référentiel `GenStudio assets` et les référentiels AEM, les utilisateurs peuvent s’assurer que leurs ressources sont bien organisées et accessibles pour diverses campagnes marketing. Cette approche multi-référentiel offre une flexibilité et un contrôle sur l’utilisation des ressources dans tous les environnements, en s’assurant que seules les ressources approuvées et à jour sont utilisées dans les efforts marketing.
+
+### Ajout de ressources
+
+Lors de l’ajout de ressources à [!DNL Content], elles sont par défaut stockées dans le référentiel `GenStudio assets`. Le bouton _[!UICONTROL Ajouter des ressources]_ n’est disponible que lorsque l’ _[!UICONTROL emplacement]_ est le référentiel `GenStudio assets`.
+
+![Champ de position](../../assets/content-location.png){width="350" align="center"}
 
 **Pour ajouter une ou plusieurs ressources** :
 
@@ -40,15 +66,21 @@ Adobe GenStudio pour les marketeurs de performance [!DNL Content] simplifie et a
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-## Rechercher des ressources
+### Rechercher des ressources
 
 L’interface de recherche [!DNL Content] est rapide et réactive et offre une expérience de recherche productive en premier.
 
-Appliquez des filtres et utilisez des balises de métadonnées à partir des détails de la ressource pour affiner les résultats de recherche. Par exemple, vous pouvez rechercher une ressource pour vous aider à créer une nouvelle expérience pour votre campagne.
+Appliquez des filtres et utilisez des balises de métadonnées à partir des détails de la ressource pour affiner les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une nouvelle expérience pour votre campagne.
 
 **Pour rechercher du contenu à réutiliser** :
 
 1. Dans _[!DNL Content]_, sélectionnez la section **[!UICONTROL Assets]**.
+
+1. Sélectionnez un référentiel de ressources dans la liste **[!UICONTROL Location]** ou vérifiez que vous examinez le référentiel de ressources approprié. `GenStudio assets` est le référentiel par défaut.
+
+   >[!IMPORTANT]
+   >
+   >La liste _Location_ n’est disponible que lorsque vous [vous connectez à un référentiel AEM](connect-aem-repo.md).
 
 1. Cliquez sur **[!UICONTROL Rechercher]** (loupe) pour saisir un mot-clé ou une description.
 

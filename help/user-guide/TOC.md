@@ -4,9 +4,9 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez comment rechercher et générer rapidement des ressources sur la marque, créer des variations et optimiser des expériences en fonction des informations de performances du contenu en temps réel.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
+source-git-commit: 476d36dd64607221be0b16f38f251db40e2cf907
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '132'
 ht-degree: 12%
 
 ---
@@ -39,8 +39,9 @@ ht-degree: 12%
    + [Contenu approuvé par Publish](approvals/publish-content.md)
 + Contenu {#content}
    + [Présentation du contenu](content/overview.md)
-   + [Détails de la ressource](content/asset-details.md)
    + [Gestion des ressources](content/manage-assets.md)
+   + [Connexion à un référentiel AEM](content/connect-aem-repo.md)
+   + [Détails de la ressource](content/asset-details.md)
    + Modèles {#templates}
       + [Utilisation de modèles](content/use-templates.md)
       + [Personnalisation d’un modèle](content/customize-template.md)
