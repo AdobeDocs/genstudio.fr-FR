@@ -4,13 +4,13 @@ description: Découvrez comment ajouter des instructions —[!DNL Brands], [!DNL
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
+exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
+source-git-commit: 7fd93bae4d81021d328e941710152e7d3aa20b76
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
-
 
 # Ajouter des instructions
 
@@ -25,6 +25,9 @@ L’ajout de directives à GenStudio pour les marketeurs de performance est une 
 Pour ajouter une marque à GenStudio pour les marketeurs de performance, vous pouvez [charger un guide de marque](#upload-brand-guidelines) ou [créer manuellement une marque](#manually-add-brand) en sélectionnant des directives et en saisissant les détails de votre marque. [Publish une marque](#publish-brand) vers [!DNL Content] pour la rendre disponible pour une utilisation dans une génération future de contenu.
 
 Dans la zone de navigation de gauche, cliquez sur **[!DNL Brands]**. Dans le panneau _[!DNL Brands]_, sélectionnez **Ajouter une marque**.
+
+>[!TIP]
+>Chaque marque fonctionne indépendamment sans relations hiérarchiques. Pour créer des sous-marques sous une marque mère, incluez les informations de la marque mère pendant le processus de création.
 
 ### Ajout d’une marque via le transfert
 
