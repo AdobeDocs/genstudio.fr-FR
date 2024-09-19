@@ -2,13 +2,13 @@
 title: Créer des modèles accessibles
 description: Créez des modèles dans Adobe GenStudio pour les marketeurs de performance capables d’atteindre un plus grand nombre de vos audiences et de fournir une expérience optimale.
 feature: Templates, Content
-source-git-commit: c891f876fe5a7c75487fcba6552a213533f0b609
+exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
+source-git-commit: 088049a25635f5e9469c16c6ddfe9db86afdc143
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Créer des modèles accessibles
 
@@ -27,6 +27,13 @@ Fournissez des équivalents textuels pour le contenu non textuel, comme les imag
 ```
 
 ![Collage d&#39;idées, de livres, homme tenant un crayon géant, ordinateur](../../assets/card-create-assets.png){width="400"}
+
+## ratios de contraste
+
+Fournissez un contraste approprié entre le texte et l’arrière-plan. Utilisez les rapports de contraste minimum suivants :
+
+- Texte et images de texte : rapport de contraste d’au moins 4,5:1
+- Texte de grande taille et images de texte à grande échelle : rapport de contraste d’au moins 3:1
 
 ## Fonction du lien (lien uniquement)
 
