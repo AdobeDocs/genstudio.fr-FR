@@ -3,13 +3,13 @@ title: Personnalisation d’un modèle
 description: Découvrez comment personnaliser et optimiser votre modèle pour l’Adobe GenStudio des marketeurs de performance.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 909ac53580e672df1adf0c73e67a32f2c045dc35
+exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
+source-git-commit: 8ea0c17b60b18928540070448ad1ce0206208b00
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
 
 ---
-
 
 # Personnalisation d’un modèle
 
@@ -98,21 +98,21 @@ Les _sections_ informent GenStudio for Performance Marketing que les champs de c
 
 Utilisez un préfixe de votre choix dans le nom du champ pour indiquer qu’un champ fait partie d’une section ou d’un groupe. Par exemple, vous pouvez mettre en évidence le contenu qui s’affiche dans une zone mise en surbrillance :
 
-- `spotlight_headline`
-- `spotlight_body`
+- `pod1_headline`
+- `pod1_body`
 
-Chaque section ne peut utiliser qu’un seul type de champ. Dans l’exemple ci-dessus, la section `spotlight` ne peut utiliser qu’un seul champ `spotlight_headline`.
+Chaque section ne peut utiliser qu’un seul type de champ. Dans l’exemple ci-dessus, la section `pod1` ne peut utiliser qu’un seul champ `pod1_headline`.
 
 Un modèle peut comporter trois sections au maximum :
 
 - `headline`
 - `body`
-- `spotlight_headline`
-- `spotlight_body`
-- `news_headline`
-- `news_body`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
 
-GenStudio pour les spécialistes du marketing des performances comprend que `spotlight_headline` est plus étroitement lié à `spotlight_body` qu’à `news_body`.
+GenStudio pour les spécialistes du marketing des performances comprend que `pod1_headline` est plus étroitement lié à `pod1_body` qu’à `pod2_body`.
 
 ## Aperçu du modèle
 
@@ -224,14 +224,18 @@ L’exemple ci-dessous présente le même modèle d’HTML que celui illustré c
                 width="600" height="600"
                 border="0"/></p>
         <p>{{ body }}</p>
+    <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p>This is Pod 1 content.</p>
+            <h2>{{ pod1_header }}</h2>
+            <p>{{ pod1_body }}</p>
         </div>
+        <!-- End of Pod1 -->
+    <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p>This is Pod 2 content.</p>
+            <h2>{{ pod2_header }}</h2>
+            <p>{{ pod2_body }}</p>
         </div>
+        <!-- End of Pod2 -->
     </div>
 </body>
 </html>
@@ -293,4 +297,3 @@ Voici un exemple de base d’un modèle de métadonnées publicitaires. L’en-t
 ```
 
 +++
-
