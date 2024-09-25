@@ -1,13 +1,13 @@
 ---
 title: Création d’une expérience de métadonnées publicitaires
-description: Découvrez comment créer des expériences de métadonnées de marque (pour Facebook ou Instagram) avec Adobe GenStudio pour les marketeurs de performances.
+description: Découvrez comment créer des expériences de métadonnées de marque (pour Facebook ou Instagram) avec Adobe GenStudio pour le marketing de performances.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: c102556fb1c95b70dc724252e4ecdc9ce10c89e7
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Création d’une expérience de métadonnées publicitaires
 
-Ce tutoriel explique comment générer des expériences de métadonnées de marque à l’aide de GenStudio pour les marketeurs de performances [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des expériences de métadonnées de marque à l’aide de GenStudio pour Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
-Avant de commencer à générer une expérience de métadonnées publicitaires, il est important d’ [incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio pour les marketeurs de performance et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
+Avant de commencer à générer une expérience de métadonnées publicitaires, il est important d’ [incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio pour le marketing sur les performances et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
 ## Choisir un modèle
 
@@ -41,7 +41,7 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
 1. Cliquez sur l’icône _Paramètres_ pour développer la zone d’invite.
 1. Dans la section _Parameters_, sélectionnez des instructions—[!DNL Brands], [!DNL Personas] et [!DNL Products]—pour informer la création de contenu.
 
-   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour les marketeurs de performances](/help/user-guide/guidelines/add-guidelines.md).
+   S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
    * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
@@ -125,6 +125,6 @@ Voir [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-appro
 
 ## Connect Meta
 
-Vous pouvez connecter GenStudio pour les marketeurs de performance à Meta afin de recevoir des analyses avancées et des [insights](/help/user-guide/insights/overview.md) sur les performances du contenu.
+Vous pouvez connecter GenStudio for Performance Marketing à Meta afin de recevoir des analyses avancées et des [insights](/help/user-guide/insights/overview.md) sur les performances du contenu.
 
 Pour plus d’informations, voir [Connexion au compte de canal](/help/user-guide/insights/connect-channel.md) .

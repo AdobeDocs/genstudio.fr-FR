@@ -1,9 +1,9 @@
 ---
-title: Validation de marque dans Adobe GenStudio pour les marketeurs de performance
-description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio pour les marketeurs de performance.
+title: Validation de marque dans Adobe GenStudio pour le marketing de performance
+description: Découvrez le fonctionnement du système intégré de validation de marque dans GenStudio pour le marketing de performance.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: a00d4fcaabb97eae69294ddc9689179842d49512
+source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Validation de marque
 
-Dans GenStudio pour les spécialistes du marketing des performances, la validation de la marque est un composant essentiel qui fonctionne en collaboration avec les fonctionnalités et les directives d’IA générative : [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) et [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Cela garantit que tout votre contenu s’aligne sur votre identité de marque.
+Dans GenStudio for Performance Marketing, la validation de la marque est un composant essentiel qui fonctionne en collaboration avec la fonctionnalité et les directives d’IA générative : [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) et [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Cela garantit que tout votre contenu s’aligne sur votre identité de marque.
 
-GenStudio pour les spécialistes du marketing des performances effectue la validation de la marque sur divers aspects, notamment :
+GenStudio for Performance Marketing effectue la validation de la marque sur divers aspects, notamment :
 
 * Indications de marque spécifiques à chaque client
 * Copie des directives pour différentes plateformes de canal

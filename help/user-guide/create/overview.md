@@ -1,18 +1,18 @@
 ---
-title: Présentation de GenStudio pour les marketeurs de performances [!DNL Create]
-description: Générez rapidement du contenu hautement performant sur marque avec une IA générative dans Adobe GenStudio pour les marketeurs de performances [!DNL Create].
+title: Présentation de GenStudio pour le marketing de performances [!DNL Create]
+description: Générez rapidement du contenu hautement performant sur marque avec une IA générative dans Adobe GenStudio pour le marketing de performances [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
+source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%
 
 ---
 
-# GenStudio pour les marketeurs de performance [!DNL Create]
+# GenStudio pour le marketing de performances [!DNL Create]
 
-GenStudio pour les marketeurs de performance [!DNL Create] tire parti de la puissance d’Adobe GenAI pour permettre aux marketeurs et aux équipes distribuées de créer des expériences hautement performantes sur marque.
+GenStudio for Performance Marketing [!DNL Create] tire parti de la puissance d’Adobe GenAI pour permettre aux marketeurs et aux équipes distribuées de créer des expériences hautement performantes sur marque.
 
 Avec [!DNL Create], vous pouvez générer du contenu pour les canaux suivants :
 
@@ -60,13 +60,13 @@ Outre la puissance de [guidelines](/help/user-guide/guidelines/overview.md)—[!
 </tr>
 </table>
 
-GenStudio pour les marketeurs de performance permet aux marketeurs de **créer du contenu marketing**. Dans ce cas d’utilisation, utilisez des [directives](/help/user-guide/guidelines/overview.md) définies et des images d’inspiration pour informer la création de contenu aligné sur la marque.
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketers and use the power of Adobe generative AI technology to revise and improve existing content. 
+GenStudio for Performance Marketing permet aux marketeurs de **créer du contenu marketing**. Dans ce cas d’utilisation, utilisez des [directives](/help/user-guide/guidelines/overview.md) définies et des images d’inspiration pour informer la création de contenu aligné sur la marque.
+<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content. 
 * **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## Fonctionnalités [!DNL Create]
 
-[!DNL Create] intègre divers composants de GenStudio pour les marketeurs de performance afin d’aider les utilisateurs à générer du contenu.
+[!DNL Create] intègre divers composants de GenStudio pour le marketing de performance afin d’aider les utilisateurs à générer du contenu.
 
 ### Brouillons
 
@@ -92,11 +92,11 @@ Dans la zone d’invite, vous pouvez ajouter des _paramètres_ tels que [!DNL Br
 
 Les images téléchargées dans _Parameters_ sont utilisées dans les variantes générées et informent le contenu de la copie (texte) généré pour les variantes.
 
-Ces paramètres ajoutés injectent des [directives](/help/user-guide/guidelines/overview.md) et des ressources dans le processus de génération, en s’assurant que le contenu est personnalisé pour s’aligner sur l’identité complète d’une marque. Il est recommandé d’ajouter des instructions à votre GenStudio pour les spécialistes du marketing des performances et de les utiliser pendant le processus de génération du contenu, car elles améliorent considérablement la création de contenu approprié sur la marque.
+Ces paramètres ajoutés injectent des [directives](/help/user-guide/guidelines/overview.md) et des ressources dans le processus de génération, en s’assurant que le contenu est personnalisé pour s’aligner sur l’identité complète d’une marque. Il est recommandé d’ajouter des instructions à votre GenStudio pour le marketing de performances et de les utiliser pendant le processus de génération du contenu, car elles améliorent considérablement la création de contenu approprié sur la marque.
 
 ### Validation de marque
 
-GenStudio pour les spécialistes du marketing des performances effectue la validation de la marque sur divers aspects de l’identité d’une marque (comme défini dans les [directives](/help/user-guide/guidelines/overview.md)). Les informations [Validation de marque](/help/user-guide/guidelines/brand-validation.md) sont disponibles pour tout contenu généré, indiquant sa conformité aux directives de marque et la cohérence entre le texte et les images. Vous pouvez utiliser ces informations pour réviser ou améliorer l’expérience générée afin de mieux vous aligner sur votre marque.
+GenStudio for Performance Marketing effectue la validation de la marque sur divers aspects de l’identité d’une marque (comme défini dans [guidelines](/help/user-guide/guidelines/overview.md)). Les informations [Validation de marque](/help/user-guide/guidelines/brand-validation.md) sont disponibles pour tout contenu généré, indiquant sa conformité aux directives de marque et la cohérence entre le texte et les images. Vous pouvez utiliser ces informations pour réviser ou améliorer l’expérience générée afin de mieux vous aligner sur votre marque.
 
 ### Révisions et validations
 
@@ -106,7 +106,7 @@ Une fois les variations de contenu générées, envoyez vos brouillons pour appr
 
 ### Gestion des variantes
 
-GenStudio pour les spécialistes du marketing des performances permet un [ contrôle complet des sections de variantes individuelles ](/help/user-guide/create/manage-variants.md).
+GenStudio for Performance Marketing permet un [contrôle complet sur les sections de variantes individuelles](/help/user-guide/create/manage-variants.md).
 
 Vous pouvez réviser les sections d’une seule variante, générer à nouveau le contenu de sections individuelles et utiliser les modifications suggérées pour améliorer le message, dimensionner les ressources, etc., le tout dans la zone de travail.
 

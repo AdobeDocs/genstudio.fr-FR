@@ -1,22 +1,22 @@
 ---
-title: GenStudio pour les marketeurs de performance [!DNL Personas]
-description: GenStudio pour les spécialistes du marketing des performances  [!DNL Personas]  est une véritable représentation de vos segments de clients, qui capture leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
+title: GenStudio pour le Marketing des performances [!DNL Personas]
+description: GenStudio for Performance Marketing [!DNL Personas] est une représentation fidèle de vos segments de clients, qui capture leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
 feature: Personas Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
+source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-
-# GenStudio pour les marketeurs de performance [!DNL Personas]
+# GenStudio pour le marketing de performances [!DNL Personas]
 
 [!DNL Personas] fournit une représentation authentique de vos segments de clients, incluant leurs informations, leurs intérêts, leurs points de douleur, leurs préférences et leurs caractéristiques comportementales.
 
 GenStudio for Performance Marketing tire parti de la puissance des directives ([[!DNL Brands],  [!DNL Products] et  [!DNL Personas]](overview.md)) et de la technologie d’IA générative de l’Adobe pour traiter le contenu marketing personnalisé pour vos clients cibles. &#x200B;
 
-![[!DNL Personas] directives dans GenStudio pour les marketeurs de performance](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
+![[!DNL Personas] directives dans GenStudio pour le marketing de performances](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Pour afficher ou modifier une persona** :
 
@@ -24,11 +24,11 @@ GenStudio for Performance Marketing tire parti de la puissance des directives ([
 1. Pour [ afficher des détails individuels ou modifier une persona](add-guidelines.md#manage-personas), cliquez sur le menu d’actions _[!DNL Personas]_et sélectionnez **Ouvrir**.
 1. Modifiez les directives des personnages en cliquant dans un champ de texte de catégorie de directives.
 
-Voir [Ajout de directives](add-guidelines.md) pour savoir comment ajouter ou modifier une personne dans GenStudio pour les marketeurs de performance.
+Voir [Ajout de directives](add-guidelines.md) pour savoir comment ajouter ou modifier une persona dans GenStudio pour le marketing sur les performances.
 
 ## [!DNL Personas] conseils
 
-Les directives de personnage individuelles donnent une image claire de votre [!DNL Personas] à GenStudio for Performance Marketing.
+Les directives de personnage individuelles donnent à GenStudio for Performance Marketing une image claire de votre [!DNL Personas].
 
 Ces instructions détaillent chaque catégorie de consignes et les exemples connexes. Les exemples sont des exemples d’entrées qui façonnent la sortie du contenu généré. Utilisez-les pour indiquer vos propres instructions [!DNL Personas].
 
