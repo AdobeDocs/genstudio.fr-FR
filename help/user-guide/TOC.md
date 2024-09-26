@@ -1,5 +1,5 @@
 ---
-user-guide-title: Guide de l’utilisateur de l’Adobe GenStudio pour les spécialistes du marketing des performances
+user-guide-title: Guide d’utilisation d’Adobe GenStudio pour les spécialistes du marketing des performances
 breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez comment rechercher et générer rapidement des ressources sur la marque, créer des variations et optimiser des expériences en fonction des informations de performances du contenu en temps réel.
 feature-set: GenStudio
@@ -7,7 +7,7 @@ feature: Generative AI
 source-git-commit: 81cbd495027e50afae2a178d4465703f3df0c950
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 11%
+ht-degree: 32%
 
 ---
 
