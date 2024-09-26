@@ -3,13 +3,13 @@ title: Préparation d’un modèle de courrier électronique pour l’Adobe GenS
 description: Découvrez comment créer un modèle de courrier électronique personnalisé pour Adobe GenStudio pour les spécialistes du marketing des performances.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
+exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
+source-git-commit: 58833ed0c8e28061ab2584b7949f2a0cbd3d10cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
-
 
 # Préparer le modèle de courrier électronique pour l’Adobe GenStudio pour les spécialistes du marketing des performances
 
@@ -30,6 +30,14 @@ Si des instructions ne sont pas ajoutées à GenStudio pour les spécialistes du
 Une fois le modèle conçu, il est codé à l’aide d’HTML et de CSS intégré. Le code doit être propre et réactif pour divers appareils.
 
 Voir [Exemples de modèles](/help/user-guide/content/customize-template.md#template-examples).
+
+### Emails multi-section
+
+Vous pouvez utiliser des [invites structurées](/help/user-guide/effective-prompts.md#structured-prompts) pendant la génération du contenu pour demander à GenStudio for Performance Marketing de générer des contenus variables par section d&#39;un email.
+
+Par exemple, si les sections de votre modèle de courrier électronique comportent le préfixe `Pod`—`Pod1` et `Pod2`, l’invite structurée de génération de contenu peut inclure des directives spécifiques pour ces sections de courrier électronique. GenStudio for Performance Marketing correspond à la directive spécifique à la section dans votre invite de la section d’email associée et génère du contenu aligné sur les directives.
+
+Voir [ invites structurées](/help/user-guide/effective-prompts.md#structured-prompts).
 
 ## Tester un modèle d&#39;email
 

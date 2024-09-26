@@ -2,13 +2,13 @@
 title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio pour les spécialistes du marketing des performances.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: 306b64b44e69dbcec3984d1a0b54230fe0dbe48c
+exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
+source-git-commit: 016cd2b5415651ed3cf157244f868315234330fa
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
-
 
 # Écrire les invites efficaces
 
@@ -54,6 +54,44 @@ Les instructions de GenStudio pour les spécialistes du marketing des performanc
 >[!TIP]
 >
 >Vous contrôlez comment et quand GenStudio pour les marketeurs de performance utilise vos instructions [!DNL Brand]. Voir [Instructions](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer les directives de votre marque.
+
+### Etapes structurées
+
+Pour les emails à plusieurs sections, vous pouvez structurer les invites afin de fournir des instructions spécifiques aux sections afin de générer un contenu variable pour chaque section d’un email. Les invites structurées doivent faire directement référence aux [noms de section dans le modèle d’email](/help/user-guide/content/email-template.md#multi-section-emails) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondant.
+
+Par exemple, vous pouvez demander à GenStudio for Performance Marketing de générer du contenu qui promeut un nouveau produit dans la première section d’un email et de générer du contenu qui détaille les avantages par rapport aux économies de coûts du produit dans la deuxième section d’email.
+
+L’invite structurée doit :
+
+- Utilisez l’une des références suivantes au nom de la section dans le modèle d’email :
+   - Pod
+   - Groupe
+   - Section
+   - Module
+
+  Par exemple, si votre modèle utilise `moduleA` ou `Group-3` comme nom de section, vous pouvez référencer ces noms de section dans l’invite.
+
+- Suivez les règles/structures recommandées. Si la structure de l’invite ne respecte pas le format fourni, l’invite s’applique aux sections d’email *all* et facilite tout de même la génération du contenu.
+- Utilisez les noms de section [ définis dans votre modèle de courrier électronique](/help/user-guide/content/email-template.md#code-an-email-template). Les références d’invite doivent correspondre aux noms de section codés dans votre modèle de courrier électronique.
+- Soyez insensible à la casse. Par exemple, vous pouvez utiliser `Pod` ou `pod` dans votre modèle de courrier électronique et une invite structurée.
+- Référencez d’abord l’invite utilisateur générique, puis les directives spécifiques à la section.
+- Utilisez un deux-points, un trait d’union, une virgule ou une autre démarcation (`,:;#$!~|@=-%&*^_`) comme séparation entre la référence de nom de section et la directive . Par exemple, vous pouvez utiliser ce qui suit comme directive d’invite spécifique à une section : `Pod1; Describe how to easily edit text and swap images.`
+
+Voici un exemple d’invite qui articulera la structure d’invite recommandée et exploite un modèle de courrier électronique qui utilise le terme d’identification `Pod` comme dans `Pod1`, `Pod2` et `Pod3`.
+
+```properties
+Create an exciting multi-pod email focusing on Creative Cloud and its powerful generative AI capabilities.
+
+Encourage customers to convert to Photoshop or use a free Photoshop trial. We want to better educate them about app features.
+
+Pod1: Focus on Adobe Photoshop and its new generative AI tools that enable creators to bring images to life in minutes.
+
+Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Generative Shape Fill, which allows you to quickly fill your vector outline and explore a variety of options that match the look and feel of your own artwork.
+
+Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
+```
+
+Voir [Préparer un modèle de courrier électronique](/help/user-guide/content/email-template.md#code-an-email-template).
 
 ## Réessayer
 
