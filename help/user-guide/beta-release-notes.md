@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: c95a99d4fa8030a35b7fe3690235102e1827422f
+source-git-commit: ca83beb4d6f5bd0d79a2da69658b6e18c3252f2e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Ces notes mettent en évidence d’importants correctifs et améliorations d’A
 * GenStudio peut désormais extraire des informations sur les personnages et les produits d’un PDF chargé et renseigner les champs associés. <!-- GS-3806 -->
 
 * Les utilisateurs peuvent désormais filtrer les ressources et expériences [!DNL Content] en fonction du nom de l’utilisateur qui a chargé la ressource. <!-- GS-1808 -->
-
-* Le flux de connexion Meta comprend désormais un bouton **[!UICONTROL Actualiser]** qui permet aux utilisateurs de débloquer les fenêtres contextuelles lors de la connexion.
-
-* Suppression de la section [!DNL Additional details] de la page de détails [!DNL Persona]. <!-- GS-5133 5134 -->
 
 * La section [!DNL Additional details] a été renommée [!DNL Messaging preferences] dans la page de détails [!DNL Products]. <!-- GS-5133 5134 -->
 
