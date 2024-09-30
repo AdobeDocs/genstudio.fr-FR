@@ -2,9 +2,9 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: ca83beb4d6f5bd0d79a2da69658b6e18c3252f2e
+source-git-commit: f56f3733ead0bfcb4f37e10b66577e1ef597b76d
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ La résolution des problèmes connus suivants est programmée dans la version GA
 * Les modèles peuvent être chargés, mais ils ne sont pas visibles. **Solution** : téléchargez une ressource avec le champ **[!UICONTROL Campagnes]** renseigné. Ensuite, chargez à nouveau le modèle. <!-- GS-4815 5650-->
 
 * Les utilisateurs ne peuvent pas recadrer manuellement les métadonnées publicitaires après les avoir redimensionnées. <!-- GS-5871 -->
-
-* Les utilisateurs peuvent créer un [!DNL Campaign] à partir de [!DNL Content] workflows. <!-- GS-5650 -->
 
 * Les utilisateurs doivent se connecter deux fois à un compte Métadonnées de canal lorsqu’ils sont également connectés à Facebook. Solution : déconnectez-vous de Facebook avant de vous connecter à un compte de métadonnées de canal. <!-- GS-3009 -->
 
@@ -68,7 +66,6 @@ La résolution des problèmes connus suivants est programmée dans la version GA
 * Correction du rendu des images des métadonnées générées par les publicités après l’exportation. <!-- GS-5749 -->
 
 * Le symbole `%` s’affiche désormais correctement dans les paramètres régionaux DEU, FRA et ESP lorsque les utilisateurs effectuent un zoom avant ou arrière sur les variantes d’emails dans le canevas C[!DNL Create]. <!-- GS-5007 -->
-
 
 #### Localisation
 
