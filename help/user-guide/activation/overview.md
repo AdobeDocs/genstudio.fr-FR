@@ -2,17 +2,17 @@
 title: Présentation de l’activation
 description: Découvrez comment activer du contenu avec Adobe Experience Cloud et des applications tierces.
 feature: Assets, Approval, Experiences
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
+source-git-commit: b1550c4b1f624287e432bf7b610f9d31892b13c0
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
+# Activation d’Adobe GenStudio for Performance Marketing
 
-# Adobe GenStudio pour l’activation des marketeurs de performance
-
-_Activation_ est le processus qui permet de rendre l’Adobe GenStudio des ressources et des expériences générées par les marketeurs de performances disponible pour la diffusion via vos canaux et produits Adobe Experience Cloud sélectionnés. Vous pouvez facilement exporter du contenu approuvé à partir de GenStudio pour les marketeurs de performance dans des formats optimaux pour les applications tierces que vous avez incluses dans les produits.
+_Activation_ est le processus qui permet de rendre disponibles pour la diffusion des ressources et expériences générées par Adobe GenStudio for Performance Marketing par l’intermédiaire de vos canaux et produits Adobe Experience Cloud sélectionnés. Vous pouvez facilement exporter du contenu approuvé à partir de GenStudio for Performance Marketing dans des formats optimaux pour les applications tierces que vous avez incluses dans [!DNL Products].
 
 La fonction d’activation de GenStudio for Performance Marketing est intégrée de manière native aux produits de diffusion d’expérience d’Adobe : Journey Optimizer, édition B2B de Journey Optimizer, Experience Manager, Marketo et Target.
 
@@ -20,16 +20,16 @@ La fonction d’activation de GenStudio for Performance Marketing est intégrée
 
 1. Sélectionnez la ressource [!DNL Content].
 
-1. Cliquez sur le bouton **[!UICONTROL Télécharger]** dans le volet Détails de la ressource. GenStudio pour les spécialistes du marketing des performances démarre le processus de téléchargement.
+1. Cliquez sur l&#39;icône **[!UICONTROL Télécharger]** (flèche vers le bas) au-dessus de la vue _Détails_.
 
-La ressource est téléchargée sous la forme d’un fichier zip dans votre dossier de téléchargements local.
+   La ressource est téléchargée sous la forme d’un fichier ZIP dans votre dossier local _Downloads_.
 
 **Pour activer une expérience approuvée** :
 
-1. Sélectionnez l’expérience à partir de [!DNL Content].
+1. Sélectionnez l’expérience depuis [!DNL Content] > [!DNL Experiences].
 
-1. Cliquez sur le bouton **[!UICONTROL Exporter pour activation]** dans le volet Détails de l’expérience. GenStudio for Performance Marketing affiche la fenêtre contextuelle **[!UICONTROL Exporter pour activation]** et fournit deux formats de téléchargement : CSV et HTML.
+1. Cliquez sur le bouton **[!UICONTROL Exporter pour activation]** dans la vue Détails de l’expérience. GenStudio for Performance Marketing affiche la fenêtre contextuelle **[!UICONTROL Export for activation]** et fournit deux formats de téléchargement : CSV et HTML. (Vous pouvez également accéder au bouton *[!UICONTROL Exporter pour activation]** depuis le menu _Plus d’options_ (représenté par `...`)).
 
-1. Sélectionnez le format de téléchargement souhaité en cliquant sur le bouton **[!UICONTROL Exporter CVS]** ou **[!UICONTROL Exporter l’HTML]** dans la fenêtre contextuelle.
+1. Sélectionnez le format de téléchargement souhaité en cliquant sur le bouton **[!UICONTROL Exporter CSV]** ou **[!UICONTROL Exporter l’HTML]** dans la fenêtre contextuelle.
 
-Le processus d’exportation crée un package ZIP dans votre dossier local _Downloads_. Ce nom de dossier est identique à celui de l’expérience GenStudio pour les spécialistes du marketing des performances.
+   Le processus d’exportation crée un package ZIP dans votre dossier local _Downloads_. Ce nom de dossier est identique au nom de l’expérience.
