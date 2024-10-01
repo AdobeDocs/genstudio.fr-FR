@@ -1,9 +1,9 @@
 ---
 title: Créer des modèles accessibles
-description: Créez des modèles dans Adobe GenStudio pour les marketeurs de performance capables d’atteindre un plus grand nombre de vos audiences et de fournir une expérience optimale.
+description: Créez des modèles dans Adobe GenStudio for Performance Marketing capables d’atteindre un plus grand nombre de votre audience et de fournir une expérience optimale.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 088049a25635f5e9469c16c6ddfe9db86afdc143
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe s’engage à fournir une expérience optimale à toutes les audiences. Voir [Initiatives d’accessibilité à l’Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) pour en savoir plus.
 
-Dans GenStudio pour les spécialistes du marketing des performances, vous pouvez charger des ressources et des modèles qui permettent la création de contenu pour diverses expériences. Le respect des normes d’accessibilité permet à votre contenu d’atteindre l’audience maximale prévue.
+Dans GenStudio for Performance Marketing, vous pouvez charger des ressources et des modèles qui permettent la création de contenu pour diverses expériences. Le respect des normes d’accessibilité permet à votre contenu d’atteindre l’audience maximale prévue.
 
 Suivez les recommandations ci-dessous pour préparer vos modèles à l’aide de normes d’accessibilité optimales.
 

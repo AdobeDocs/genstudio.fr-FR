@@ -1,18 +1,18 @@
 ---
 title: Détails de la ressource
-description: Adobe GenStudio pour les spécialistes du marketing des performances stocke le contenu approuvé avec des métadonnées enrichies pour la recherche et le suivi des performances.
+description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 95eb7c2eaeeceedf3abe5ab16e1e7c2de7bf8117
+source-git-commit: 0d8f04ab26e8d0dd533cfc4e388dd0b0a68adb3b
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
 
 # Détails de la ressource
 
-Adobe GenStudio pour les spécialistes du marketing des performances stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la capacité de découverte.
+Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la capacité de découverte.
 
 Chaque ressource (y compris les expériences et les modèles) est associée à _details_ (métadonnées) qui permettent d’identifier, de suivre, d’utiliser et d’apprendre des performances du contenu.
 
@@ -30,7 +30,7 @@ Les détails de la ressource incluent les métadonnées appliquées au cours du 
 
 >[!NOTE]
 >
->Assets des référentiels AEM affiche différentes métadonnées. Voir [Configuration de la visibilité des ressources](connect-aem-repo.md#step-4-configure-asset-visibility) pour savoir comment configurer les détails des ressources Content Hub AEM Assets.
+>Assets des référentiels AEM affiche différentes métadonnées. Voir [Configuration de la visibilité des ressources](connect-aem-repo.md#step-4-configure-asset-visibility) pour apprendre à configurer les [!DNL AEM Assets Content Hub] détails des ressources.
 
 ## Métadonnées système
 
@@ -50,7 +50,7 @@ Les informations utilisées pour générer une nouvelle ressource ou expérience
 
 Les métadonnées définies par l’utilisateur ajoutent du contexte marketing au contenu de la ressource, ce qui permet aux marketeurs de comprendre comment utiliser la ressource et interagir avec elle.
 
-Lorsque vous [téléchargez une ressource](/help/user-guide/content/manage-assets.md#add-assets), vous pouvez définir un ensemble de détails de ressource facultatifs qui existent dans GenStudio pour les spécialistes du marketing des performances sous forme de métadonnées. L’inclusion d’autres détails peut améliorer l’identification des ressources dans les recherches et le filtrage.
+Lorsque vous [téléchargez une ressource](/help/user-guide/content/manage-assets.md#add-assets), vous pouvez définir un ensemble de détails de ressource facultatifs qui existent dans GenStudio for Performance Marketing en tant que métadonnées. L’inclusion d’autres détails peut améliorer l’identification des ressources dans les recherches et le filtrage.
 
 ### Détails des métadonnées
 
@@ -59,10 +59,10 @@ Le tableau suivant décrit les métadonnées (détails de la ressource) que vous
 | champ | Description |
 | ------------- | ----------- |
 | Campagnes (nom du projet) | Métadonnées par défaut capturées et stockées avec la ressource |
-| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ajouté à GenStudio pour les marketeurs de performance et publié pour utilisation |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio pour les marketeurs de performance à utiliser |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio pour les marketeurs de performance à utiliser |
-| Canaux | Types de contenu dans GenStudio pour les spécialistes du marketing des performances pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires |
+| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) ajouté à GenStudio for Performance Marketing et publié pour utilisation |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) ajouté à GenStudio for Performance Marketing pour utilisation |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) ajouté à GenStudio for Performance Marketing pour utilisation |
+| Canaux | Types de contenu dans GenStudio for Performance Marketing pour lesquels la ressource est utilisée, tels que les courriers électroniques et les métadonnées publicitaires |
 | Période | Période pour laquelle la ressource a été utilisée, par exemple trimestre, saison, année, etc. Exemple : `Winter 2023` |
 | Région   | Régions pour lesquelles la ressource est utilisée. Exemples : `North America`, `APAC`, `Italy` |
 | Langue | Langues pour lesquelles la ressource est utilisée. Exemple : `Spanish` |

@@ -3,7 +3,7 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: dc438085cfe7c93b20dc7fb0d5919d2dc8b3dcde
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestion des ressources et des expériences
 
-Adobe GenStudio pour les marketeurs de performance [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour utilisation et réutilisation dans votre parcours de marketing numérique.
+Adobe GenStudio for Performance Marketing [!DNL Content] simplifie et améliore la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours de marketing numérique.
 
 ## Galerie Assets
 
@@ -24,13 +24,13 @@ Vous trouverez ci-dessous une recherche sur le terme `dog` dans la galerie [!UIC
 
 ### Emplacement Assets
 
-Par défaut, les ressources que vous ajoutez à [!DNL Content] par le biais du processus [!DNL Create] ou par le transfert sont stockées dans le référentiel `GenStudio assets`. Le référentiel `GenStudio assets` est un référentiel de lecture-écriture dans GenStudio pour les marketeurs de performances. Cela signifie que vous pouvez enregistrer, modifier et supprimer des ressources dans le référentiel `GenStudio assets`.
+Par défaut, les ressources que vous ajoutez à [!DNL Content] par le biais du processus [!DNL Create] ou par le transfert sont stockées dans le référentiel `GenStudio assets`. Le référentiel `GenStudio assets` est un référentiel de lecture-écriture dans GenStudio for Performance Marketing. Cela signifie que vous pouvez enregistrer, modifier et supprimer des ressources dans le référentiel `GenStudio assets`.
 
 La liste **[!UICONTROL Location]** située au-dessus de la galerie sur le côté droit vous permet de choisir parmi les référentiels Adobe Experience Manager (AEM) [!DNL Assets Content Hub] connectés. Lorsque vous sélectionnez un référentiel AEM, la galerie affiche un inventaire des ressources de ce référentiel, ce qui vous permet d’exploiter les ressources approuvées de ces référentiels en tant qu’entrées pour la création de contenu. Les options de filtre changent pour refléter les catégories configurées dans [!DNL AEM Assets Content Hub].
 
 Le référentiel AEM est en lecture seule, ce qui signifie que vous ne pouvez pas enregistrer de brouillons, de nouvelles ressources ou de nouvelles métadonnées dans le référentiel AEM. Tous les brouillons et mises à jour finales pour les ressources, les expériences et les modèles sont enregistrés dans le référentiel `GenStudio assets` avec de nouvelles [métadonnées système](asset-details.md#system-metadata).
 
-Voir [Connexion d’un référentiel d’AEM](connect-aem-repo.md) pour plus d’informations sur l’ajout de votre référentiel [!DNL AEM Assets Content Hub] à GenStudio pour les marketeurs de performances.
+Voir [Connexion d’un référentiel d’AEM](connect-aem-repo.md) pour plus d’informations sur l’ajout de votre référentiel [!DNL AEM Assets Content Hub] à GenStudio for Performance Marketing.
 
 ## Gestion d’Assets
 
@@ -52,7 +52,7 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont par défaut stock�
 
 1. Pour améliorer la visibilité, ajoutez des détails facultatifs tels que _Nom de la marque_, _Personas_, _Région_ et _Mots-clés_ dans la section **Plus de détails**.
 
-   Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio pour les marketeurs de performances. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
+   Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
 
    Tous les détails que vous ajoutez s’appliquent à toutes les ressources ajoutées dans cette action.
 

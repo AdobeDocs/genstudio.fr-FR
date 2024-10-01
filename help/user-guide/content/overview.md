@@ -1,18 +1,18 @@
 ---
-title: Présentation de l’Adobe GenStudio pour les marketeurs de performances [!DNL Content]
+title: Présentation d’Adobe GenStudio for Performance Marketing [!DNL Content]
 description: Découvrez comment rechercher, modifier, réutiliser et partager des ressources approuvées par la marque dans un portail intuitif.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: c8c23be561dfb77ceb8f1abe6a85b9321201bb40
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
 
 ---
 
-# Adobe GenStudio pour les marketeurs de performance [!DNL Content]
+# Adobe GenStudio for Performance Marketing [!DNL Content]
 
-GenStudio pour les marketeurs de performance [!DNL Content] fournit un emplacement central pour stocker, rechercher et partager toutes les ressources, expériences et modèles approuvés par la marque. Vous pouvez modifier et remixer du contenu, en savoir plus sur l’utilisation et l’opinion du contenu, ainsi qu’actualiser et réutiliser des ressources existantes à l’aide d’une IA générative.
+GenStudio for Performance Marketing [!DNL Content] fournit un emplacement central où stocker, rechercher et partager toutes les ressources, expériences et modèles approuvés par la marque. Vous pouvez modifier et remixer du contenu, en savoir plus sur l’utilisation et l’opinion du contenu, ainsi qu’actualiser et réutiliser des ressources existantes à l’aide d’une IA générative.
 
 ## Scénarios d’utilisation d’[!DNL Content] 
 
@@ -63,7 +63,7 @@ GenStudio pour les marketeurs de performance [!DNL Content] fournit un emplaceme
 
 ## Fonctionnalités [!DNL Content]
 
-GenStudio pour les marketeurs de performance [!DNL Content] facilite la gestion de vos ressources approuvées et l’accélération du cycle de vie du contenu. Dans **[!UICONTROL [!DNL Content]]**, vous pouvez rechercher, trouver et réutiliser du contenu performant ou sélectionner une ressource ou une expérience pour lancer la création de nouvelles variantes pour une campagne permanente.
+GenStudio for Performance Marketing [!DNL Content] facilite la gestion des ressources approuvées et l’accélération du cycle de vie du contenu. Dans **[!UICONTROL [!DNL Content]]**, vous pouvez rechercher, trouver et réutiliser du contenu performant ou sélectionner une ressource ou une expérience pour lancer la création de nouvelles variantes pour une campagne permanente.
 
 ### Charger les ressources
 
@@ -71,7 +71,7 @@ Le panneau **[!UICONTROL Ajouter des ressources]** vous permet de faire glisser 
 
 ### Recherche et recherche de contenu approuvé
 
-Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve les métadonnées enrichies, le contexte de génération et l’historique de contrôle. Les détails des ressources permettent de réduire rapidement les résultats de recherche à l’aide de chaînes de filtre et de recherche. L’IA de GenStudio pour les spécialistes du marketing des performances identifie et stocke automatiquement certains détails, tels que la couleur. La recherche de `blue` dans le champ de recherche réduit la liste de contenu aux ressources balisées en bleu.
+Lorsque vous enregistrez des ressources approuvées, [!DNL Content] conserve les métadonnées enrichies, le contexte de génération et l’historique de contrôle. Les détails des ressources permettent de réduire rapidement les résultats de recherche à l’aide de chaînes de filtre et de recherche. L’IA de GenStudio for Performance Marketing identifie et stocke automatiquement certains détails, tels que la couleur. La recherche de `blue` dans le champ de recherche réduit la liste de contenu aux ressources balisées en bleu.
 
 ### Utilisation de modèles
 
