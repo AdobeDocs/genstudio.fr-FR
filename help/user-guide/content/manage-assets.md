@@ -3,9 +3,9 @@ title: Gestion des ressources et des expériences
 description: Simplifiez et améliorez la gestion des ressources approuvées par la marque pour une utilisation et une réutilisation dans votre parcours marketing numérique.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
+source-git-commit: af20efaa511ed403f5160956ff98b42beb64bb34
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -59,18 +59,22 @@ Lors de l’ajout de ressources à [!DNL Content], elles sont par défaut stock�
    Voir [Détails des métadonnées](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Cliquez sur **[!UICONTROL Ajouter des ressources]**.
+
 1. Une fois le chargement de la ressource terminé, cliquez sur **Terminé**.
+
 1. Pour afficher vos nouvelles ressources chargées, cliquez sur **[!UICONTROL Actualiser]** dans la notification _Nouvelles ressources disponibles_ située au bas de la zone de travail.
 
 <!-- 
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-### Rechercher des ressources
+### Recherche de contenu
 
-L’interface de recherche [!DNL Content] est rapide et réactive et offre une expérience de recherche productive en premier.
+L’interface de filtrage et de recherche est rapide et réactive et offre une expérience de recherche productive axée sur la recherche. Chaque vue [!DNL Content] fournit des options de filtre pour affiner votre recherche de la ressource, de l’expérience ou du modèle idéal. Pour les ressources et les expériences, vous pouvez sélectionner une campagne et des consignes spécifiques, telles que le contenu créé pour un produit spécifique.
 
-Appliquez des filtres et utilisez des balises de métadonnées à partir des détails de la ressource pour affiner les résultats de recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une nouvelle expérience pour votre campagne.
+Il existe des filtres basés sur [keywords](asset-details.md#user-defined-metadata) et [attributes](/help/user-guide/insights/attributes.md) pour limiter les résultats de la recherche. Par exemple, vous pouvez rechercher une ressource d’un type de fichier ou d’un objet spécifique afin de vous aider à créer une nouvelle expérience pour votre campagne.
+
+Lors de la recherche de _expériences_, vous pouvez utiliser le filtre **[!UICONTROL Créé par]** pour limiter la liste afin de n’afficher que les expériences créées par vous ou une personne spécifique.
 
 **Pour rechercher du contenu à réutiliser** :
 
