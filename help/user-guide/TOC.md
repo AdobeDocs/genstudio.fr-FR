@@ -4,10 +4,10 @@ breadcrumb-title: Guide d’utilisation
 user-guide-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources sur marque, générer des variations et optimiser des expériences.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 428e88b5d5ac125f42d0a27367f456fcd2828df5
+source-git-commit: 059b464cb2a7b57557407bbaee6162b770107222
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -58,4 +58,5 @@ ht-degree: 11%
    + [Connexion au compte de canal](insights/connect-channel.md)
    + [Canaux](insights/channels.md)
    + [Expériences](insights/experiences.md)
-   + [Colonnes de données](insights/data-columns.md)
+   + [Ressources](insights/assets.md)
+   + [Attributs](insights/attributes.md)

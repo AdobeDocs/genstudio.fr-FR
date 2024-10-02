@@ -3,16 +3,16 @@ title: Présentation de [!DNL Insights]
 description: Découvrez comment optimiser des expériences en fonction des mesures de performances du contenu en temps réel.
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: a531ef2a7869a3f8e19fccd17b7acda54a767f6b
+source-git-commit: 723b1f826fe5ceefcf9c1beff09af9b3d56462c5
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio pour les marketeurs de performance [!DNL Insights]
+# Adobe GenStudio for Performance Marketing [!DNL Insights]
 
-Adobe GenStudio pour les spécialistes du marketing des performances [!DNL Insights] fournit des analyses avancées et des informations sur les performances du contenu qui peuvent vous aider à prendre des décisions basées sur les données.
+Adobe GenStudio for Performance Marketing [!DNL Insights] fournit des analyses avancées et des informations sur les performances du contenu qui peuvent vous aider à prendre des décisions basées sur les données.
 
 Depuis le tableau de bord [!DNL Insights], vous pouvez :
 
@@ -22,7 +22,7 @@ Depuis le tableau de bord [!DNL Insights], vous pouvez :
 
 >[!TIP]
 >
->Voir le [ compte de canal de connexion ](connect-channel.md) pour connaître les étapes permettant à GenStudio pour les marketeurs de performance de recevoir des données de vos campagnes marketing, ressources et expériences actives.
+>Consultez le [ compte de canal de connexion ](connect-channel.md) pour connaître les étapes permettant à GenStudio for Performance Marketing de recevoir des données de vos campagnes marketing, ressources et expériences actives.
 
 ## Tableau de bord
 
@@ -31,8 +31,6 @@ Le tableau de bord [!DNL Insights] comporte une table configurable pour chaque t
 ![[!DNL Insights] tableau de bord](/help/assets/insights-dashboard.png)
 
 Chaque vue affiche un tableau correspondant, que vous pouvez rechercher par mot-clé, filtrage et période. Vous pouvez cliquer sur l’icône de paramètres (engrenage) située au-dessus du côté droit du tableau pour activer ou désactiver les types de colonnes visibles. La ligne _[!UICONTROL Summary]_ peut afficher les totaux ou les moyennes d’une colonne.
-
-Voir [Colonnes de données pour [!DNL Insights]](data-columns.md) pour une description de chaque type de colonne dans le tableau.
 
 [!UICONTROL Expériences], [!UICONTROL Assets] et [!UICONTROL Attributs] incluent une vue de galerie qui vous permet d’analyser et de trier des ressources à l’aide de cartes avec une miniature d’image ou vidéo. Il existe une option pour afficher l’une des trois mesures clés sur chaque carte : `Click-through rate`, `Cost per click` et `Spend`.
 
@@ -50,7 +48,7 @@ La vue [!DNL Insights] _[!UICONTROL Assets]_ est conçue pour vous aider à anal
 
 Cliquer sur une ressource fournit un contexte plus détaillé sur ses performances pour différentes expériences :
 
-![Affichage de ressource](/help/assets/insights-asset-view.png){width="600" zoomable="yes"}
+![Détails de la ressource](/help/assets/insights-asset-details.png){width="600" zoomable="yes"}
 
 Dans l’affichage de la ressource, le côté gauche affiche une miniature de la ressource et une liste d’attributs. Il existe trois mesures en surbrillance : `Click-through rate`, `Cost per click` et `Spend`. Les performances montrent comment les valeurs réelles (ligne continue) se comparent à la valeur moyenne (ligne pointillée) sur la période sélectionnée (la valeur par défaut est `Last 30 days`).
 
