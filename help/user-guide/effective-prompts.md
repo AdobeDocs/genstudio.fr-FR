@@ -1,9 +1,9 @@
 ---
 title: Écrire les invites efficaces
-description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio pour les spécialistes du marketing des performances.
+description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 016cd2b5415651ed3cf157244f868315234330fa
+source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Écrire les invites efficaces
 
-La communication avec l’IA générative est essentielle pour travailler efficacement dans Adobe GenStudio pour les marketeurs de performance.
+La communication avec l’IA générative est essentielle pour travailler efficacement dans Adobe GenStudio for Performance Marketing.
 
-GenStudio pour les spécialistes du marketing des performances fournit une invite d’IA générative chaque fois qu’il est possible de modifier une ressource. Les composants d’une invite efficace doivent inclure un langage descriptif, des exemples et des informations qui ne sont pas fournis par le biais de vos instructions configurées.
+GenStudio for Performance Marketing fournit une invite d’IA générative chaque fois qu’il est possible de modifier une ressource. Les composants d’une invite efficace doivent inclure un langage descriptif, des exemples et des informations qui ne sont pas fournis par le biais de vos instructions configurées.
 
-En règle générale, fournissez des informations sur votre marque à GenStudio pour les marketeurs de performance à l’aide de [conseils](/help/user-guide/guidelines/overview.md), puis vous pouvez exploiter pleinement l’IA générative pour produire des expériences de contenu alignées sur la marque.
+En règle générale, fournissez à GenStudio for Performance Marketing des informations sur votre marque en utilisant [des instructions](/help/user-guide/guidelines/overview.md), puis vous pouvez exploiter pleinement l’IA générative pour produire des expériences de contenu alignées sur la marque.
 
 ## Langage descriptif
 
@@ -39,21 +39,21 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Critères d’invite
 
-Dans GenStudio pour les spécialistes du marketing des performances [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser les **[!UICONTROL critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans la zone d’invite pour ajouter des détails par le biais de la sélection afin d’améliorer l’interprétation de l’IA.
+Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser les **[!UICONTROL critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans la zone d’invite pour ajouter des détails par le biais de la sélection afin d’améliorer l’interprétation de l’IA.
 
 Pour [emails](/help/tutorials/create-email-experience.md), les critères d’invite peuvent inclure l’ajout de [guidelines](/help/user-guide/guidelines/overview.md) dans _Parameters_, le chargement d’une ressource à utiliser dans les variantes d’email et une invite descriptive. Pour une [méta-publicité](/help/tutorials/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de la marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources tels que les proportions et une invite. La puissance réelle commence par [configurer les instructions](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Si des instructions sont ajoutées dans la zone d’invite _Paramètres_, il n’est pas nécessaire d’y inclure des références dans votre invite. GenStudio pour les spécialistes du marketing des performances exploite les [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
+>Si des instructions sont ajoutées dans la zone d’invite _Paramètres_, il n’est pas nécessaire d’y inclure des références dans votre invite. GenStudio for Performance Marketing exploite ces [!DNL Brands], [!DNL Products] et [!DNL Personas] dans la génération du contenu.
 
 ### Instructions
 
-Les instructions de GenStudio pour les spécialistes du marketing des performances aident l’IA générative à personnaliser la composition de vos ressources. Lorsque des critères d’invite s’affichent, vous pouvez choisir un [[!DNL Brand]](/help/user-guide/guidelines/brands.md), un [[!DNL Persona]](/help/user-guide/guidelines/personas.md) et un [[!DNL Product]](/help/user-guide/guidelines/products.md) parmi les instructions que vous avez configurées.
+Les instructions de GenStudio for Performance Marketing aident l’IA générative à personnaliser la composition de vos ressources. Lorsque des critères d’invite s’affichent, vous pouvez choisir un [[!DNL Brand]](/help/user-guide/guidelines/brands.md), un [[!DNL Persona]](/help/user-guide/guidelines/personas.md) et un [[!DNL Product]](/help/user-guide/guidelines/products.md) parmi les instructions que vous avez configurées.
 
 >[!TIP]
 >
->Vous contrôlez comment et quand GenStudio pour les marketeurs de performance utilise vos instructions [!DNL Brand]. Voir [Instructions](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer les directives de votre marque.
+>Vous contrôlez comment et quand GenStudio for Performance Marketing utilise vos instructions [!DNL Brand]. Voir [Instructions](/help/user-guide/guidelines/overview.md) pour savoir comment configurer et gérer les directives de votre marque.
 
 ### Etapes structurées
 
@@ -95,7 +95,7 @@ Voir [Préparer un modèle de courrier électronique](/help/user-guide/content/e
 
 ## Réessayer
 
-Prompter est un processus itératif. Si les résultats ne répondent pas à vos attentes, passez en revue votre invite et apportez des modifications ou ajoutez des détails supplémentaires. Vous pouvez également coller des sections dans un résumé de campagne. Vous pouvez même demander à GenStudio pour les marketeurs de la performance d’éviter certains mots, éléments ou thèmes.
+Prompter est un processus itératif. Si les résultats ne répondent pas à vos attentes, passez en revue votre invite et apportez des modifications ou ajoutez des détails supplémentaires. Vous pouvez également coller des sections dans un résumé de campagne. Vous pouvez même demander à GenStudio for Performance Marketing d’éviter certains mots, éléments ou thèmes.
 
 ## Bonnes pratiques
 
@@ -103,7 +103,7 @@ Quelques bonnes pratiques simples pour concevoir des invites efficaces :
 
 - Soyez précis et fournissez des détails sur ce qu’il faut faire ou non.
 - Fournir du contexte à l’aide de références externes.
-- Appliquez GenStudio pour obtenir des instructions sur les marketeurs de performance.
+- Appliquez les directives de GenStudio for Performance Marketing.
 - Examinez et ajustez régulièrement les consignes.
 - Itérer et affiner.
 - Apprenez par l&#39;expérimentation.

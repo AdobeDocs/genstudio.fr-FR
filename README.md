@@ -1,11 +1,11 @@
 ---
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 2bc505acc561e60ee2af928adf53c9193677c3f5
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 39%
 
 ---
-# Documentation de GenStudio pour les marketeurs de performance
+# Documentation GenStudio for Performance Marketing
 
 Ce site contient la documentation la plus récente du produit GenStudio for Performance Marketing.
 
