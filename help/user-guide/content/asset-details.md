@@ -3,9 +3,9 @@ title: Détails de la ressource
 description: Adobe GenStudio for Performance Marketing stocke le contenu approuvé avec des métadonnées enrichies pour le suivi des performances et de la recherche.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 059b464cb2a7b57557407bbaee6162b770107222
+source-git-commit: 44e4a297077d06047767cc40b7009ac88e7b493c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,37 @@ Chaque ressource (y compris les expériences et les modèles) est associée à _
    >
    >Si la section _[!UICONTROL Détails]_ n&#39;est pas visible, cliquez sur l&#39;icône **[!UICONTROL Informations]** (i).
 
-Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
+   Les détails de la ressource incluent les métadonnées appliquées au cours du processus de création ou de chargement. Les types de métadonnées de ressources incluent [les métadonnées système](#system-metadata) et [ les métadonnées définies par l’utilisateur](#user-defined-metadata).
 
 >[!NOTE]
 >
 >Assets des référentiels AEM affiche différentes métadonnées. Voir [Configuration de la visibilité des ressources](connect-aem-repo.md#step-4-configure-asset-visibility) pour apprendre à configurer les [!DNL AEM Assets Content Hub] détails des ressources.
+
+## Modifier dans Express
+
+Vous pouvez modifier des ressources d’image (JPG ou PNG) directement dans GenStudio for Performance Marketing à l’aide d’Adobe Express. Le canevas _[!UICONTROL Powered by Adobe Express]_ offre des fonctionnalités pratiques pour améliorer vos images sans quitter l’application GenStudio. Vous pouvez facilement supprimer des arrière-plans, appliquer des remplissages génératifs, ajuster les effets et recadrer des images.
+
+1. Dans _[!DNL Content]_, sélectionnez une ressource image. Cliquer sur une ressource ouvre une vue sélectionnée de la ressource.
+
+1. Dans la vue de la ressource, cliquez sur l&#39;icône **[!UICONTROL Modifier en Adobe Express]** en haut à droite.
+
+1. Dans la zone de travail _[!UICONTROL Powered by Adobe Express]_, utilisez les commandes express du panneau de gauche pour améliorer votre image.
+
+1. Lorsque vous êtes satisfait de l’image mise à jour, cliquez sur **[!UICONTROL Enregistrer une copie]** dans le coin supérieur droit.
+
+1. Sélectionnez le format de fichier (JPG ou PNG) et cliquez sur **[!UICONTROL Enregistrer une copie]**.
+
+1. Dans la fenêtre contextuelle _[!UICONTROL Enregistrer une copie de la ressource]_, mettez à jour le **[!UICONTROL nom de la ressource]**.
+
+   - Sélectionnez **[!UICONTROL Même détails que la ressource d’origine]** pour transférer les détails de la ressource vers la nouvelle image.
+
+   - Développez la section **[!UICONTROL Plus de détails]** pour mettre à jour Campaign, les directives et d’autres métadonnées.
+
+   >[!TIP]
+   >
+   >Plus vous fournissez de détails, plus vous découvrez les puissantes fonctionnalités de GenStudio for Performance Marketing. Sélectionnez un ou plusieurs détails dans la liste ou saisissez-en un nouveau le cas échéant, par exemple avec des mots-clés. Chaque détail que vous ajoutez apparaît sous la liste. Cliquez sur **`x`** pour supprimer un détail.
+
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 ## Métadonnées système
 
