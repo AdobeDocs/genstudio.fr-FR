@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
+source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Lors de la révision et de la préparation des expériences par e-mail, vous pou
 
 ## Vérifier l&#39;alignement des marques
 
-Pour optimiser les e-mails générés et garantir une stricte conformité avec l’identité de la marque, utilisez la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), qui fournit un résumé de l’alignement de la marque pour une variante, et le [_panneau de validation de marque_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel), qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.
+Pour optimiser les e-mails générés et garantir une stricte conformité avec l’identité de la marque, utilisez la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), ce qui fournit un résumé de l’alignement de la marque pour une variante, et le [_panneau de validation de marque_}, qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)
 
 **Pour vérifier l’alignement de la marque** :
 
