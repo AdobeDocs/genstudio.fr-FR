@@ -2,9 +2,9 @@
 title: Gestion des variantes
 description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: 67a3fe86facf0fef12f1fd63d8cf79132b0f42b0
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Supprimez les variantes inutiles de sorte que le canevas de travail affiche uniq
 
 **Pour supprimer une variante générée** :
 
-1. Après avoir généré un ensemble de variantes, cliquez sur le nom situé au-dessus d&#39;une variante.
+1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (trois points) au-dessus d’une variante.
 
    La variante est mise en surbrillance et un menu contextuel s’affiche.
 
@@ -128,3 +128,27 @@ Supprimez les variantes inutiles de sorte que le canevas de travail affiche uniq
 Utilisez la _[!UICONTROL vérification des directives de marque]_ et le _[!UICONTROL panneau de validation de marque]_ pour maintenir l’identité de la marque et l’alignement des variantes.
 
 Voir [Validation de marque](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+
+## Commentaires sur la génération
+
+Vous pouvez envoyer des commentaires sur la qualité des ressources générées alignées sur la marque afin d’améliorer le processus de génération du contenu. Indiquer si les résultats sont de grande ou de mauvaise qualité contribue à améliorer la qualité globale du contenu et la sécurité des utilisateurs de GenStudio for Performance Marketing.
+
+Les commentaires de génération s&#39;appliquent à une variante individuelle, et non à l&#39;ensemble de variantes collectées.
+
+**Pour envoyer des commentaires de génération** :
+
+1. Après avoir généré un ensemble de variantes, cliquez sur l’icône d’options (trois points) au-dessus d’une variante.
+
+   La variante est mise en surbrillance et un menu contextuel s’affiche.
+
+1. Sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
+
+   Une fenêtre contextuelle de commentaire s’affiche pour collecter des informations supplémentaires. Le contenu généré et les informations rapides sont inclus dans vos commentaires.
+
+1. Ajoutez les informations suivantes dans la fenêtre contextuelle de retour :
+   1. Sélectionnez l’option _[!UICONTROL Inclure également le contenu de référence et les données de calque]_ pour inclure ces informations de référence supplémentaires dans les commentaires collectés.
+   1. De _[!UICONTROL Qu&#39;est-ce qui a bien fonctionné ?]_ ou _[!UICONTROL Qu’est-ce qui s’est mal passé ?]_ , sélectionnez les options qui décrivent la qualité élevée ou médiocre de la génération du contenu.
+   1. Ajoutez toute autre information utile ou associée dans le champ _[!UICONTROL Notes]_ .
+1. Cliquez sur **[!UICONTROL Soumettre]**.
+
+   Une bannière s’affiche pour confirmer que vous avez envoyé des commentaires.

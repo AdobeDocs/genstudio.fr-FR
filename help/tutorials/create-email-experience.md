@@ -7,9 +7,9 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: c16d9f611348d0eaf3a1d4af4948196d3a06b0a1
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,13 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 **Pour réviser les variantes générées** :
 
 * **Pour [modifier le nom du brouillon de l’email](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
-* **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
+* **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
+* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur l&#39;icône d&#39;options (trois points) pour une variante et cliquez sur **[!UICONTROL Supprimer]**.
+
+## Commentaires sur la génération d’envoi
+
+Pour [envoyer un commentaire](/help/user-guide/create/manage-variants.md#generation-feedback) sur la qualité de la sortie de génération, cliquez sur l’icône d’options (trois points) et sélectionnez **[!UICONTROL Bonne sortie]** ou **[!UICONTROL Mauvaise sortie]**.
 
 ## Aperçu pour le périphérique
 
