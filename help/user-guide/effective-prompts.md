@@ -3,7 +3,7 @@ title: Écrire les invites efficaces
 description: Découvrez comment écrire des invites efficaces pour Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
+source-git-commit: c16d9f611348d0eaf3a1d4af4948196d3a06b0a1
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 Dans GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), vous pouvez utiliser les **[!UICONTROL critères d’invite]** ([_Paramètres_](/help/user-guide/create/overview.md#parameters) et une invite) dans la zone d’invite pour ajouter des détails par le biais de la sélection afin d’améliorer l’interprétation de l’IA.
 
-Pour [emails](/help/tutorials/create-email-experience.md), les critères d’invite peuvent inclure l’ajout de [guidelines](/help/user-guide/guidelines/overview.md) dans _Parameters_, le chargement d’une ressource à utiliser dans les variantes d’email et une invite descriptive. Pour une [méta-publicité](/help/tutorials/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de la marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources tels que les proportions et une invite. La puissance réelle commence par [configurer les instructions](/help/user-guide/guidelines/add-guidelines.md).
+Pour [emails](/help/user-guide/create/email-experiences.md), les critères d’invite peuvent inclure l’ajout de [guidelines](/help/user-guide/guidelines/overview.md) dans _Parameters_, le chargement d’une ressource à utiliser dans les variantes d’email et une invite descriptive. Pour une [méta-publicité](/help/tutorials/create-meta-ad.md), les critères d’invite peuvent inclure une ligne directrice de la marque dans _Paramètres_, la sélection ou le chargement d’une ressource existante, des paramètres liés aux images ou aux ressources tels que les proportions et une invite. La puissance réelle commence par [configurer les instructions](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Les instructions de GenStudio for Performance Marketing aident l’IA générati
 
 ### Etapes structurées
 
-Pour les emails à plusieurs sections, vous pouvez structurer les invites afin de fournir des instructions spécifiques aux sections afin de générer un contenu variable pour chaque section d’un email. Les invites structurées doivent faire directement référence aux [noms de section dans le modèle d’email](/help/user-guide/content/email-template.md#multi-section-emails) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondant.
+Pour les emails à plusieurs sections, vous pouvez structurer les invites afin de fournir des instructions spécifiques aux sections afin de générer un contenu variable pour chaque section dans un [email](/help/user-guide/create/email-experiences.md). Les invites structurées doivent faire directement référence aux [noms de section dans le modèle d’email](/help/user-guide/content/email-template.md#multi-section-emails) afin que le contenu généré puisse être inséré dans les espaces réservés de contenu correspondant.
 
 Par exemple, vous pouvez demander à GenStudio for Performance Marketing de générer du contenu qui promeut un nouveau produit dans la première section d’un email et de générer du contenu qui détaille les avantages par rapport aux économies de coûts du produit dans la deuxième section d’email.
 

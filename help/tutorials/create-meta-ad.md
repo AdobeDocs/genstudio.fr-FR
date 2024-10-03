@@ -7,16 +7,16 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
+source-git-commit: c16d9f611348d0eaf3a1d4af4948196d3a06b0a1
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Création d’une expérience de métadonnées publicitaires
 
-Ce tutoriel explique comment générer des expériences de métadonnées de marque à l’aide de GenStudio pour Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des [expériences de métadonnées](/help/user-guide/create/meta-experiences.md) de marque à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
 Avant de commencer à générer une expérience de métadonnées publicitaires, il est important d’ [incorporer des instructions](/help/user-guide/guidelines/add-guidelines.md) dans GenStudio pour le marketing sur les performances et de vous familiariser avec les principes de base de la [création d’une invite](/help/user-guide/effective-prompts.md).
 
@@ -44,8 +44,11 @@ L’ajout de [lignes directrices](/help/user-guide/guidelines/overview.md) et de
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
-   * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
-   * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
+   * Pour sélectionner des ressources (images) déjà publiées sur [!DNL Content], cliquez sur **[!UICONTROL Sélectionner dans le contenu]** et cliquez pour sélectionner les images de votre choix. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+
+     Si vous souhaitez utiliser des ressources déjà présentes dans un référentiel Content Hub d’AEM connecté, sélectionnez l’emplacement approprié dans le menu déroulant _Emplacement_ et cliquez pour sélectionner les images de votre choix.
+
+   * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox. Cliquez sur pour sélectionner les images de votre choix.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -63,6 +66,8 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 1. Cliquez sur **[!UICONTROL Générer]**.
 
 Par défaut, quatre variantes, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
+
+Le contenu généré se charge progressivement : à mesure que chaque section des expériences de métadonnées est générée, elles apparaissent dans la zone de travail. Voir [Métadonnées des expériences](/help/user-guide/create/meta-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
 
 ## Choisir le canal Métadonnées
 
@@ -82,8 +87,8 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier manuellement une méta-publicité](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’une des sections de l’annonce (par exemple la ligne d’objet, l’en-tête ou la copie du corps) et modifiez-la si nécessaire.
 * **Pour modifier ou sélectionner l’appel à l’action**, cliquez sur le bouton d’appel à l’action et sélectionnez l’une des options de texte de bouton disponibles. Dans _[!UICONTROL Lien]_, saisissez une URL pour le texte d’appel à l’action.
 * **Pour [modifier la taille et les proportions de la publicité](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, cliquez sur le bouton _[!UICONTROL Redimensionner]_ (case avec une icône de bouton sur le côté gauche de la zone de travail) et sélectionnez une nouvelle taille et un nouveau format à appliquer à toutes les variantes. Les variantes sont dupliquées et redimensionnées.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**.
-* **To [crop or reposition images](/help/user-guide/create/manage-variants.md#crop-assets)**, hover over an image, click **[!UICONTROL Apply Crop]**, and adjust the image size and placement. -->
+<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
+* **Pour [recadrer ou repositionner des images](/help/user-guide/create/manage-variants.md#crop-assets)**, passez la souris sur une image, cliquez sur l’icône de recadrage qui s’affiche, puis ajustez la taille et l’emplacement de l’image.
 * **Pour [supprimer une méta-publicité](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur le titre de la publicité (par exemple, &quot;Meta 4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Vérifier l&#39;alignement des marques

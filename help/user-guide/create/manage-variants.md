@@ -2,9 +2,9 @@
 title: Gestion des variantes
 description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
+source-git-commit: 67a3fe86facf0fef12f1fd63d8cf79132b0f42b0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestion des variantes
 
-Adobe GenStudio pour le marketing de performances [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées (emails, métadonnées publicitaires, etc.) à utiliser dans les initiatives de marketing numérique.
+Adobe GenStudio for Performance Marketing [!DNL Create] vous permet de personnaliser et d’améliorer les variantes générées : [emails](/help/user-guide/create/email-experiences.md), [Meta ads](/help/user-guide/create/meta-experiences.md), etc.) à utiliser dans les initiatives de marketing numérique.
 
 Lors de la [création d’expériences](/help/tutorials/tutorials.md), vous pouvez modifier le contenu et les ressources des variantes générées individuellement ou dans un lot. La possibilité de gérer des variantes au niveau micro vous permet de gérer explicitement chaque élément de contenu généré.
 
@@ -53,20 +53,20 @@ For example, you can re-generate the headline section of one Meta ad variant to 
 1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
 1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
 
-   The variant is updated with the revised text.
+   The variant is updated with the revised text. -->
 
-## Crop assets
+## Recadrage de ressources
 
-You can manually crop and reposition image assets in individual generated variants.
+Vous pouvez recadrer et repositionner manuellement les ressources image dans des variantes générées individuellement.
 
-**To crop and reposition images in variants**:
+**Pour recadrer et repositionner des images dans des variantes** :
 
-1. After generating a set of variants, hover over an image within a variant.
-1. Click **[!UICONTROL Apply Crop]**.
-1. Zoom in and out and drag the image into the desired position.
-1. Click **[!UICONTROL Apply]**.
+1. Après avoir généré un ensemble de variantes, pointez sur une image dans une variante.
+1. Cliquez sur l’icône de recadrage qui s’affiche dans le coin gauche de l’image.
+1. Ajustez le cadre de sélection de l’image et faites-le glisser à l’emplacement souhaité.
+1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le recadrage à une seule image ou sur **[!UICONTROL Appliquer à toutes les images]** pour appliquer à toutes les images des variantes.
 
-   The cropped image is automatically saved and visible for the variant. -->
+   L’image recadrée est enregistrée et visible pour les variantes.
 
 ## Modifier le format
 
@@ -100,6 +100,12 @@ Les proportions disponibles sont les suivantes :
 [!DNL Create] crée une copie de chaque variante en fonction du nouveau rapport d’aspect sélectionné. Toutes les variantes, y compris celles qui figurent dans les proportions initiales, sont présentes dans la zone de travail.
 
 Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect 1:1, puis que vous modifiez le rapport d’aspect en 4:5, les variantes totales _huit_ sont désormais disponibles sur la zone de travail.
+
+## Aperçu pour le périphérique
+
+Lors de la révision et de la préparation des expériences par e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobiles afin d’assurer la cohérence et l’attrait visuel des variantes d’aperçus.
+
+**Pour prévisualiser les variantes d’un poste de travail ou d’un appareil mobile**, activez l’option d’aperçu de l’appareil (entre **bureau** et **mobile**) dans la barre de menu de droite (icônes d’ordinateur et de téléphone) pour prévisualiser l’affichage des variantes.
 
 ## Supprimer une variante
 

@@ -7,16 +7,16 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
+source-git-commit: c16d9f611348d0eaf3a1d4af4948196d3a06b0a1
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
 # Création d’une expérience de courrier électronique
 
-Ce tutoriel explique comment générer des expériences de messagerie de marque à l’aide de GenStudio pour le marketing de performances [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
+Ce tutoriel explique comment générer des [expériences e-mail](/help/user-guide/create/email-experiences.md) de marque à l’aide de GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icône de pinceau dans la zone de navigation de gauche).
 
 Pour créer une expérience d’e-mail efficace, il est recommandé d’[ ajouter des directives à GenStudio pour le marketing de performances](/help/user-guide/guidelines/add-guidelines.md) et de détailler les [ principes de base de création d’une invite](/help/user-guide/effective-prompts.md) avant de commencer.
 
@@ -44,8 +44,11 @@ L’ajout de [ instructions](/help/user-guide/guidelines/overview.md) et de ress
    S’il n’existe aucune marque, aucun personnage ou aucun produit disponible dans ces menus, [ ajoutez des instructions à votre GenStudio pour le Marketing des performances](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner le contenu]** pour ajouter le contenu à utiliser dans l’expérience *et* pour influencer la génération du contenu.
-   * Cliquez sur **[!UICONTROL Sélectionner parmi le contenu]** pour sélectionner les ressources (images) déjà publiées sur [!DNL Content]. Utilisez les filtres pour affiner davantage vos résultats de recherche.
-   * Cliquez sur **[!UICONTROL Télécharger]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez également importer depuis Microsoft OneDrive ou Dropbox.
+   * Pour sélectionner des ressources (images) dans votre référentiel [!DNL Content], cliquez sur **[!UICONTROL Sélectionner dans le contenu]**. Filtrez et sélectionnez une ou plusieurs images.
+
+     Pour utiliser des ressources d’un référentiel [!DNL AEM Assets Content Hub] connecté, sélectionnez un référentiel dans le menu déroulant _Location_. Filtrez et sélectionnez une ou plusieurs images.
+
+   * Pour charger une ou plusieurs nouvelles ressources, cliquez sur **[!UICONTROL Télécharger]**, parcourez vos fichiers et sélectionnez les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez importer depuis Microsoft OneDrive ou Dropbox. Cliquez sur pour sélectionner les images de votre choix.
    * Faites glisser des ressources et déposez-les dans la section _Contenu_ .
 1. Cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -68,6 +71,8 @@ Voir [Écrire des invites efficaces](/help/user-guide/effective-prompts.md) pour
 
 Par défaut, quatre variantes, toutes alimentées par l’invite, les directives et le contenu que vous avez ajoutés, sont générées et affichées dans la zone de travail.
 
+Le contenu généré se charge progressivement : à mesure que chaque section des expériences de courrier électronique est générée, elles apparaissent dans la zone de travail. Voir [Expériences par e-mail](/help/user-guide/create/meta-experiences.md#progressive-loading) pour savoir comment ces modifications sont chargées dans la zone de travail.
+
 ## Modification des emails générés
 
 Avant de sélectionner les éléments à envoyer pour approbation ou publication sur [!DNL Content], vous pouvez modifier les sections d&#39;email ou supprimer une variante de l&#39;ensemble des emails générés.
@@ -81,9 +86,7 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 
 ## Aperçu pour le périphérique
 
-Lors de la révision et de la préparation des expériences par e-mail, vous pouvez basculer entre les aperçus pour les vues de bureau et mobiles afin d’assurer la cohérence et l’attrait visuel des variantes d’aperçus.
-
-**Pour prévisualiser les variantes d’un poste de travail ou d’un appareil mobile**, activez l’option d’aperçu de l’appareil (entre **bureau** et **mobile**) dans la barre de menu de droite (icônes d’ordinateur et de téléphone) pour prévisualiser l’affichage des variantes.
+Lors de la révision et de la préparation des expériences par e-mail, vous pouvez [ basculer entre les aperçus pour les vues de bureau et mobiles ](/help/user-guide/create/manage-variants.md#preview-for-device) afin d’assurer la cohérence et l’attrait visuel des variantes de brouillons.
 
 ## Vérifier l&#39;alignement des marques
 
