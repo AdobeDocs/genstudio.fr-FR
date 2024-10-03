@@ -2,9 +2,9 @@
 title: Gestion des variantes
 description: Personnalisez et améliorez les variantes et les ressources générées en fonction de vos besoins en marketing numérique.
 feature: Content, Assets, Experiences
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,28 @@ Les proportions disponibles sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Dupliquer et redimensionner]**.
 
-[!DNL Create] crée une copie de chaque variante en fonction du nouveau rapport d’aspect sélectionné. Toutes les variantes, y compris celles qui figurent dans les proportions initiales, sont présentes dans la zone de travail.
+   [!DNL Create] crée une copie de chaque variante en fonction du nouveau rapport d’aspect sélectionné. Toutes les variantes, y compris celles qui figurent dans les proportions initiales, sont présentes dans la zone de travail.
 
-Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect 1:1, puis que vous modifiez le rapport d’aspect en 4:5, les variantes totales _huit_ sont désormais disponibles sur la zone de travail.
+   Par exemple, si vous générez initialement quatre variantes avec un rapport d’aspect 1:1, puis que vous modifiez le rapport d’aspect en 4:5, les variantes totales _huit_ sont désormais disponibles sur la zone de travail.
+
+## Permutation d’une image
+
+Vous pouvez ajouter ou permuter des images dans des variantes générées directement à partir de la zone de travail.
+
+**Pour ajouter ou permuter des images dans une variante** :
+
+1. Après avoir généré un ensemble de variantes, cliquez sur une ressource d’image.
+
+   Si la variante ne comporte actuellement pas de ressource image importée, cliquez sur la zone de ressource image.
+
+1. Pour sélectionner une ressource image déjà publiée sur [!DNL Content] :
+   1. Cliquez sur **[!UICONTROL Sélectionner dans le contenu]**. Utilisez les filtres pour affiner davantage vos résultats de recherche.
+   1. Cliquez sur **[!UICONTROL Utiliser]**
+1. Pour télécharger une ressource d’image :
+   1. Cliquez sur **[!UICONTROL Upload New Image]** pour parcourir vos fichiers et sélectionner les ressources à utiliser. En plus de parcourir votre périphérique, vous pouvez importer depuis Microsoft OneDrive ou Dropbox.
+   1. Cliquez sur **[!UICONTROL Ajouter Assets]**.
+
+   Les images sont ajoutées ou échangées dans la variante applicable.
 
 ## Aperçu pour le périphérique
 
@@ -119,7 +138,7 @@ Supprimez les variantes inutiles de sorte que le canevas de travail affiche uniq
 
    La variante est mise en surbrillance et un menu contextuel s’affiche.
 
-1. Sélectionnez **[!UICONTROL Supprimer]** dans les options de menu disponibles.
+1. Sélectionnez **[!UICONTROL Supprimer]** parmi les options disponibles.
 
    La variante est supprimée.
 

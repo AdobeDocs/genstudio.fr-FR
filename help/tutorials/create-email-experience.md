@@ -7,9 +7,9 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,8 @@ Avant de sélectionner les éléments à envoyer pour approbation ou publication
 * **Pour [modifier le nom du brouillon de l’email](/help/user-guide/create/manage-variants.md#change-draft-name)**, cliquez dans le titre _Brouillon sans titre_ en haut de la zone de travail et saisissez un nouveau titre.
 * **Pour [modifier manuellement un email](/help/user-guide/create/manage-variants.md#manually-edit-text)**, double-cliquez dans l’un des champs de texte modifiables (par exemple, la ligne d’objet, l’en-tête ou la copie de corps) et modifiez-le si nécessaire.
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez sur l&#39;icône d&#39;options (trois points) pour une variante et cliquez sur **[!UICONTROL Supprimer]**.
+* **Pour [ajouter ou permuter des images dans une variante](/help/user-guide/create/manage-variants.md#swap-image)**, cliquez sur une ressource image (ou sur la zone de ressource image si aucune image n’existe actuellement) et cliquez sur **[!UICONTROL Sélectionner/permuter à partir du contenu]** ou **[!UICONTROL Télécharger une nouvelle image]** pour ajouter ou permuter une image dans une variante individuelle.
+* **Pour [supprimer un email](/help/user-guide/create/manage-variants.md#delete-variant)**, cliquez pour sélectionner le titre de l&#39;email (par exemple, &quot;E-mail 1/4&quot;) et cliquez sur **[!UICONTROL Supprimer la variante]**.
 
 ## Commentaires sur la génération d’envoi
 
