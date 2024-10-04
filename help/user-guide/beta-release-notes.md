@@ -2,94 +2,87 @@
 title: Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 description: Découvrez les dernières fonctionnalités et améliorations apportées à Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: f56f3733ead0bfcb4f37e10b66577e1ef597b76d
+source-git-commit: 7fe3ba26a64a69d1c9d13e06f746bf537c8e57a4
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Notes de mise à jour d’Adobe GenStudio for Performance Marketing Beta
 
-Ces notes mettent en évidence d’importants correctifs et améliorations d’Adobe GenStudio for Performance Marketing pour la semaine se terminant le 27 septembre.
+Ces notes mettent en évidence d’importants correctifs et améliorations d’Adobe GenStudio for Performance Marketing pour la semaine se terminant le 4 octobre.
 
 ## Nouvelles fonctionnalités et améliorations
 
-* GenStudio peut désormais extraire des informations sur les personnages et les produits d’un PDF chargé et renseigner les champs associés. <!-- GS-3806 -->
+* La fonctionnalité de filtrage sur l’ensemble du produit a été améliorée. Les problèmes de filtrage par âge et par sexe dans [!DNL Insights] ont été résolus.  <!-- GS-1198 -->
 
-* Les utilisateurs peuvent désormais filtrer les ressources et expériences [!DNL Content] en fonction du nom de l’utilisateur qui a chargé la ressource. <!-- GS-1808 -->
+* Vous pouvez modifier des ressources d’image (JPG ou PNG) directement à l’aide d’Adobe Express. Les éditeurs de contenu peuvent utiliser le canevas _[!UICONTROL Powered by Adobe Express]_ pour supprimer les arrière-plans, appliquer des remplissages génératifs, ajuster les effets et recadrer les images sans quitter GenStudio for Performance Marketing. <!-- GS-4615 -->
 
-* La section [!DNL Additional details] a été renommée [!DNL Messaging preferences] dans la page de détails [!DNL Products]. <!-- GS-5133 5134 -->
+* Amélioration de l’expérience de chargement progressif pour les variantes générées, le courrier électronique généré et la messagerie contextuelle. <!-- GS-4651 3062-->
 
-* Ajout d’un bouton [!DNL Add persona] à la page _Ajouter votre première persona_. <!-- GS-5132 -->
+* Les éditeurs de contenu peuvent désormais utiliser la fonction d’ajustement de recadrage pour recadrer les images rendues dans des variantes. <!-- GS-2342 -->
 
-## Problèmes connus
+* Les problèmes de redimensionnement et de duplication des modèles ont été résolus. <!-- GS-4895 -->
 
-La résolution des problèmes connus suivants est programmée dans la version GA de GenStudio for Performance Marketing.
+* La validation de marque explique désormais la cause des échecs qui se produisent lors de la validation.
 
-* Les modèles peuvent être chargés, mais ils ne sont pas visibles. **Solution** : téléchargez une ressource avec le champ **[!UICONTROL Campagnes]** renseigné. Ensuite, chargez à nouveau le modèle. <!-- GS-4815 5650-->
+* Les aperçus de modèle affichent désormais le texte sur l’image comme prévu. <!-- GS-5917 -->
 
-* Les utilisateurs ne peuvent pas recadrer manuellement les métadonnées publicitaires après les avoir redimensionnées. <!-- GS-5871 -->
+## Améliorations supplémentaires et problèmes résolus
 
-* Les utilisateurs doivent se connecter deux fois à un compte Métadonnées de canal lorsqu’ils sont également connectés à Facebook. Solution : déconnectez-vous de Facebook avant de vous connecter à un compte de métadonnées de canal. <!-- GS-3009 -->
+* Le canevas [!DNL Create] effectue désormais le rendu des polices personnalisées à partir des modèles comme prévu. <!-- GS-3415 -->
 
-### Améliorations supplémentaires et problèmes résolus
+* La police correcte est désormais appliquée lors de l’exportation des métadonnées publicitaires. <!-- GS-5875 -->
 
-* Les problèmes de latence intermittente avec certaines opérations de canevas [!DNL Create] ont été résolus. <!-- GS-5203 -->
+* Les problèmes liés au chargement de modèles qui ont abouti à un chargement réussi mais à une invisibilité de l’interface du produit ont été résolus. <!-- GS-4815 5650-->
 
-* Les utilisateurs n’ont plus besoin de se connecter deux fois à un compte Métadonnées de canal lorsqu’ils sont également connectés à Facebook. <!-- GS-4806 -->
+* Les utilisateurs peuvent désormais recadrer manuellement les métadonnées publicitaires après les avoir redimensionnées. <!-- GS-5871 -->
 
-* La génération d’emails entraîne désormais un envoi d’emails incomplet. <!-- GS-5209 -->
+* Les utilisateurs n’ont plus besoin de se connecter deux fois à un compte Métadonnées de canal lorsqu’ils sont également connectés à Facebook. <!-- GS-3009 -->
 
-* La création d’une campagne dans le workflow de modèle stocke désormais les identifiants comme prévu.  <!-- GS-4923 -->
+* La vue Canevas des ressources et des expériences reste maintenant cohérente dans tout le processus de création, de révision et d’approbation de contenu. <!-- GS-5877 -->
 
-* Le sélecteur de référentiel multiple répertorie désormais les référentiels par ordre alphabétique. <!-- GS-5553 -->
+* Le canevas affiche désormais uniquement quatre variantes lors de la régénération après une opération de redimensionnement. <!-- GS-5869 -->
 
-* Les problèmes liés aux formats de fichiers d’exportation CSV pour les langues autres que l’anglais ont été résolus. <!-- GS-5141 -->
+* La vérification orthographique basée sur le navigateur fonctionne désormais comme prévu dans la zone de travail [!DNL Create]. <!-- GS-5760 -->
 
-* Les utilisateurs peuvent maintenant cliquer sur le bouton [!DNL Create] _Travail récent_ **[!UICONTROL Afficher tous les brouillons]** pendant le chargement des brouillons. Auparavant, lorsque vous cliquiez sur ce bouton avant le chargement de tous les brouillons, seuls quelques brouillons étaient chargés et le bouton **[!UICONTROL Afficher tous les brouillons]** n’était plus disponible. <!-- GS-3938 -->
+* Les publicités affichées sont désormais exportées en tant que fichiers PNG lorsque l’option **[!UICONTROL Exporter en tant que PNG]** est sélectionnée. Auparavant, les publicités affichées étaient exportées en tant que JPEG lorsque le format PNG était sélectionné. <!-- GS-5545 -->
 
-* Le canevas [!DNL Create] affiche désormais le bouton **[!UICONTROL Afficher tous les brouillons]** comme prévu lorsque la zone de travail affiche plus de quatre brouillons. <!-- GS-5588 -->
+* La marge intérieure a été augmentée entre le bouton **[!UICONTROL Recadrage manuel]** et le bouton **[!UICONTROL Générer]**. Auparavant, le bouton **[!UICONTROL Recadrage manuel]** était partiellement masqué. <!-- GS-6084 -->
 
-* La recherche fonctionne désormais comme prévu dans l’onglet _Attributs_. <!-- GS-5658 -->
+* Les aperçus de modèle affichent désormais les polices Google comme prévu. <!-- GS-5946 -->
 
-* L’animation Shimmer est désormais mise à l’échelle correctement lors du chargement de l’expérience. <!-- GS-5574 -->
+* Les polices TypeKit et Google importées sont désormais chargées comme prévu lors de l’exportation. <!-- GS-5948 -->
 
-* Les aperçus de miniatures pour les emails en plusieurs parties sont désormais rendus comme prévu dans [!DNL Content]. <!-- GS-5258 -->
+* Résolution de problèmes liés à la génération de contenu avec des modèles personnalisés. Auparavant, lorsqu’un éditeur de contenu tentait de générer une ressource à l’aide d’un modèle personnalisé, la fenêtre contextuelle de génération ne s’affichait pas et la console affichait des erreurs. <!-- GS-5262 -->
 
-* Correction d’un problème lié à Workfront avec le bouton **[!UICONTROL Envoyer pour approbation]**. <!-- GS-5847 -->
+* Le brouillon de la zone de travail DisplayAds conserve désormais sa position lorsqu’un utilisateur clique avec le bouton droit sur la zone de travail avant de cliquer à gauche dans le menu contextuel. Auparavant, le Canevas se déplaçait lorsque l’utilisateur cliquait à gauche, ce qui rendait le contenu du brouillon partiellement inaccessible.  <!-- GS-5687 -->
 
-* Correction de problèmes liés au chargement du minuscule sur la vue de travail [!DNL Create] récente. <!-- GS-5589 -->
+* Le chargement des effets de fusion persiste maintenant jusqu’à ce que la régénération de l’image soit terminée.  <!-- GS-5811 -->
 
-* La saisie d’un terme de recherche entraîne désormais un seul appel de recherche, comme prévu.  <!-- GS-2999 -->
+* Les scores de validation de marque ne sont plus invalidés une fois qu’un utilisateur a apporté des modifications à des e-mails, des métadonnées publicitaires ou des publicités affichées. Auparavant, ce score était masqué. <!-- GS-5379 -->
 
-* Correction du rendu des images des métadonnées générées par les publicités après l’exportation. <!-- GS-5749 -->
+* Les modèles dont les styles CSS sont associés à leur élément `body` sont désormais utilisés comme prévu lors de l’exportation d’expériences. <!-- GS-5947 -->
 
-* Le symbole `%` s’affiche désormais correctement dans les paramètres régionaux DEU, FRA et ESP lorsque les utilisateurs effectuent un zoom avant ou arrière sur les variantes d’emails dans le canevas C[!DNL Create]. <!-- GS-5007 -->
+* Correction de problèmes liés au recadrage manuel d’images de dimension volumineuses. <!-- GS-6039 -->
 
-#### Localisation
+* Un seul message contextuel s’affiche désormais lorsqu’un utilisateur ajoute une nouvelle ressource dans [!DNL Content]. <!-- GS-5020 -->
 
-Cette version comprend des améliorations de la localisation dans l’interface du produit, en particulier dans [!DNL Create]. Les composants d’interface suivants ont été localisés : <!-- GS-5295 -->
+* Amélioration des performances de la zone de travail lors de la modification de texte.  <!-- GS-5118 -->
 
-* Toutes les chaînes dans la zone _Invite_ (Titre des paramètres, noms des options du menu déroulant et texte de l’espace réservé de l’invite) <!-- GS-5027 -->
+* Ajout d’espaces manquants entre les chaînes sur l’e-mail [!DNL Create] ou la zone de travail des métadonnées. <!-- GS-5019 -->
 
-* Toutes les chaînes dans la fenêtre _Resize_ pour les métadonnées publicitaires générées dans [!DNL Create] <!-- GS-5035 -->
+* Les éditeurs peuvent désormais enregistrer un fichier dont les noms contiennent des caractères spéciaux après modification dans Express. <!-- GS-6131 -->
 
-* Toutes les chaînes dans la zone _Récent travail_ de [!DNL Create] <!-- GS-5037 -->
+### Localisation
 
-* Chaînes de l’option de menu déroulant Marques, Personas et Produit dans la zone d’invite <!-- GS-5293 -->
+Cette version comprend des améliorations de la localisation dans l’interface du produit, notamment dans les zones suivantes :
 
-* Chaîne **Zoom pour s’adapter à l’écran** affichée pendant la génération d’un email et d’une méta-publicité <!-- GS-5063 -->
+* URL de la destination de l’option **[!UICONTROL En savoir plus]** dans le menu d’invite [!DNL Create]. <!-- GS-5029 -->
 
-* Formats de date et d’heure, chaîne **Brouillon sans titre** et messages d’erreur dans les noms de message électronique et de métadonnées <!-- GS-5023 5022 5048-->
+* Formats des nombres adjacents aux champs de saisie de recherche [!DNL Insights] > [!DNL Experience]. <!-- GS-4494 -->
 
-* L’onglet [!DNL Content] _Assets_ de la galerie d’onglets affiche les chaînes et le symbole de pourcentage (%) <!-- GS-4983 4984-->
+## Problème connu
 
-* Symbole de pourcentage (%) utilisé dans le taux de clics sur les connaissances > expériences <!-- GS-4279 -->
-
-* Message d’erreur affiché lorsqu’une erreur système se produit lors de la création d’un email ou de métadonnées <!-- GS-5061 -->
-
-* Séparateur décimal de l’expression &quot;Nombre de mots par phrase&quot; sur la page Détails de l’expérience de statistiques <!-- GS-4986 -->
-
-* Chaînes dans le menu Exporter pour une méta-publicité générée avec un modèle. <!-- GS-5031 -->
-
+* Les fragments d&#39;email régénérés n&#39;apparaissent pas dans la variante après sélection. (Cependant, les variantes apparaissent une fois le brouillon rouvert ouvert.) <!-- GS-5913 -->
