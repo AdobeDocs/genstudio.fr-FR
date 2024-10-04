@@ -3,7 +3,7 @@ title: Concepts d’Adobe GenStudio for Performance Marketing
 description: Découvrez les concepts et la terminologie d’Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
+source-git-commit: 9016841b6a788fe5ca50f3e9c0d774a248a6c793
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -25,7 +25,9 @@ Avec GenStudio for Performance Marketing, vous pouvez :
 
 GenStudio for Performance Marketing exploite la puissance de l’IA générative pour accélérer le processus de création de contenu et garantir une génération de contenu de haute qualité. Le cycle de vie itératif de vos ressources créatives produit un contenu de plus en plus précis et aligné sur la marque, qui convient à votre audience cible.
 
-Commencez par former efficacement GenStudio for Performance Marketing à la valorisation de marque, aux personnalités client et aux descriptions de produits de votre entreprise grâce à la puissante fonction de conseils sur la marque. Pour savoir comment préparer et charger ces instructions, consultez la [présentation des directives](../user-guide/guidelines/overview.md) .
+Commencez par former efficacement GenStudio for Performance Marketing à la valorisation de marque, aux personnalités client et aux descriptions de produits de votre entreprise grâce à la puissante fonction de conseils sur la marque.
+
+Pour savoir comment préparer et charger ces instructions, consultez la [présentation des directives](../user-guide/guidelines/overview.md) .
 
 ## Cycle de vie du contenu
 
@@ -34,7 +36,7 @@ La demande est élevée pour des expériences de qualité sur plusieurs canaux �
 <table style="table-layout:fixed">
 <tr style="border: 0;">
     <td style="width: 120px;">
-       <img alt="calendar" src="../assets/csc-workflow-planning.svg" width="100">
+       <img alt="calendar" src="../assets/csc-workflow-planning.png" width="100">
     </td>
     <td>
         <p>Identifiez vos idées, définissez des directives et élaborez une stratégie autour du contenu pour impliquer votre audience.</p>
@@ -42,7 +44,7 @@ La demande est élevée pour des expériences de qualité sur plusieurs canaux �
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="pinceau et canevas" src="../assets/csc-creation-production.svg" width="100">
+        <img alt="pinceau et canevas" src="../assets/csc-creation-production.png" width="100">
     </td>
     <td>
         <p>Produisez le contenu en fonction du plan. Collaborez en temps réel, recevez des commentaires, effectuez des modifications et approuvez du contenu.</p>
@@ -50,7 +52,7 @@ La demande est élevée pour des expériences de qualité sur plusieurs canaux �
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="images, etc." src="../assets/csc-content-mgmt.svg" width="100">
+        <img alt="images, etc." src="../assets/csc-content-mgmt.png" width="100">
     </td>
     <td>
         <p>Stockez, partagez et recherchez des ressources créatives dans le référentiel centralisé. Réutiliser et revitaliser le contenu en fonction des performances.</p>
@@ -58,7 +60,7 @@ La demande est élevée pour des expériences de qualité sur plusieurs canaux �
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="avion en papier" src="../assets/csc-delivery-activation.svg" width="100">
+        <img alt="avion en papier" src="../assets/csc-delivery-activation.png" width="100">
     </td>
     <td>
         <p>Activez le contenu et publiez sur plusieurs canaux marketing.</P>
@@ -66,7 +68,7 @@ La demande est élevée pour des expériences de qualité sur plusieurs canaux �
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="chart" src="../assets/csc-reporting-insights.svg" width="100">
+        <img alt="chart" src="../assets/csc-reporting-insights.png" width="100">
     </td>
     <td>
         <p>collecter des données et obtenir des informations pour l’optimisation des performances des ressources ;</p>
