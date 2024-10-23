@@ -1,14 +1,13 @@
 ---
 title: Guide de l’utilisateur d’Adobe GenStudio
-description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources sur marque, générer des variations et optimiser des expériences.
-source-git-commit: bc509cd9ca144ee41bb0070efef138c1fda9707e
+description: Découvrez les fonctionnalités d’Adobe GenStudio for Performance Marketing. Découvrez comment créer rapidement des ressources pour votre marque, générer des variations et optimiser les expériences.
+source-git-commit: fd36f757db18ba688029106a11fdf09df1cf7a9b
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 0%
+source-wordcount: '45'
+ht-degree: 62%
 
 ---
 
-# Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing
+# Guide d’utilisation d’Adobe GenStudio for Performance Marketing
 
-Pour consulter la documentation du produit, rendez-vous [ici](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) .
-
+Ce contenu a été déplacé vers la page de documentation de [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing).
