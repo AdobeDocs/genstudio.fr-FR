@@ -53,7 +53,7 @@ Statuts de brouillon disponibles :
 
 Les notifications internes aux produits GenStudio for Performance Marketing mettent à jour les approbateurs et les éditeurs de contenu en temps réel des modifications d’état des ressources et des commentaires `@mention`. Les notifications prennent en charge l’itération rapide par le biais de plusieurs cycles de révision, de modification et d’approbation.
 
-Les éditeurs et les approbateurs de contenu peuvent s’inscrire pour recevoir ces notifications dans Slack. Voir [Abonnement aux services en Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Les éditeurs et les approbateurs de contenu peuvent s’inscrire pour recevoir ces notifications dans Slack. Voir [Abonnement aux services en Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences#slack).
 
 Les actions entreprises par les participants à l’approbation déclenchent des notifications internes et des notifications électroniques automatiques. Lorsque vous lancez un processus d’approbation, les approbateurs désignés reçoivent des notifications par courrier électronique et des notifications internes au produit. Vous êtes tenu dans la boucle avec des notifications internes et par e-mail chaque fois qu’un approbateur ajoute `@mention` commentaires ou prend une décision. Les notifications comprennent des liens vers le brouillon de contenu.
 

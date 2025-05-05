@@ -10,4 +10,4 @@ ht-degree: 62%
 
 # Guide d’utilisation d’Adobe GenStudio for Performance Marketing
 
-Ce contenu a été déplacé vers la page de documentation de [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing).
+Ce contenu a été déplacé vers la page de documentation de [GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing).
