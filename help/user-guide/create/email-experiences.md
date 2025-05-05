@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Avec Adobe GenStudio for Performance Marketing, vous pouvez utiliser l’IA générative pour rationaliser la [création d’expériences de messagerie à fort impact](/help/tutorials/create-email-experience.md).
 
-[!DNL Create] permet aux spécialistes du marketing moderne d’utiliser des [conseils](/help/user-guide/guidelines/overview.md), des ressources d’image et une [ invite bien conçue](/help/user-guide/effective-prompts.md) pour [ rapidement {créer des expériences de messagerie alignées sur la marque](/help/tutorials/create-email-experience.md).
+[!DNL Create] permet aux spécialistes du marketing moderne d’utiliser des [conseils](/help/user-guide/guidelines/overview.md), des ressources d’image et une [ invite bien conçue](/help/user-guide/effective-prompts.md) pour [ rapidement &lbrace;créer des expériences de messagerie alignées sur la marque](/help/tutorials/create-email-experience.md).
 
 Les sections modifiables d’une expérience de courrier électronique incluent :
 

@@ -85,11 +85,11 @@ Avant de publier votre marque, cliquez sur les sections _Consignes sur la marque
 
 Une fois la marque publiée, une bannière s’affiche pour confirmer que votre marque est prête à l’emploi : &quot;*Marque publiée et disponible pour l’utilisation*&quot;.
 
-La marque publiée peut désormais être utilisée dans _[!DNL Create]_ou_[!DNL Content]_.
+La marque publiée peut désormais être utilisée dans _[!DNL Create]_&#x200B;ou&#x200B;_[!DNL Content]_.
 
 ### Gérer [!DNL Brands]
 
-Sur la page d’accueil _[!DNL Brands]_, vous pouvez cliquer pour **ouvrir une marque déjà créée**pour la modifier ou la revoir, ou **renommer**ou **supprimer une marque**de la liste dans le menu d’actions [!DNL Brands] :
+Sur la page d’accueil _[!DNL Brands]_, vous pouvez cliquer pour **ouvrir une marque déjà créée**&#x200B;pour la modifier ou la revoir, ou **renommer**&#x200B;ou **supprimer une marque**&#x200B;de la liste dans le menu d’actions [!DNL Brands] :
 
 * Cliquez sur une mosaïque de marque pour ouvrir une marque.
 * Sélectionnez **[!UICONTROL Renommer]** dans le menu d’actions [!DNL Brands] pour renommer une persona existante.
@@ -159,11 +159,11 @@ Cliquez sur _Préférences de messagerie_ et saisissez les détails de la messag
 
 ### Gérer [!DNL Products]
 
-Sur la page d&#39;accueil _[!DNL Products]_, vous pouvez **ouvrir un[!DNL Product]**déjà créé pour le modifier ou le revoir, ou **supprimer un produit**de la liste :
+Sur la page d&#39;accueil _[!DNL Products]_, vous pouvez **ouvrir un[!DNL Product]**&#x200B;déjà créé pour le modifier ou le revoir, ou **supprimer un produit**&#x200B;de la liste :
 
 * Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Products] pour réviser et réviser un produit existant.
 * Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Products] pour **Supprimer** un produit.
-* 
+* &#x200B;
    * Sélectionnez **[!UICONTROL Renommer]** dans le menu d’actions [!DNL Products] pour **Renommer** un produit.
 
 ## Ajouter [!DNL Personas]
@@ -230,7 +230,7 @@ Vous pouvez ajouter manuellement des détails de persona, au lieu de charger des
 
 ### Gérer [!DNL Personas]
 
-Sur la page d&#39;accueil _[!DNL Personas]_, vous pouvez **ouvrir un[!DNL Persona]**déjà créé pour le modifier ou le réviser, ou **supprimer une persona**de la liste :
+Sur la page d&#39;accueil _[!DNL Personas]_, vous pouvez **ouvrir un[!DNL Persona]**&#x200B;déjà créé pour le modifier ou le réviser, ou **supprimer une persona**&#x200B;de la liste :
 
 * Sélectionnez **[!UICONTROL Ouvrir]** dans le menu d’actions [!DNL Personas] pour réviser et réviser une persona existante.
 * Sélectionnez **[!UICONTROL Supprimer]** dans le menu d’actions [!DNL Personas] pour **Supprimer** une persona.

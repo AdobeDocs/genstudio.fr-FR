@@ -26,7 +26,7 @@ Pour créer une expérience de courrier électronique, utilisez un modèle dispo
 
 **Pour choisir un modèle d&#39;email** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Email]**dans le_&quot;Que souhaitez-vous créer aujourd&#39;hui ?&quot;section _.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Email]**&#x200B;dans le_&quot;Que souhaitez-vous créer aujourd&#39;hui ?&quot;section _.
 1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle de courrier électronique spécifique.
 1. Cliquez pour sélectionner un modèle d&#39;email et cliquez sur **[!UICONTROL Utiliser]**.
 
@@ -95,7 +95,7 @@ Lors de la révision et de la préparation des expériences par e-mail, vous pou
 
 ## Vérifier l&#39;alignement des marques
 
-Pour optimiser les e-mails générés et garantir une stricte conformité avec l’identité de la marque, utilisez la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), ce qui fournit un résumé de l’alignement de la marque pour une variante, et le [_panneau de validation de marque_}, qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)
+Pour optimiser les e-mails générés et garantir une stricte conformité avec l’identité de la marque, utilisez la puissance de la [_vérification des directives sur les marques_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check), ce qui fournit un résumé de l’alignement de la marque pour une variante, et le [_panneau de validation de marque_&rbrace;, qui affiche des détails complets sur la validation de la marque et éclaire les améliorations.](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)
 
 **Pour vérifier l’alignement de la marque** :
 

@@ -26,7 +26,7 @@ Pour commencer à générer une nouvelle expérience de métadonnées publicitai
 
 **Pour choisir un modèle de métadonnées publicitaires** :
 
-1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Métadonnées]**dans le_&quot;Que souhaitez-vous créer aujourd’hui ?&quot;section _.
+1. Dans _[!DNL Create]_, cliquez sur **[!UICONTROL Métadonnées]**&#x200B;dans le_&quot;Que souhaitez-vous créer aujourd’hui ?&quot;section _.
 1. Utilisez l’option de recherche, en regard de _Filtre_, pour trouver un modèle de métadonnées de publicité spécifique.
 1. Cliquez pour sélectionner un modèle et cliquez sur **[!UICONTROL Utiliser]**.
 
